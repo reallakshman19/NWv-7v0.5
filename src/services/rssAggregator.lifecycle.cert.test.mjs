@@ -1,0 +1,263 @@
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import path from 'node:path';
+import {
+  SERVED_FROM,
+  attachFetchDiagnostics,
+  createFetchTrace,
+  markFetchPhase,
+  withInFlightCleanup,
+} from './fetchLifecycleDiagnostics.js';
+import {
+  SECTION_ITEM_MAX_AGE_MS,
+  SECTION_SNAPSHOT_FOREGROUND_BUDGET_MS,
+  SECTION_SNAPSHOT_MAX_AGE_MS,
+  SECTION_SNAPSHOT_RETRY_BACKOFF_MS,
+  selectPrefetchedSectionItems,
+} from '../adapters/sectionsSnapshotFetcher.js';
+import {
+  shouldForceSectionsAuthorityRefresh,
+  shouldUseSectionsAuthoritySnapshot,
+} from './sectionsAuthorityRouting.js';
+
+const THIS_CERT = path.normalize('src/services/rssAggregator.lifecycle.cert.test.mjs');
+
+function readRepoFile(filePath) {
+  return fs.readFileSync(filePath, 'utf8');
+}
+
+function listFiles(dirPath) {
+  if (!fs.existsSync(dirPath)) return [];
+  return fs.readdirSync(dirPath, { withFileTypes: true }).flatMap(entry => {
+    const nextPath = path.join(dirPath, entry.name);
+    if (entry.isDirectory()) return listFiles(nextPath);
+    return nextPath;
+  });
+}
+
+async function testCleanupOnReturn() {
+  const map = new Map([['india', Promise.resolve()]]);
+  const result = await withInFlightCleanup(map, 'india', null, async () => ['ok']);
+  assert.deepEqual(result, ['ok']);
+  assert.equal(map.has('india'), false);
+}
+
+async function testCleanupOnFailure() {
+  const map = new Map([['india', Promise.resolve()]]);
+  let failed = false;
+  try {
+    await withInFlightCleanup(map, 'india', null, async () => { failed = true; return Promise.reject('x'); });
+  } catch {
+    assert.equal(failed, true);
+  }
+  assert.equal(map.has('india'), false);
+}
+
+function testStaleFallbackKeepsRows() {
+  const now = Date.now();
+  const hour = 60 * 60 * 1000;
+  const stale = now - SECTION_SNAPSHOT_MAX_AGE_MS - hour;
+  const expired = now - SECTION_ITEM_MAX_AGE_MS - hour;
+  const snapshot = {
+    schemaVersion: 2,
+    fetchedAt: stale,
+    sections: {
+      india: [
+        { title: 'Old but usable', id: 'a', url: 'https://example.org/retained', publishedAt: stale },
+        { title: 'Expired', id: 'b', url: 'https://example.org/expired', publishedAt: expired },
+      ],
+    },
+    sectionQuality: { india: { status: 'stale' } },
+  };
+  const result = selectPrefetchedSectionItems(snapshot, 'india', 5);
+  assert.deepEqual(result.items.map(item => item.id), ['a']);
+  assert.equal(result.stale, true);
+  assert.equal(result.staleReason, 'sections_snapshot_stale');
+
+  const expiredResult = selectPrefetchedSectionItems({ ...snapshot, fetchedAt: expired }, 'india', 5);
+  assert.deepEqual(expiredResult.items, []);
+  assert.equal(expiredResult.staleReason, 'snapshot_outside_retained_window');
+}
+
+function testDiagnostics() {
+  const trace = createFetchTrace({ datasetId: 'sections', section: 'india', fetchMode: 'hybrid', nowMs: 1000 });
+  markFetchPhase(trace, 'snapshot-fetch', { itemCount: 3 }, 1015);
+  const rows = [{ title: 'A' }];
+  const result = attachFetchDiagnostics(rows, trace, {
+    servedFrom: SERVED_FROM.STATIC_SNAPSHOT,
+    ageMs: 100,
+    snapshotBudgetExceeded: true,
+    snapshotElapsedMs: 1501,
+    snapshotBudgetMs: 1500,
+    liveRssAttempted: true,
+    liveRssDurationMs: 300,
+    failedFeedCount: 1,
+    successfulFeedCount: 2,
+    timedOutFeedCount: 0,
+    proxyFallbackReason: 'test',
+  });
+  assert.equal(result.servedFrom, SERVED_FROM.STATIC_SNAPSHOT);
+  assert.equal(result.fetchDiagnostics.phases[0].phase, 'snapshot-fetch');
+  assert.equal(result.fetchDiagnostics.snapshotBudgetExceeded, true);
+  assert.equal(result.snapshotBudgetMs, 1500);
+  assert.equal(result.fetchDiagnostics.liveRssAttempted, true);
+}
+
+function testAggregatorPostMarkerCleanupWrapper() {
+  const src = readRepoFile('src/services/rssAggregator.js');
+  const marker = 'inFlightFetches.set(cacheKey, inFlightPromise);';
+  const markerIndex = src.indexOf(marker);
+  const wrapperIndex = src.indexOf('return withInFlightCleanup(inFlightFetches, cacheKey, resolveInFlight, async () => {', markerIndex);
+  const between = src.slice(markerIndex + marker.length, wrapperIndex);
+  assert.ok(markerIndex > 0, 'rssAggregator must set in-flight marker');
+  assert.ok(wrapperIndex > markerIndex, 'post-marker paths must enter cleanup wrapper');
+  assert.doesNotMatch(between, /return\s+/, 'no post-marker return may precede cleanup wrapper');
+}
+
+function testSectionsDatasetCanonicalPath() {
+  const src = readRepoFile('src/data/datasets/sectionsDataset.js');
+  assert.match(src, /from '..\/..\/services\/rssAggregator\.js'/);
+  assert.doesNotMatch(src, /rssSectionLifecycleFetcher/);
+}
+
+function testNewsConsumersUseCanonicalLifecycle() {
+  const newsContext = readRepoFile('src/context/NewsContext.jsx');
+  const sectionsDataset = readRepoFile('src/data/datasets/sectionsDataset.js');
+  const virtualPaper = readRepoFile('src/services/virtualPaperService.js');
+  assert.match(newsContext, /import \{ load as loadSectionsDataset \} from '..\/data\/datasets\/sectionsDataset\.js'/);
+  assert.match(newsContext, /loadSectionsDataset\(\{/);
+  assert.match(sectionsDataset, /await fetchSectionNews\(/);
+  assert.match(virtualPaper, /from '.\/rssAggregator'/);
+}
+
+function testNoLifecycleFetcherReferencesRemain() {
+  assert.equal(fs.existsSync('src/services/rssSectionLifecycleFetcher.js'), false);
+  const files = listFiles('src')
+    .filter(file => /\.(js|jsx|mjs|ts|tsx)$/.test(file))
+    .filter(file => path.normalize(file) !== THIS_CERT);
+  const hits = files.filter(file => readRepoFile(file).includes('rssSectionLifecycleFetcher'));
+  assert.deepEqual(hits, []);
+}
+
+function testForegroundSnapshotBudgetIsBounded() {
+  assert.equal(SECTION_SNAPSHOT_FOREGROUND_BUDGET_MS, 1500);
+  assert.ok(SECTION_SNAPSHOT_RETRY_BACKOFF_MS.reduce((sum, ms) => sum + ms, 0) < SECTION_SNAPSHOT_FOREGROUND_BUDGET_MS);
+  const src = readRepoFile('src/adapters/sectionsSnapshotLoader.js');
+  assert.match(src, /budgetMs = SECTION_SNAPSHOT_FOREGROUND_BUDGET_MS/);
+  assert.match(src, /AbortController/);
+  assert.match(src, /snapshot-budget-exceeded/);
+  assert.doesNotMatch(src, /\[2000, 4000, 8000\]/);
+}
+
+function testLiveRssProxyBudgetIsBounded() {
+  const proxy = readRepoFile('src/services/proxyManager.js');
+  assert.match(proxy, /LIVE_RSS_PROXY_BUDGET_MS = 6000/);
+  assert.match(proxy, /LIVE_RSS_PROXY_ATTEMPT_TIMEOUT_MS = 2000/);
+  assert.match(proxy, /live-rss-budget-exceeded/);
+  assert.match(proxy, /remainingBudgetMs/);
+}
+
+function testCanonicalHelperAddsRequiredPhases() {
+  const helper = readRepoFile('src/services/fetchLifecycleDiagnostics.js');
+  [
+    'memory-cache-hit',
+    'in-flight-wait',
+    'hybrid-static-snapshot-start',
+    'hybrid-static-snapshot-hit',
+    'hybrid-stale-fallback',
+    'hybrid-snapshot-budget-exceeded',
+    'static-host-empty',
+    'live-rss-start',
+    'live-rss-feed-settled',
+    'live-rss-timeout',
+    'ranking-start',
+    'ranking-complete',
+    'ranking-fallback',
+  ].forEach(phase => assert.match(helper, new RegExp(phase)));
+}
+
+function testBudgetExitDiagnosticsAreSurfaced() {
+  const adapter = readRepoFile('src/adapters/sectionsSnapshotFetcher.js');
+  const dataset = readRepoFile('src/data/datasets/sectionsDataset.js');
+  const helper = readRepoFile('src/services/fetchLifecycleDiagnostics.js');
+  assert.match(adapter, /consumeSectionsSnapshotBudgetExit/);
+  assert.match(dataset, /attachBudgetExitDiagnostics/);
+  assert.match(helper, /buildCanonicalSectionDiagnostics/);
+  assert.match(helper, /liveRssAttempted/);
+  assert.match(helper, /timedOutFeedCount/);
+}
+
+function testAggregatePerformanceSummaryExists() {
+  const dataset = readRepoFile('src/data/datasets/sectionsDataset.js');
+  assert.match(dataset, /performanceSummary: getPerformanceSummary\(summaries\)/);
+  assert.match(dataset, /totalSectionFetchDurationMs/);
+  assert.match(dataset, /slowestSection/);
+  assert.match(dataset, /servedFromCounts/);
+  assert.match(dataset, /fallbackReasonCounts/);
+  assert.match(dataset, /snapshotBudgetExitCount/);
+  assert.match(dataset, /sectionFetchDurationMs/);
+}
+
+function testStaticLiveModeUsesSelectedAuthority() {
+  const staticRuntime = { isStaticHost: true, allowWideFeedFetch: false };
+  const browserRuntime = { isStaticHost: false, allowWideFeedFetch: true };
+
+  assert.equal(
+    shouldUseSectionsAuthoritySnapshot({
+      liveMode: true,
+      runtime: staticRuntime,
+      usePrefetchedSections: false,
+    }),
+    true,
+    'static Live mode must use the configured Sections authority'
+  );
+  assert.equal(
+    shouldForceSectionsAuthorityRefresh({
+      liveMode: true,
+      force: false,
+      runtime: staticRuntime,
+    }),
+    true,
+    'static Live mode must force-refresh the configured authority'
+  );
+  assert.equal(
+    shouldUseSectionsAuthoritySnapshot({
+      liveMode: true,
+      runtime: browserRuntime,
+      usePrefetchedSections: true,
+    }),
+    false,
+    'full browser runtime may retain direct Live RSS acquisition'
+  );
+
+  const aggregator = readRepoFile('src/services/rssAggregator.js');
+  assert.match(aggregator, /if \(useAuthoritySnapshot\)/);
+  assert.match(aggregator, /force: forceAuthorityRefresh/);
+  assert.doesNotMatch(
+    aggregator,
+    /if \(!isLiveMode\(\) && settings\.usePrefetchedSections !== false\)/
+  );
+}
+
+function testNoGeneratedSnapshotFilesChanged() {
+  const diffNameOnly = process.env.GITHUB_PR_CHANGED_FILES || '';
+  assert.doesNotMatch(diffNameOnly, /public\/(newsdata|data)\//);
+}
+
+await testCleanupOnReturn();
+await testCleanupOnFailure();
+testStaleFallbackKeepsRows();
+testDiagnostics();
+testAggregatorPostMarkerCleanupWrapper();
+testSectionsDatasetCanonicalPath();
+testNewsConsumersUseCanonicalLifecycle();
+testNoLifecycleFetcherReferencesRemain();
+testForegroundSnapshotBudgetIsBounded();
+testLiveRssProxyBudgetIsBounded();
+testCanonicalHelperAddsRequiredPhases();
+testBudgetExitDiagnosticsAreSurfaced();
+testAggregatePerformanceSummaryExists();
+testStaticLiveModeUsesSelectedAuthority();
+testNoGeneratedSnapshotFilesChanged();
+
+console.log('PASS: RSS Hybrid fetch lifecycle guardrails');

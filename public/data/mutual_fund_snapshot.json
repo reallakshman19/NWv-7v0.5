@@ -1,0 +1,9 @@
+{
+  "schemaVersion": "market-free-open-v1",
+  "generatedAt": null,
+  "mutualFunds": [],
+  "sourceHealth": {
+    "status": "unavailable",
+    "reason": "Bulk AMFI NAV redistribution not verified; use user-initiated browser lookup or official AMFI."
+  }
+}

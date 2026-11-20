@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "market-free-open-v1",
+  "generatedAt": null,
+  "validation": {
+    "status": "HOLD",
+    "indices": 0,
+    "equities": 0,
+    "reason": "Public quote redistribution is not licensed in free/open-only mode"
+  },
+  "sources": {
+    "indices": {
+      "status": "unavailable"
+    },
+    "equities": {
+      "status": "unavailable"
+    },
+    "mutualFunds": {
+      "status": "unavailable"
+    },
+    "ipo": {
+      "status": "unknown"
+    }
+  }
+}

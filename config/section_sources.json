@@ -1,0 +1,319 @@
+{
+  "schemaVersion": 1,
+  "policyVersion": "section-source-policy-v4-direct-publishers",
+  "sections": {
+    "topStories": [
+      {
+        "url": "https://www.thehindu.com/news/feeder/default.rss",
+        "sourceGroup": "the_hindu",
+        "tier": "A",
+        "topic": "top",
+        "source": "The Hindu"
+      },
+      {
+        "url": "https://feeds.feedburner.com/ndtvnews-top-stories",
+        "sourceGroup": "ndtv",
+        "tier": "B",
+        "topic": "top",
+        "source": "NDTV"
+      },
+      {
+        "url": "https://www.hindustantimes.com/feeds/rss/india-news/rssfeed.xml",
+        "sourceGroup": "hindustan_times",
+        "tier": "B",
+        "topic": "india",
+        "source": "Hindustan Times"
+      },
+      {
+        "url": "https://economictimes.indiatimes.com/rssfeeds/1977021501.cms",
+        "sourceGroup": "economic_times",
+        "tier": "A",
+        "topic": "business",
+        "source": "Economic Times"
+      },
+      {
+        "url": "https://indianexpress.com/feed/",
+        "sourceGroup": "indian_express",
+        "tier": "A",
+        "topic": "top",
+        "source": "Indian Express Latest"
+      }
+    ],
+    "india": [
+      {
+        "url": "https://www.thehindu.com/news/national/feeder/default.rss",
+        "sourceGroup": "the_hindu",
+        "tier": "A",
+        "topic": "india",
+        "source": "The Hindu National"
+      },
+      {
+        "url": "https://feeds.feedburner.com/ndtvnews-india-news",
+        "sourceGroup": "ndtv",
+        "tier": "B",
+        "topic": "india",
+        "source": "NDTV India"
+      },
+      {
+        "url": "https://timesofindia.indiatimes.com/rssfeeds/296589292.cms",
+        "sourceGroup": "times_of_india",
+        "tier": "B",
+        "topic": "india",
+        "source": "Times of India"
+      },
+      {
+        "url": "https://www.hindustantimes.com/feeds/rss/india-news/rssfeed.xml",
+        "sourceGroup": "hindustan_times",
+        "tier": "B",
+        "topic": "india",
+        "source": "Hindustan Times India"
+      }
+    ],
+    "tn": [
+      {
+        "url": "https://www.thehindu.com/news/cities/chennai/feeder/default.rss",
+        "sourceGroup": "the_hindu",
+        "tier": "A",
+        "topic": "tamil_nadu",
+        "source": "The Hindu Chennai"
+      },
+      {
+        "url": "https://www.dtnext.in/feed",
+        "sourceGroup": "dtnext",
+        "tier": "B",
+        "topic": "tamil_nadu",
+        "source": "DT Next"
+      },
+      {
+        "url": "https://indianexpress.com/section/cities/chennai/feed/",
+        "sourceGroup": "indian_express",
+        "tier": "A",
+        "topic": "tamil_nadu",
+        "source": "Indian Express Chennai"
+      }
+    ],
+    "trichy": [
+      {
+        "url": "https://www.thehindu.com/news/cities/Tiruchirapalli/feeder/default.rss",
+        "sourceGroup": "the_hindu",
+        "tier": "A",
+        "topic": "trichy",
+        "source": "The Hindu Trichy"
+      },
+      {
+        "url": "https://www.dtnext.in/feed",
+        "sourceGroup": "dtnext",
+        "tier": "B",
+        "topic": "trichy",
+        "source": "DT Next"
+      },
+      {
+        "url": "https://timesofindia.indiatimes.com/rssfeeds/22778270.cms",
+        "sourceGroup": "times_of_india",
+        "tier": "B",
+        "topic": "trichy",
+        "source": "Times of India Trichy"
+      }
+    ],
+    "muscat": [
+      {
+        "url": "https://timesofoman.com/feed",
+        "sourceGroup": "times_of_oman",
+        "tier": "A",
+        "topic": "muscat",
+        "source": "Times of Oman"
+      },
+      {
+        "url": "https://www.thearabianstories.com/category/oman-news/feed/",
+        "sourceGroup": "the_arabian_stories",
+        "tier": "B",
+        "topic": "muscat",
+        "source": "The Arabian Stories Oman"
+      },
+      {
+        "url": "https://www.omanobserver.om/rssFeed/1",
+        "sourceGroup": "oman_observer",
+        "tier": "B",
+        "topic": "muscat",
+        "source": "Oman Observer"
+      },
+      {
+        "url": "https://www.omanobserver.om/rssFeed/1/44",
+        "sourceGroup": "oman_observer",
+        "tier": "B",
+        "topic": "muscat",
+        "source": "Oman Observer Governorates"
+      },
+      {
+        "url": "https://www.omanobserver.om/rssFeed/1/53",
+        "sourceGroup": "oman_observer",
+        "tier": "B",
+        "topic": "muscat",
+        "source": "Oman Observer Community"
+      }
+    ],
+    "world": [
+      {
+        "url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+        "sourceGroup": "bbc",
+        "tier": "A",
+        "topic": "world",
+        "source": "BBC World"
+      },
+      {
+        "url": "https://feeds.bbci.co.uk/news/rss.xml",
+        "sourceGroup": "bbc",
+        "tier": "A",
+        "topic": "world",
+        "source": "BBC"
+      },
+      {
+        "url": "https://www.thehindu.com/news/international/feeder/default.rss",
+        "sourceGroup": "the_hindu",
+        "tier": "A",
+        "topic": "international",
+        "source": "The Hindu International"
+      },
+      {
+        "url": "https://www.aljazeera.com/xml/rss/all.xml",
+        "sourceGroup": "al_jazeera",
+        "tier": "B",
+        "topic": "world",
+        "source": "Al Jazeera"
+      },
+      {
+        "url": "https://rss.dw.com/rdf/rss-en-all",
+        "sourceGroup": "dw",
+        "tier": "A",
+        "topic": "world",
+        "source": "DW English"
+      }
+    ],
+    "business": [
+      {
+        "url": "https://economictimes.indiatimes.com/rssfeeds/1977021501.cms",
+        "sourceGroup": "economic_times",
+        "tier": "A",
+        "topic": "business",
+        "source": "Economic Times"
+      },
+      {
+        "url": "https://www.livemint.com/rss/markets",
+        "sourceGroup": "mint",
+        "tier": "A",
+        "topic": "markets",
+        "source": "Mint Markets"
+      },
+      {
+        "url": "https://www.thehindubusinessline.com/news/feeder/default.rss",
+        "sourceGroup": "business_line",
+        "tier": "A",
+        "topic": "business",
+        "source": "Business Line"
+      },
+      {
+        "url": "https://indianexpress.com/section/business/feed/",
+        "sourceGroup": "indian_express",
+        "tier": "A",
+        "topic": "business",
+        "source": "Indian Express Business"
+      },
+      {
+        "url": "https://feeds.bbci.co.uk/news/business/rss.xml",
+        "sourceGroup": "bbc",
+        "tier": "A",
+        "topic": "business",
+        "source": "BBC Business"
+      }
+    ],
+    "technology": [
+      {
+        "url": "https://feeds.feedburner.com/gadgets360-latest",
+        "sourceGroup": "gadgets360",
+        "tier": "B",
+        "topic": "technology",
+        "source": "Gadgets360"
+      },
+      {
+        "url": "https://www.thehindu.com/sci-tech/technology/feeder/default.rss",
+        "sourceGroup": "the_hindu",
+        "tier": "A",
+        "topic": "technology",
+        "source": "The Hindu Tech"
+      },
+      {
+        "url": "https://feeds.arstechnica.com/arstechnica/index",
+        "sourceGroup": "ars_technica",
+        "tier": "B",
+        "topic": "technology",
+        "source": "Ars Technica"
+      }
+    ],
+    "sports": [
+      {
+        "url": "https://feeds.feedburner.com/ndtvsports-latest",
+        "sourceGroup": "ndtv",
+        "tier": "B",
+        "topic": "sports",
+        "source": "NDTV Sports"
+      },
+      {
+        "url": "https://www.thehindu.com/sport/feeder/default.rss",
+        "sourceGroup": "the_hindu",
+        "tier": "A",
+        "topic": "sports",
+        "source": "The Hindu Sport"
+      },
+      {
+        "url": "https://feeds.bbci.co.uk/sport/rss.xml",
+        "sourceGroup": "bbc",
+        "tier": "A",
+        "topic": "sports",
+        "source": "BBC Sport"
+      },
+      {
+        "url": "https://indianexpress.com/section/sports/feed/",
+        "sourceGroup": "indian_express",
+        "tier": "A",
+        "topic": "sports",
+        "source": "Indian Express Sports"
+      }
+    ],
+    "entertainment": [
+      {
+        "url": "https://www.hindustantimes.com/feeds/rss/entertainment/rssfeed.xml",
+        "sourceGroup": "hindustan_times",
+        "tier": "B",
+        "topic": "entertainment",
+        "source": "Hindustan Times Entertainment"
+      },
+      {
+        "url": "https://www.hindustantimes.com/feeds/rss/entertainment/tamil-cinema/rssfeed.xml",
+        "sourceGroup": "hindustan_times",
+        "tier": "B",
+        "topic": "entertainment",
+        "source": "Hindustan Times Tamil Cinema"
+      },
+      {
+        "url": "https://feeds.feedburner.com/ndtvmovies-latest",
+        "sourceGroup": "ndtv",
+        "tier": "B",
+        "topic": "entertainment",
+        "source": "NDTV Movies"
+      },
+      {
+        "url": "https://indianexpress.com/section/entertainment/feed/",
+        "sourceGroup": "indian_express",
+        "tier": "A",
+        "topic": "entertainment",
+        "source": "Indian Express Entertainment"
+      }
+    ]
+  },
+  "requiredCoverage": {
+    "minSections": 10,
+    "minFeedsPerSection": 2,
+    "minSourceGroups": 12,
+    "minTierAFeeds": 9
+  }
+}

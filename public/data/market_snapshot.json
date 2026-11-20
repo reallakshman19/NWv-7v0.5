@@ -1,0 +1,64 @@
+{
+  "schemaVersion": "market-free-open-v1",
+  "sourceMode": "free-open-only",
+  "generatedAt": null,
+  "fetchedAt": null,
+  "indices": [],
+  "globalIndices": [],
+  "sectorals": [],
+  "commodities": [],
+  "currencies": [],
+  "equities": [],
+  "equityCoverage": {
+    "universeSize": 16,
+    "quotedCount": 0,
+    "unavailableSymbols": [
+      "RELIANCE",
+      "TCS",
+      "HDFCBANK",
+      "INFY",
+      "ICICIBANK",
+      "SBIN",
+      "ITC",
+      "BHARTIARTL",
+      "KOTAKBANK",
+      "LT",
+      "HINDUNILVR",
+      "AXISBANK",
+      "BAJFINANCE",
+      "MARUTI",
+      "WIPRO",
+      "SUNPHARMA"
+    ]
+  },
+  "movers": {
+    "gainers": [],
+    "losers": [],
+    "scope": "unavailable"
+  },
+  "ipo": {
+    "upcoming": [],
+    "live": [],
+    "recent": []
+  },
+  "ipoLastCheckedAt": null,
+  "nfo": [],
+  "mutualFunds": [],
+  "fiidii": {},
+  "sourceHealth": {
+    "indices": {
+      "status": "unavailable",
+      "reason": "No open-licensed public redistribution feed"
+    },
+    "equities": {
+      "status": "unavailable",
+      "reason": "No open-licensed public redistribution feed"
+    },
+    "ipo": {
+      "status": "unknown",
+      "reason": "Verify with official NSE/BSE source"
+    }
+  },
+  "errors": {},
+  "notice": "No quote data is redistributed in free/open-source-only mode. Visit official exchanges for current prices."
+}

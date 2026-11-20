@@ -1,0 +1,32 @@
+{
+  "schemaVersion": "market-free-open-v1",
+  "generatedAt": null,
+  "asOf": {
+    "equities": null,
+    "mutualFunds": null,
+    "fx": null
+  },
+  "equities": {
+    "indices": [],
+    "globalIndices": [],
+    "movers": {
+      "gainers": [],
+      "losers": []
+    },
+    "eodBhavcopy": {
+      "nseRows": 0,
+      "bseRows": 0,
+      "sampleNse": [],
+      "sampleBse": []
+    }
+  },
+  "mutualFunds": [],
+  "fx": [],
+  "commodities": [],
+  "sourceHealth": {
+    "schemaVersion": "market-free-open-v1",
+    "generatedAt": null,
+    "sections": {},
+    "reason": "Unlicensed quote extracts are not included in free/open-only public assets."
+  }
+}

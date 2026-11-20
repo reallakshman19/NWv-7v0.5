@@ -1,0 +1,726 @@
+import { publishPageProvenance } from '../data/pageProvenance.js';
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
+import { useWeather } from '../context/WeatherContext';
+import { useNews } from '../context/NewsContext';
+import { useSettings } from '../context/SettingsContext';
+import { useSegment } from '../context/SegmentContext';
+import { getRuntimeCapabilities } from '../runtime/runtimeCapabilities.js';
+import { getTopline } from '../utils/timeSegment';
+import { generateTopline, fetchOnThisDay } from '../utils/toplineGenerator';
+import { shouldShowOnThisDay } from '../services/onThisDayPolicy.js';
+import { getViewCount, isArticleRead } from '../utils/storage';
+import { requestNotificationPermission } from '../utils/notifications';
+import { getTravelLocationProfile } from '../services/travelLocationProfile.js';
+import { applyTravelLocationPriority } from '../services/storyLocationPriority.js';
+import {
+  fetchTravelNewsPayload,
+  mergeTravelNewsIntoNewsData,
+} from '../services/travelNewsIngestion.js';
+import { auditMainTabQuality } from '../services/pageAuditGrading.js';
+import { buildSectionHealthSummaries } from '../services/sectionHealthSummary.js';
+
+const MIN_CUSTOM_TOP_STORIES = 10;
+const MAX_VIEW_COUNT_FOR_CUSTOM_TOP_STORIES = 3;
+const DEFAULT_UI_MODE = 'classic';
+
+function asArray(value) {
+  return Array.isArray(value) ? value : [];
+}
+
+function asRecord(value) {
+  return value && typeof value === 'object' && !Array.isArray(value)
+    ? value
+    : {};
+}
+
+function getBrowserNotificationPermission() {
+  if (typeof Notification === 'undefined') return 'default';
+  return Notification.permission;
+}
+
+function filterLatestStories(frontPage = [], customSortTopStories = false) {
+  const ordered = asArray(frontPage).slice(0, 25);
+  if (!customSortTopStories) return ordered;
+
+  const preferred = [];
+  const viewed = [];
+
+  for (const item of ordered) {
+    if (item?.id && (isArticleRead(item) || getViewCount(item) > MAX_VIEW_COUNT_FOR_CUSTOM_TOP_STORIES)) {
+      viewed.push(item);
+    } else {
+      preferred.push(item);
+    }
+  }
+
+  if (preferred.length >= MIN_CUSTOM_TOP_STORIES) return preferred;
+  return [
+    ...preferred,
+    ...viewed.slice(0, Math.max(0, MIN_CUSTOM_TOP_STORIES - preferred.length)),
+  ];
+}
+
+
+function getNavSections(sections = {}) {
+  return [
+    { id: 'top-stories', icon: '⭐', label: 'Top' },
+    { id: 'world-news', icon: '🌍', label: 'World' },
+    sections.india?.enabled && { id: 'india-news', icon: '🇮🇳', label: 'India' },
+    sections.chennai?.enabled && { id: 'chennai-news', icon: '🏛️', label: 'Tamil Nadu' },
+    sections.local?.enabled && { id: 'local-news', icon: '📍', label: 'Muscat' },
+  ].filter(Boolean);
+}
+
+
+function getProjectedMainData({ envelope, newsData, weatherData, breakingNews }) {
+  const data = asRecord(envelope?.data);
+
+  const datasetNewsData = asRecord(data.newsData);
+  const datasetFrontPage = asArray(data.frontPage);
+  const datasetSections = asRecord(data.sections);
+  const rawNewsData = asRecord(data.raw?.newsData);
+
+  const projectedNewsData = Object.keys(datasetNewsData).length > 0
+    ? datasetNewsData
+    : datasetFrontPage.length > 0
+      ? {
+          ...asRecord(newsData),
+          frontPage: datasetFrontPage,
+          world: asArray(datasetSections.world || newsData?.world),
+          india: asArray(datasetSections.india || newsData?.india),
+          chennai: asArray(datasetSections.chennai || newsData?.chennai),
+          local: asArray(datasetSections.local || newsData?.local),
+        }
+      : Object.keys(rawNewsData).length > 0
+        ? rawNewsData
+        : asRecord(newsData);
+
+  return {
+    newsData: projectedNewsData,
+
+    weatherData: Object.keys(asRecord(data.weatherData)).length > 0
+      ? asRecord(data.weatherData)
+      : Object.keys(asRecord(data.quickWeather)).length > 0
+        ? asRecord(data.quickWeather)
+        : weatherData,
+
+    breakingNews: asArray(data.breakingNews).length > 0
+      ? asArray(data.breakingNews)
+      : asArray(data.topline?.breakingNews).length > 0
+        ? asArray(data.topline.breakingNews)
+        : asArray(breakingNews),
+  };
+}
+
+function normalizeSectionHealthKey(value) {
+  return String(value || '').trim().toLowerCase().replace(/[^a-z0-9]+/g, '');
+}
+
+function getSectionHealthAliases(sectionId) {
+  const normalized = normalizeSectionHealthKey(sectionId);
+  const aliases = new Set([sectionId, normalized]);
+
+  if (normalized === 'topstories' || normalized === 'frontpage') {
+    aliases.add('topStories');
+    aliases.add('top-stories');
+    aliases.add('topstories');
+    aliases.add('frontPage');
+  }
+
+  if (normalized === 'india') {
+    aliases.add('india');
+    aliases.add('india-news');
+  }
+
+  if (normalized === 'chennai' || normalized === 'tn' || normalized === 'tamilnadu') {
+    aliases.add('chennai');
+    aliases.add('chennai-news');
+    aliases.add('tamilNadu');
+    aliases.add('tamil-nadu');
+    aliases.add('tn');
+  }
+
+  if (normalized === 'local' || normalized === 'muscat') {
+    aliases.add('local');
+    aliases.add('local-news');
+    aliases.add('muscat');
+    aliases.add('muscat-news');
+  }
+
+  if (normalized === 'world') {
+    aliases.add('world');
+    aliases.add('world-news');
+  }
+
+  return [...aliases].filter(Boolean);
+}
+
+function getMainSectionSourceHealthInput(envelope = {}) {
+  const data = asRecord(envelope?.data);
+  const raw = asRecord(data.raw);
+
+  return (
+    data.sourceHealth ||
+    data.source_health ||
+    data.sourceHealthEnvelope ||
+    data.sectionSourceHealth ||
+    data.section_source_health ||
+    data.sectionSourcePolicyReport ||
+    data.section_source_policy_report ||
+    raw.sourceHealth ||
+    raw.source_health ||
+    raw.sectionSourcePolicyReport ||
+    raw.section_source_policy_report ||
+    {}
+  );
+}
+
+export function buildMainSectionHealthSummaryMap({ datasetEnvelope = null } = {}) {
+  const rows = buildSectionHealthSummaries(
+    datasetEnvelope || {},
+    getMainSectionSourceHealthInput(datasetEnvelope || {})
+  );
+  const summaryMap = {};
+
+  rows.forEach(summary => {
+    getSectionHealthAliases(summary.sectionId).forEach(alias => {
+      summaryMap[alias] = summary;
+    });
+  });
+
+  return summaryMap;
+}
+
+function makeMainBoundaryEnvelope({
+  envelope,
+  newsData,
+  weatherData,
+  breakingNews,
+  isLoading,
+  error,
+}) {
+  const hasNews = Object.keys(asRecord(newsData)).length > 0;
+  const hasWeather = Boolean(weatherData && Object.keys(asRecord(weatherData)).length > 0);
+  const hasBreaking = asArray(breakingNews).length > 0;
+  const hasRenderableMain = hasNews || hasWeather || hasBreaking;
+
+  if (envelope) {
+    const existingValidation = envelope.validation || {};
+
+    return {
+      ...envelope,
+      ok: Boolean(envelope.ok !== false && hasRenderableMain),
+      freshness: hasRenderableMain ? (envelope.freshness || 'fresh') : 'empty',
+      error: hasRenderableMain ? (envelope.error || null) : (envelope.error || error || null),
+      data: {
+        ...(envelope.data || {}),
+        newsData,
+        weatherData,
+        breakingNews,
+        projectedHasRenderableMain: hasRenderableMain,
+      },
+      validation: {
+        ...existingValidation,
+        passed: Boolean(existingValidation.passed === true && hasRenderableMain),
+        errors: hasRenderableMain
+          ? (Array.isArray(existingValidation.errors) ? existingValidation.errors : [])
+          : [
+              ...(Array.isArray(existingValidation.errors) ? existingValidation.errors : []),
+              ...(error ? ['main_projection_error'] : []),
+            ],
+        warnings: [
+          ...(Array.isArray(existingValidation.warnings) ? existingValidation.warnings : []),
+          ...(!hasRenderableMain && isLoading ? ['main_loading_without_renderable_projection'] : []),
+          ...(!hasRenderableMain && !isLoading ? ['main_no_renderable_data'] : []),
+        ],
+      },
+      diagnostics: [
+        ...(Array.isArray(envelope.diagnostics) ? envelope.diagnostics : []),
+        {
+          event: 'main.view_model.projected_data',
+          severity: hasRenderableMain ? 'info' : 'warn',
+          message: hasRenderableMain
+            ? 'Main ViewModel projected render-ready home data.'
+            : 'Main ViewModel has no renderable home data yet.',
+        },
+      ],
+    };
+  }
+
+  return {
+    ok: hasRenderableMain,
+    datasetId: 'main',
+    data: {
+      newsData,
+      weatherData,
+      breakingNews,
+      projectedHasRenderableMain: hasRenderableMain,
+    },
+    source: 'context',
+    // A Context projection has no independent producer epoch. Content may
+    // render without a valid freshness or source authority receipt.
+    freshness: hasRenderableMain ? 'unknown' : 'empty',
+    validation: {
+      passed: hasRenderableMain ? null : false,
+      errors: hasRenderableMain ? [] : (error ? [error] : []),
+      warnings: [
+        ...(isLoading ? ['main_loading_without_renderable_projection'] : []),
+        ...(!hasRenderableMain && !isLoading ? ['main_no_renderable_data'] : []),
+      ],
+    },
+    diagnostics: [
+      {
+        event: 'main.view_model.context_projection',
+        severity: hasRenderableMain ? 'info' : 'warn',
+        message: hasRenderableMain
+          ? 'Main ViewModel used context projection while dataset envelope was unavailable.'
+          : 'Main ViewModel is waiting for context data.',
+      },
+    ],
+  };
+}
+
+function getRefreshOutcome(results) {
+  const rejected = results.find(result => result.status === 'rejected');
+
+  const fulfilledValues = results
+    .filter(result => result.status === 'fulfilled')
+    .map(result => result.value);
+
+  const failedEnvelope = fulfilledValues.find(value => (
+    value && typeof value === 'object' && value.ok === false
+  ));
+
+  const hasAnySuccess = fulfilledValues.some(value => (
+    value === undefined ||
+    value === true ||
+    value?.ok === true
+  ));
+
+  if (rejected && !hasAnySuccess) {
+    return {
+      ok: false,
+      error: rejected.reason?.message || String(rejected.reason),
+      results,
+    };
+  }
+
+  if (failedEnvelope && hasAnySuccess) {
+    return {
+      ok: true,
+      degraded: true,
+      error: failedEnvelope.error || 'Main refresh partially degraded',
+      results,
+    };
+  }
+
+  if (failedEnvelope) {
+    return {
+      ok: false,
+      error: failedEnvelope.error || 'Main refresh returned degraded data',
+      results,
+    };
+  }
+
+  if (rejected) {
+    return {
+      ok: true,
+      degraded: true,
+      error: rejected.reason?.message || String(rejected.reason),
+      results,
+    };
+  }
+
+  return {
+    ok: true,
+    results,
+  };
+}
+
+function getFirstNewsError(newsErrors) {
+  if (Array.isArray(newsErrors)) return newsErrors[0] || null;
+  if (typeof newsErrors === 'string') return newsErrors;
+  if (newsErrors && typeof newsErrors === 'object') {
+    return newsErrors.message || Object.values(newsErrors).find(Boolean) || null;
+  }
+  return null;
+}
+
+export function useMainTabViewModel({ isWebView = false } = {}) {
+  const { settings, updateSettings } = useSettings();
+  const { currentSegment } = useSegment();
+
+  const {
+    weatherData,
+    loading: weatherLoading,
+    refreshWeather,
+    ensureBoot: ensureWeatherBoot,
+  } = useWeather();
+
+  const {
+    envelope: datasetEnvelope,
+    newsData,
+    loading: newsLoading,
+    errors: newsErrors,
+    breakingNews,
+    refreshNews,
+  } = useNews();
+
+  const isInitialSegmentRefreshDone = useRef(false);
+  const [notifPermission, setNotifPermission] = useState(getBrowserNotificationPermission);
+  const [travelNewsPayload, setTravelNewsPayload] = useState(null);
+  const [onThisDay, setOnThisDay] = useState(null);
+  // Persists last non-null topline so it survives data refreshes
+  const [toplineContent, setToplineContent] = useState(null);
+  const [topStoriesPresentation, setTopStoriesPresentation] = useState({ expanded: false, collapsed: false });
+
+  const safeSettings = useMemo(() => (
+    settings || {}
+  ), [settings]);
+  const rawSections = safeSettings.sections;
+  const sections = useMemo(() => (
+    rawSections || {}
+  ), [rawSections]);
+  const uiMode = safeSettings.uiMode || DEFAULT_UI_MODE;
+
+  const projected = useMemo(() => getProjectedMainData({
+    envelope: datasetEnvelope,
+    newsData,
+    weatherData,
+    breakingNews,
+  }), [datasetEnvelope, newsData, weatherData, breakingNews]);
+
+  const projectedNewsData = projected.newsData;
+  const projectedWeatherData = projected.weatherData;
+  const projectedBreakingNews = projected.breakingNews;
+
+  const sectionHealthSummaries = useMemo(() => (
+    buildMainSectionHealthSummaryMap({ datasetEnvelope })
+  ), [datasetEnvelope]);
+
+  const travelLocationProfile = useMemo(
+    () => getTravelLocationProfile(safeSettings),
+    [safeSettings]
+  );
+
+  useEffect(() => {
+    if (!travelLocationProfile?.prioritizeStories) {
+      // When priority is disabled, the travelMergedNewsData memo already
+      // falls back to projectedNewsData — no synchronous setState needed here
+      return undefined;
+    }
+
+    let cancelled = false;
+
+    fetchTravelNewsPayload({ profile: travelLocationProfile })
+      .then(payload => {
+        if (!cancelled) setTravelNewsPayload(payload);
+      })
+      .catch(error => {
+        console.warn('[useMainTabViewModel] travel news fetch failed', {
+          message: error?.message || String(error),
+        });
+
+        if (!cancelled) setTravelNewsPayload(null);
+      });
+
+    return () => {
+      cancelled = true;
+    };
+  }, [travelLocationProfile]);
+
+  const travelMergedNewsData = useMemo(() => (
+    travelNewsPayload && travelLocationProfile?.prioritizeStories
+      ? mergeTravelNewsIntoNewsData(projectedNewsData, travelNewsPayload, travelLocationProfile)
+      : projectedNewsData
+  ), [projectedNewsData, travelNewsPayload, travelLocationProfile]);
+
+  const prioritizedNewsData = useMemo(() => (
+    applyTravelLocationPriority(travelMergedNewsData, travelLocationProfile)
+  ), [travelMergedNewsData, travelLocationProfile]);
+
+  const latestStories = useMemo(() => {
+    // The Top Stories ranker owns this order. Travel proximity is available in
+    // the travel panel and regional lists, after their public-impact priority.
+    return filterLatestStories(projectedNewsData.frontPage, safeSettings.customSortTopStories);
+  }, [
+    projectedNewsData.frontPage,
+    safeSettings.customSortTopStories,
+  ]);
+
+  const navSections = useMemo(() => (
+    getNavSections(sections)
+  ), [sections]);
+
+  const isTimelineMode = uiMode === 'timeline';
+  const isUrgentMode = currentSegment?.id === 'urgent_only';
+  const visibleTopStories = useMemo(() => {
+    if (topStoriesPresentation.collapsed || (!isWebView && isUrgentMode && projectedBreakingNews.length)) return [];
+    return topStoriesPresentation.expanded ? latestStories : latestStories.slice(0, 10);
+  }, [latestStories, topStoriesPresentation, isWebView, isUrgentMode, projectedBreakingNews]);
+
+  const isLoading = Boolean(
+    (weatherLoading && !projectedWeatherData) ||
+    (newsLoading && Object.keys(projectedNewsData).length === 0)
+  );
+
+  const loadingPhase = isLoading ? 1 : 3;
+
+  const refreshAll = useCallback(async () => {
+    const results = await Promise.allSettled([
+      refreshWeather(true),
+      refreshNews(null, { force: true, reason: 'main-manual-refresh' }),
+    ]);
+
+    return getRefreshOutcome(results);
+  }, [refreshNews, refreshWeather]);
+
+  const refreshForSegment = useCallback(async () => {
+    const results = await Promise.allSettled([
+      refreshWeather(),
+      refreshNews(null, { force: true, reason: 'segment-change' }),
+    ]);
+
+    return getRefreshOutcome(results);
+  }, [refreshNews, refreshWeather]);
+
+  useEffect(() => {
+    if (typeof ensureWeatherBoot === 'function') {
+      ensureWeatherBoot();
+    }
+  }, [ensureWeatherBoot]);
+
+  useEffect(() => {
+    if (!isInitialSegmentRefreshDone.current) {
+      isInitialSegmentRefreshDone.current = true;
+      return;
+    }
+
+    refreshForSegment();
+  }, [currentSegment?.id, refreshForSegment]);
+
+  useEffect(() => {
+    let cancelled = false;
+
+    fetchOnThisDay()
+      .then(event => {
+        if (!cancelled && event) setOnThisDay(event);
+      })
+      .catch(error => {
+        console.warn('[useMainTabViewModel] On This Day fetch failed', {
+          message: error?.message || String(error),
+        });
+      });
+
+    return () => {
+      cancelled = true;
+    };
+  }, []);
+
+  const generatedTopline = useMemo(() => {
+    const hasNews = projectedNewsData && Object.keys(projectedNewsData).length > 0;
+    const hasWeather = projectedWeatherData && Object.keys(asRecord(projectedWeatherData)).length > 0;
+
+    if (hasNews || hasWeather || onThisDay) {
+      const isOnThisDayEnabled = shouldShowOnThisDay(safeSettings);
+
+      return generateTopline(
+        prioritizedNewsData,
+        projectedWeatherData,
+        onThisDay,
+        { includeOnThisDay: isOnThisDayEnabled }
+      );
+    }
+
+    return null;
+  }, [projectedNewsData, projectedWeatherData, onThisDay, prioritizedNewsData, safeSettings]);
+
+  useEffect(() => {
+    if (generatedTopline) {
+      // eslint-disable-next-line react-hooks/set-state-in-effect
+      setToplineContent(generatedTopline);
+    }
+  }, [generatedTopline]);
+
+  const fallbackTopline = useMemo(() => (
+    getTopline(currentSegment)
+  ), [currentSegment]);
+
+  const requestPermission = useCallback(async () => {
+    const granted = await requestNotificationPermission();
+    const nextPermission = granted ? 'granted' : 'denied';
+
+    setNotifPermission(nextPermission);
+
+    return nextPermission;
+  }, []);
+
+  const mainTabAudit = useMemo(() => auditMainTabQuality({
+    newsData: { ...projectedNewsData, frontPage: visibleTopStories },
+    topStoryDisplayLimit: visibleTopStories.length,
+    weatherData: projectedWeatherData,
+    breakingNews: projectedBreakingNews,
+    settings: safeSettings,
+    loading: newsLoading,
+    errors: newsErrors,
+    envelope: datasetEnvelope,
+  }), [
+    projectedNewsData,
+    visibleTopStories,
+    projectedWeatherData,
+    projectedBreakingNews,
+    safeSettings,
+    newsLoading,
+    newsErrors,
+    datasetEnvelope,
+  ]);
+
+  // --- Runtime capabilities (6H: shell runtime badge; computed once) ---
+  const runtime = useMemo(() => getRuntimeCapabilities(), []);
+
+  // --- Shell binding props (6G–6H) ---
+  const toggleTheme = useCallback((nextTheme) => {
+    const normalizedTheme = nextTheme === 'light' ? 'light' : 'dark';
+
+    try {
+      if (typeof updateSettings === 'function') {
+        return updateSettings({
+          ...safeSettings,
+          theme: normalizedTheme,
+        });
+      }
+
+      return null;
+    } catch (error) {
+      console.warn('[useMainTabViewModel] theme toggle failed', {
+        message: error?.message || String(error),
+      });
+
+      return {
+        ok: false,
+        error: error?.message || String(error),
+      };
+    }
+  }, [safeSettings, updateSettings]);
+
+  const themeToggleProps = useMemo(() => ({
+    theme: safeSettings.theme || 'dark',
+    onToggleTheme: toggleTheme,
+  }), [safeSettings.theme, toggleTheme]);
+
+  const shellRuntimeProps = useMemo(() => ({
+    showStaticHostBadge: Boolean(runtime?.isStaticHost),
+    staticHostBadgeTitle: 'Static-host mode: snapshot/cache-first behavior is active.',
+    staticHostBadgeLabel: 'Static-host mode',
+    staticHostBadgeIcon: '📦',
+  }), [runtime?.isStaticHost]);
+
+  // --- Binding marker stubs (6B–6F markers preserved for downstream gate checks) ---
+  // quickWeatherProps, newsSectionProps, travelLocalStoriesProps: populated in 6K
+  // marketTickerProps, ensureMarketBoot, getMarketTickerDataState: populated in 6J
+  const quickWeatherProps = null;
+  const newsSectionProps = null;
+  const travelLocalStoriesProps = null;
+  const marketTickerProps = null;
+  const ensureMarketBoot = null;
+  const getMarketTickerDataState = null;
+
+  const newsError = getFirstNewsError(newsErrors);
+  const error = datasetEnvelope?.error || newsError || null;
+
+  const boundaryEnvelope = useMemo(() => makeMainBoundaryEnvelope({
+    envelope: datasetEnvelope,
+    newsData: projectedNewsData,
+    weatherData: projectedWeatherData,
+    breakingNews: projectedBreakingNews,
+    isLoading,
+    error,
+  }), [
+    datasetEnvelope,
+    projectedNewsData,
+    projectedWeatherData,
+    projectedBreakingNews,
+    isLoading,
+    error,
+  ]);
+
+  // Route-local projection bypasses shared useDataset cache; publish a bounded
+  // read-only receipt for Data Health after settled loading.
+  useEffect(() => {
+    if (isLoading) return;
+    publishPageProvenance('main', boundaryEnvelope, {
+      transport: 'news-context-projection',
+      provider: boundaryEnvelope?.source || 'unknown',
+    });
+  }, [isLoading, boundaryEnvelope]);
+
+  return {
+    envelope: boundaryEnvelope,
+    datasetEnvelope,
+    settings: safeSettings,
+    sections,
+    sectionHealthSummaries,
+    uiMode,
+    currentSegment,
+    notifPermission,
+    requestPermission,
+    weatherData: projectedWeatherData,
+    weatherLoading,
+    newsData: projectedNewsData,
+    loading: newsLoading,
+    errors: newsErrors,
+    breakingNews: projectedBreakingNews,
+    travelLocationProfile,
+    travelNewsPayload,
+    travelMergedNewsData,
+    prioritizedNewsData,
+    latestStories,
+    topStoriesPresentation,
+    setTopStoriesPresentation,
+    toplineContent,
+    fallbackTopline,
+    onThisDay,
+    mainTabAudit,
+    navSections,
+    refreshAll,
+    isLoading,
+    loadingPhase,
+    isTimelineMode,
+    isUrgentMode,
+    error,
+    source: boundaryEnvelope?.source || null,
+    freshness: boundaryEnvelope?.freshness || null,
+    slo: boundaryEnvelope?.slo || null,
+    warnings: [
+      ...(Array.isArray(boundaryEnvelope?.validation?.warnings) ? boundaryEnvelope.validation.warnings : []),
+      ...(Array.isArray(boundaryEnvelope?.slo?.warnings) ? boundaryEnvelope.slo.warnings : []),
+    ],
+    diagnostics: boundaryEnvelope?.diagnostics || [],
+    // Shell binding props (6G–6H)
+    themeToggleProps,
+    shellRuntimeProps,
+    // Binding marker stubs (6B–6F compatibility; populated in 6J–6K)
+    quickWeatherProps,
+    newsSectionProps,
+    travelLocalStoriesProps,
+    marketTickerProps,
+    ensureMarketBoot,
+    getMarketTickerDataState,
+  };
+}
+
+export const __mainViewModelInternalsForTest = {
+  MIN_CUSTOM_TOP_STORIES,
+  MAX_VIEW_COUNT_FOR_CUSTOM_TOP_STORIES,
+  DEFAULT_UI_MODE,
+  asArray,
+  asRecord,
+  getBrowserNotificationPermission,
+  filterLatestStories,
+  getNavSections,
+  getProjectedMainData,
+  buildMainSectionHealthSummaryMap,
+  makeMainBoundaryEnvelope,
+  getRefreshOutcome,
+  getFirstNewsError,
+};
