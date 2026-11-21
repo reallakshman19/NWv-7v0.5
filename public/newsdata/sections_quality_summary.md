@@ -1,29 +1,24 @@
 # Sections Prefetch Quality Report
 
-- Status: **WARN**
+- Status: **PASS**
 - Schema: `2`
-- Content hash: `e0adce057872`
+- Content hash: `a83cff563b3e`
 - Sections: `10`
-- Stories: `284`
-- Source groups: `14`
+- Stories: `300`
+- Source groups: `16`
 - Retain hours: `36`
 
 ## Section health
 
 | Section | Stories | Sources | Thin |
 |---|---:|---:|---|
-| topStories | 30 | 2 | False |
-| india | 30 | 3 | False |
-| tn | 25 | 1 | True |
-| trichy | 30 | 2 | False |
+| topStories | 30 | 3 | False |
+| india | 30 | 2 | False |
+| tn | 30 | 3 | False |
+| trichy | 30 | 3 | False |
 | muscat | 30 | 3 | False |
-| world | 30 | 3 | False |
-| business | 30 | 4 | False |
+| world | 30 | 4 | False |
+| business | 30 | 5 | False |
 | technology | 30 | 3 | False |
-| sports | 30 | 3 | False |
-| entertainment | 19 | 1 | True |
-
-## Warnings
-
-- Section tn has weak source diversity: 1 source group(s)
-- Section entertainment has weak source diversity: 1 source group(s)
+| sports | 30 | 4 | False |
+| entertainment | 30 | 2 | False |
