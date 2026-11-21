@@ -1,24 +1,24 @@
 {
   "categoryCounts": {
-    "alerts": 2,
-    "civic": 3,
-    "events": 77,
+    "alerts": 1,
+    "civic": 1,
+    "events": 57,
     "festivals": 11,
-    "movies": 21,
+    "movies": 22,
     "shopping": 1,
     "sports": 1,
     "weather_alerts": 3
   },
   "contentClassCounts": {
-    "upahead_alert": 8,
-    "upahead_event": 110,
+    "upahead_alert": 5,
+    "upahead_event": 91,
     "upahead_offer": 1
   },
-  "contentHash": "57eb759b3a0b",
+  "contentHash": "19e8b8fd9d97",
   "contractVersion": "upahead-lifecycle-v1",
   "errors": [],
-  "fetchedAt": 1795279632171,
-  "generatedAt": 1795279642364,
+  "fetchedAt": 1795302868519,
+  "generatedAt": 1795302877636,
   "horizon": {
     "alertFallbackHours": 24,
     "eventPastGraceHours": 24,
@@ -26,31 +26,31 @@
     "offerFallbackHours": 48,
     "plannerPastGraceHours": 6
   },
-  "itemCount": 119,
+  "itemCount": 97,
   "lifecycleSummary": {
     "categoryCounts": {
-      "alerts": 2,
-      "civic": 3,
-      "events": 77,
+      "alerts": 1,
+      "civic": 1,
+      "events": 57,
       "festivals": 11,
-      "movies": 21,
+      "movies": 22,
       "shopping": 1,
       "sports": 1,
       "weather_alerts": 3
     },
     "contentClassCounts": {
-      "upahead_alert": 8,
-      "upahead_event": 110,
+      "upahead_alert": 5,
+      "upahead_event": 91,
       "upahead_offer": 1
     },
     "horizonViolationCount": 0,
     "horizonViolationSample": [],
-    "itemCount": 119,
-    "plannerEligibleByLifecycleCount": 99,
-    "visibleItemCount": 119
+    "itemCount": 97,
+    "plannerEligibleByLifecycleCount": 93,
+    "visibleItemCount": 97
   },
-  "pendingItemCount": 10,
-  "plannerEligibleByLifecycleCount": 99,
+  "pendingItemCount": 11,
+  "plannerEligibleByLifecycleCount": 93,
   "schemaVersion": 1,
   "status": "WARN",
   "thresholds": {
@@ -60,7 +60,7 @@
     "minVisibleItems": 3,
     "plannerPastGraceHours": 6
   },
-  "visibleItemCount": 119,
+  "visibleItemCount": 97,
   "warnings": [
     "2 acquisition sources failed; coverage is partial",
     "airlines: no currently active items"
