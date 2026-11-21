@@ -1,24 +1,24 @@
 {
   "categoryCounts": {
     "alerts": 1,
-    "civic": 1,
-    "events": 44,
-    "festivals": 11,
-    "movies": 31,
+    "civic": 3,
+    "events": 76,
+    "festivals": 7,
+    "movies": 20,
     "shopping": 1,
     "sports": 1,
     "weather_alerts": 4
   },
   "contentClassCounts": {
-    "upahead_alert": 6,
-    "upahead_event": 87,
+    "upahead_alert": 8,
+    "upahead_event": 104,
     "upahead_offer": 1
   },
-  "contentHash": "30ce32ba968d",
+  "contentHash": "c91cce7b4a52",
   "contractVersion": "upahead-lifecycle-v1",
   "errors": [],
-  "fetchedAt": 1795212895131,
-  "generatedAt": 1795212905172,
+  "fetchedAt": 1795244668256,
+  "generatedAt": 1795244677815,
   "horizon": {
     "alertFallbackHours": 24,
     "eventPastGraceHours": 24,
@@ -26,31 +26,31 @@
     "offerFallbackHours": 48,
     "plannerPastGraceHours": 6
   },
-  "itemCount": 94,
+  "itemCount": 113,
   "lifecycleSummary": {
     "categoryCounts": {
       "alerts": 1,
-      "civic": 1,
-      "events": 44,
-      "festivals": 11,
-      "movies": 31,
+      "civic": 3,
+      "events": 76,
+      "festivals": 7,
+      "movies": 20,
       "shopping": 1,
       "sports": 1,
       "weather_alerts": 4
     },
     "contentClassCounts": {
-      "upahead_alert": 6,
-      "upahead_event": 87,
+      "upahead_alert": 8,
+      "upahead_event": 104,
       "upahead_offer": 1
     },
     "horizonViolationCount": 0,
     "horizonViolationSample": [],
-    "itemCount": 94,
-    "plannerEligibleByLifecycleCount": 87,
-    "visibleItemCount": 94
+    "itemCount": 113,
+    "plannerEligibleByLifecycleCount": 109,
+    "visibleItemCount": 113
   },
-  "pendingItemCount": 9,
-  "plannerEligibleByLifecycleCount": 87,
+  "pendingItemCount": 10,
+  "plannerEligibleByLifecycleCount": 109,
   "schemaVersion": 1,
   "status": "WARN",
   "thresholds": {
@@ -60,9 +60,9 @@
     "minVisibleItems": 3,
     "plannerPastGraceHours": 6
   },
-  "visibleItemCount": 94,
+  "visibleItemCount": 113,
   "warnings": [
-    "2 acquisition sources failed; coverage is partial",
+    "1 acquisition sources failed; coverage is partial",
     "airlines: no currently active items"
   ]
 }
