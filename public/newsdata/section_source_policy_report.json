@@ -1,5 +1,5 @@
 {
-  "generatedAt": 1795367548945,
+  "generatedAt": 1795390722053,
   "policyVersion": "section-source-policy-v4-direct-publishers",
   "reportVersion": "section-source-policy-report-v1",
   "schemaVersion": 1,
@@ -62,12 +62,12 @@
       ],
       "topSources": [
         {
-          "count": 19,
-          "sourceGroup": "the_hindu"
+          "count": 18,
+          "sourceGroup": "ndtv"
         },
         {
-          "count": 11,
-          "sourceGroup": "ndtv"
+          "count": 12,
+          "sourceGroup": "the_hindu"
         }
       ]
     },
@@ -88,11 +88,11 @@
         },
         {
           "count": 6,
-          "sourceGroup": "the_arabian_stories"
+          "sourceGroup": "oman_observer"
         },
         {
           "count": 4,
-          "sourceGroup": "oman_observer"
+          "sourceGroup": "the_arabian_stories"
         }
       ]
     },
@@ -112,57 +112,53 @@
           "sourceGroup": "ndtv"
         },
         {
-          "count": 8,
-          "sourceGroup": "the_hindu"
+          "count": 13,
+          "sourceGroup": "bbc"
         },
         {
-          "count": 7,
-          "sourceGroup": "bbc"
+          "count": 2,
+          "sourceGroup": "the_hindu"
         }
       ]
     },
     "technology": {
       "sourceGroupCount": 3,
-      "storyCount": 25,
+      "storyCount": 13,
       "thin": false,
       "topCategories": [
         {
           "category": "technology",
-          "count": 25
+          "count": 13
         }
       ],
       "topSources": [
         {
-          "count": 13,
+          "count": 8,
           "sourceGroup": "gadgets360"
-        },
-        {
-          "count": 9,
-          "sourceGroup": "the_hindu"
         },
         {
           "count": 3,
           "sourceGroup": "ars_technica"
+        },
+        {
+          "count": 2,
+          "sourceGroup": "the_hindu"
         }
       ]
     },
     "tn": {
-      "sourceGroupCount": 2,
-      "storyCount": 30,
-      "thin": false,
+      "sourceGroupCount": 1,
+      "storyCount": 26,
+      "thin": true,
       "topCategories": [
         {
           "category": "tn",
-          "count": 30
+          "count": 26
         }
       ],
       "topSources": [
         {
-          "count": 18,
-          "sourceGroup": "dtnext"
-        },
-        {
-          "count": 12,
+          "count": 26,
           "sourceGroup": "the_hindu"
         }
       ]
@@ -190,22 +186,22 @@
     },
     "trichy": {
       "sourceGroupCount": 2,
-      "storyCount": 30,
+      "storyCount": 22,
       "thin": false,
       "topCategories": [
         {
           "category": "trichy",
-          "count": 30
+          "count": 22
         }
       ],
       "topSources": [
         {
-          "count": 18,
-          "sourceGroup": "dtnext"
+          "count": 17,
+          "sourceGroup": "the_hindu"
         },
         {
-          "count": 12,
-          "sourceGroup": "the_hindu"
+          "count": 5,
+          "sourceGroup": "times_of_india"
         }
       ]
     },
@@ -221,15 +217,15 @@
       ],
       "topSources": [
         {
-          "count": 18,
+          "count": 16,
           "sourceGroup": "al_jazeera"
         },
         {
-          "count": 6,
+          "count": 9,
           "sourceGroup": "bbc"
         },
         {
-          "count": 4,
+          "count": 3,
           "sourceGroup": "the_hindu"
         },
         {
@@ -613,7 +609,7 @@
       "configuredFeeds": 2,
       "health": {
         "feedUrl": "https://www.dtnext.in/feed",
-        "items": 19,
+        "items": 0,
         "ok": true,
         "section": "trichy"
       },
