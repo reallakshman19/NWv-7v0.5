@@ -1,22 +1,22 @@
 {
   "categoryCounts": {
-    "alerts": 2,
-    "civic": 2,
-    "events": 82,
+    "alerts": 3,
+    "civic": 4,
+    "events": 89,
     "festivals": 10,
-    "movies": 22,
+    "movies": 23,
     "sports": 1,
-    "weather_alerts": 5
+    "weather_alerts": 6
   },
   "contentClassCounts": {
-    "upahead_alert": 9,
-    "upahead_event": 115
+    "upahead_alert": 13,
+    "upahead_event": 123
   },
-  "contentHash": "349a9fb9798d",
+  "contentHash": "9d58950ce62f",
   "contractVersion": "upahead-lifecycle-v1",
   "errors": [],
-  "fetchedAt": 1795329949752,
-  "generatedAt": 1795329958099,
+  "fetchedAt": 1795367349706,
+  "generatedAt": 1795367359369,
   "horizon": {
     "alertFallbackHours": 24,
     "eventPastGraceHours": 24,
@@ -24,29 +24,29 @@
     "offerFallbackHours": 48,
     "plannerPastGraceHours": 6
   },
-  "itemCount": 124,
+  "itemCount": 136,
   "lifecycleSummary": {
     "categoryCounts": {
-      "alerts": 2,
-      "civic": 2,
-      "events": 82,
+      "alerts": 3,
+      "civic": 4,
+      "events": 89,
       "festivals": 10,
-      "movies": 22,
+      "movies": 23,
       "sports": 1,
-      "weather_alerts": 5
+      "weather_alerts": 6
     },
     "contentClassCounts": {
-      "upahead_alert": 9,
-      "upahead_event": 115
+      "upahead_alert": 13,
+      "upahead_event": 123
     },
     "horizonViolationCount": 0,
     "horizonViolationSample": [],
-    "itemCount": 124,
-    "plannerEligibleByLifecycleCount": 117,
-    "visibleItemCount": 124
+    "itemCount": 136,
+    "plannerEligibleByLifecycleCount": 104,
+    "visibleItemCount": 136
   },
-  "pendingItemCount": 13,
-  "plannerEligibleByLifecycleCount": 117,
+  "pendingItemCount": 14,
+  "plannerEligibleByLifecycleCount": 104,
   "schemaVersion": 1,
   "status": "WARN",
   "thresholds": {
@@ -56,7 +56,7 @@
     "minVisibleItems": 3,
     "plannerPastGraceHours": 6
   },
-  "visibleItemCount": 124,
+  "visibleItemCount": 136,
   "warnings": [
     "1 acquisition sources failed; coverage is partial",
     "shopping: no currently active items",
