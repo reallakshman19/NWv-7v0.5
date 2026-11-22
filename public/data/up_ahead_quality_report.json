@@ -1,22 +1,22 @@
 {
   "categoryCounts": {
-    "alerts": 3,
+    "alerts": 4,
     "civic": 4,
-    "events": 89,
+    "events": 42,
     "festivals": 10,
-    "movies": 23,
+    "movies": 24,
     "sports": 1,
     "weather_alerts": 6
   },
   "contentClassCounts": {
-    "upahead_alert": 13,
-    "upahead_event": 123
+    "upahead_alert": 14,
+    "upahead_event": 77
   },
-  "contentHash": "9d58950ce62f",
+  "contentHash": "e78a357f876b",
   "contractVersion": "upahead-lifecycle-v1",
   "errors": [],
-  "fetchedAt": 1795367349706,
-  "generatedAt": 1795367359369,
+  "fetchedAt": 1795390590021,
+  "generatedAt": 1795390600028,
   "horizon": {
     "alertFallbackHours": 24,
     "eventPastGraceHours": 24,
@@ -24,29 +24,29 @@
     "offerFallbackHours": 48,
     "plannerPastGraceHours": 6
   },
-  "itemCount": 136,
+  "itemCount": 91,
   "lifecycleSummary": {
     "categoryCounts": {
-      "alerts": 3,
+      "alerts": 4,
       "civic": 4,
-      "events": 89,
+      "events": 42,
       "festivals": 10,
-      "movies": 23,
+      "movies": 24,
       "sports": 1,
       "weather_alerts": 6
     },
     "contentClassCounts": {
-      "upahead_alert": 13,
-      "upahead_event": 123
+      "upahead_alert": 14,
+      "upahead_event": 77
     },
     "horizonViolationCount": 0,
     "horizonViolationSample": [],
-    "itemCount": 136,
-    "plannerEligibleByLifecycleCount": 104,
-    "visibleItemCount": 136
+    "itemCount": 91,
+    "plannerEligibleByLifecycleCount": 87,
+    "visibleItemCount": 91
   },
   "pendingItemCount": 14,
-  "plannerEligibleByLifecycleCount": 104,
+  "plannerEligibleByLifecycleCount": 87,
   "schemaVersion": 1,
   "status": "WARN",
   "thresholds": {
@@ -56,9 +56,9 @@
     "minVisibleItems": 3,
     "plannerPastGraceHours": 6
   },
-  "visibleItemCount": 136,
+  "visibleItemCount": 91,
   "warnings": [
-    "1 acquisition sources failed; coverage is partial",
+    "2 acquisition sources failed; coverage is partial",
     "shopping: no currently active items",
     "airlines: no currently active items"
   ]
