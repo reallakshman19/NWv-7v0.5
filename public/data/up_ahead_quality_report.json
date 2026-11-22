@@ -1,24 +1,22 @@
 {
   "categoryCounts": {
-    "alerts": 1,
-    "civic": 1,
-    "events": 57,
-    "festivals": 11,
+    "alerts": 2,
+    "civic": 2,
+    "events": 82,
+    "festivals": 10,
     "movies": 22,
-    "shopping": 1,
     "sports": 1,
-    "weather_alerts": 3
+    "weather_alerts": 5
   },
   "contentClassCounts": {
-    "upahead_alert": 5,
-    "upahead_event": 91,
-    "upahead_offer": 1
+    "upahead_alert": 9,
+    "upahead_event": 115
   },
-  "contentHash": "19e8b8fd9d97",
+  "contentHash": "349a9fb9798d",
   "contractVersion": "upahead-lifecycle-v1",
   "errors": [],
-  "fetchedAt": 1795302868519,
-  "generatedAt": 1795302877636,
+  "fetchedAt": 1795329949752,
+  "generatedAt": 1795329958099,
   "horizon": {
     "alertFallbackHours": 24,
     "eventPastGraceHours": 24,
@@ -26,31 +24,29 @@
     "offerFallbackHours": 48,
     "plannerPastGraceHours": 6
   },
-  "itemCount": 97,
+  "itemCount": 124,
   "lifecycleSummary": {
     "categoryCounts": {
-      "alerts": 1,
-      "civic": 1,
-      "events": 57,
-      "festivals": 11,
+      "alerts": 2,
+      "civic": 2,
+      "events": 82,
+      "festivals": 10,
       "movies": 22,
-      "shopping": 1,
       "sports": 1,
-      "weather_alerts": 3
+      "weather_alerts": 5
     },
     "contentClassCounts": {
-      "upahead_alert": 5,
-      "upahead_event": 91,
-      "upahead_offer": 1
+      "upahead_alert": 9,
+      "upahead_event": 115
     },
     "horizonViolationCount": 0,
     "horizonViolationSample": [],
-    "itemCount": 97,
-    "plannerEligibleByLifecycleCount": 93,
-    "visibleItemCount": 97
+    "itemCount": 124,
+    "plannerEligibleByLifecycleCount": 117,
+    "visibleItemCount": 124
   },
-  "pendingItemCount": 11,
-  "plannerEligibleByLifecycleCount": 93,
+  "pendingItemCount": 13,
+  "plannerEligibleByLifecycleCount": 117,
   "schemaVersion": 1,
   "status": "WARN",
   "thresholds": {
@@ -60,9 +56,10 @@
     "minVisibleItems": 3,
     "plannerPastGraceHours": 6
   },
-  "visibleItemCount": 97,
+  "visibleItemCount": 124,
   "warnings": [
-    "2 acquisition sources failed; coverage is partial",
+    "1 acquisition sources failed; coverage is partial",
+    "shopping: no currently active items",
     "airlines: no currently active items"
   ]
 }
