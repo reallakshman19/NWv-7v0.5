@@ -1,22 +1,22 @@
 {
   "categoryCounts": {
-    "alerts": 4,
+    "alerts": 7,
     "civic": 4,
-    "events": 42,
+    "events": 49,
     "festivals": 10,
-    "movies": 24,
+    "movies": 9,
     "sports": 1,
-    "weather_alerts": 6
+    "weather_alerts": 7
   },
   "contentClassCounts": {
-    "upahead_alert": 14,
-    "upahead_event": 77
+    "upahead_alert": 18,
+    "upahead_event": 69
   },
-  "contentHash": "e78a357f876b",
+  "contentHash": "2b2eb6d8f61e",
   "contractVersion": "upahead-lifecycle-v1",
   "errors": [],
-  "fetchedAt": 1795390590021,
-  "generatedAt": 1795390600028,
+  "fetchedAt": 1795419324045,
+  "generatedAt": 1795419336320,
   "horizon": {
     "alertFallbackHours": 24,
     "eventPastGraceHours": 24,
@@ -24,29 +24,29 @@
     "offerFallbackHours": 48,
     "plannerPastGraceHours": 6
   },
-  "itemCount": 91,
+  "itemCount": 87,
   "lifecycleSummary": {
     "categoryCounts": {
-      "alerts": 4,
+      "alerts": 7,
       "civic": 4,
-      "events": 42,
+      "events": 49,
       "festivals": 10,
-      "movies": 24,
+      "movies": 9,
       "sports": 1,
-      "weather_alerts": 6
+      "weather_alerts": 7
     },
     "contentClassCounts": {
-      "upahead_alert": 14,
-      "upahead_event": 77
+      "upahead_alert": 18,
+      "upahead_event": 69
     },
     "horizonViolationCount": 0,
     "horizonViolationSample": [],
-    "itemCount": 91,
-    "plannerEligibleByLifecycleCount": 87,
-    "visibleItemCount": 91
+    "itemCount": 87,
+    "plannerEligibleByLifecycleCount": 82,
+    "visibleItemCount": 87
   },
   "pendingItemCount": 14,
-  "plannerEligibleByLifecycleCount": 87,
+  "plannerEligibleByLifecycleCount": 82,
   "schemaVersion": 1,
   "status": "WARN",
   "thresholds": {
@@ -56,9 +56,9 @@
     "minVisibleItems": 3,
     "plannerPastGraceHours": 6
   },
-  "visibleItemCount": 91,
+  "visibleItemCount": 87,
   "warnings": [
-    "2 acquisition sources failed; coverage is partial",
+    "1 acquisition sources failed; coverage is partial",
     "shopping: no currently active items",
     "airlines: no currently active items"
   ]
