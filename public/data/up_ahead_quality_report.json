@@ -1,22 +1,24 @@
 {
   "categoryCounts": {
+    "airlines": 1,
     "alerts": 3,
-    "civic": 2,
+    "civic": 3,
     "events": 52,
-    "festivals": 19,
-    "movies": 12,
+    "festivals": 20,
+    "movies": 15,
     "sports": 1,
-    "weather_alerts": 12
+    "weather_alerts": 5
   },
   "contentClassCounts": {
-    "upahead_alert": 17,
-    "upahead_event": 84
+    "upahead_alert": 11,
+    "upahead_event": 88,
+    "upahead_offer": 1
   },
-  "contentHash": "226909365e7c",
+  "contentHash": "d5da75d80e17",
   "contractVersion": "upahead-lifecycle-v1",
   "errors": [],
-  "fetchedAt": 1795513959300,
-  "generatedAt": 1795513978397,
+  "fetchedAt": 1795559143832,
+  "generatedAt": 1795559155457,
   "horizon": {
     "alertFallbackHours": 24,
     "eventPastGraceHours": 24,
@@ -24,29 +26,31 @@
     "offerFallbackHours": 48,
     "plannerPastGraceHours": 6
   },
-  "itemCount": 101,
+  "itemCount": 100,
   "lifecycleSummary": {
     "categoryCounts": {
+      "airlines": 1,
       "alerts": 3,
-      "civic": 2,
+      "civic": 3,
       "events": 52,
-      "festivals": 19,
-      "movies": 12,
+      "festivals": 20,
+      "movies": 15,
       "sports": 1,
-      "weather_alerts": 12
+      "weather_alerts": 5
     },
     "contentClassCounts": {
-      "upahead_alert": 17,
-      "upahead_event": 84
+      "upahead_alert": 11,
+      "upahead_event": 88,
+      "upahead_offer": 1
     },
     "horizonViolationCount": 0,
     "horizonViolationSample": [],
-    "itemCount": 101,
-    "plannerEligibleByLifecycleCount": 83,
-    "visibleItemCount": 101
+    "itemCount": 100,
+    "plannerEligibleByLifecycleCount": 84,
+    "visibleItemCount": 100
   },
-  "pendingItemCount": 15,
-  "plannerEligibleByLifecycleCount": 83,
+  "pendingItemCount": 16,
+  "plannerEligibleByLifecycleCount": 84,
   "schemaVersion": 1,
   "status": "WARN",
   "thresholds": {
@@ -56,10 +60,9 @@
     "minVisibleItems": 3,
     "plannerPastGraceHours": 6
   },
-  "visibleItemCount": 101,
+  "visibleItemCount": 100,
   "warnings": [
-    "4 acquisition sources failed; coverage is partial",
-    "shopping: no currently active items",
-    "airlines: no currently active items"
+    "1 acquisition sources failed; coverage is partial",
+    "shopping: no currently active items"
   ]
 }
