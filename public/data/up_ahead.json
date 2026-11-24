@@ -1,40 +1,35 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": 1795468890186,
-  "contentHash": "9d4ba0734b57",
+  "fetchedAt": 1795513959300,
+  "contentHash": "226909365e7c",
   "items": [
     {
-      "title": "Power Shutdown Areas in Chennai - Tuesday (24.11.2026)",
-      "summary": "Power Shutdown Areas in Chennai - Tuesday (24.11.2026)    LiveChennai",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5aLURBc09wVm00RFBndGpOcXBUdU00Z1NZWlB6UFdMSS1KNFlqbGJWcnJMWWZxQjQ3Q0J6ZmxNcE81UWJ2ZVc4OXh4SnZHdVoxajJ6MkRCc09CakpyYzBVNURZc0JNQQ?oc=5",
-      "source": "LiveChennai",
-      "sourceUrl": "https://www.livechennai.com",
-      "sourceAuthority": "news_report",
+      "title": "Vijay govt's big Karthigai Deepam plan: 750 BJP leaders under house arrest, over 5,000 cops deployed - India Today",
+      "summary": "Vijay govt's big Karthigai Deepam plan: 750 BJP leaders under house arrest, over 5,000 cops deployed    India Today",
+      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQRFRTYTlQLTdnWTk2UmduTFV4WEJ0X2Q4c1JGTDNsdWZJVmdQalc3T054OWVGTzUxZXlreFp3aDFTTmdRb1pLdnVEN2N5RGRldlNJRWQ5aHF1UDVRaGU4b3JyeC1ic0lOSmtxSEI0dmxwd01pOC10NV9zMkRXNUZjMXc0b1owUWVvTlZ1elFXZnJwbm1yeko0UGl1b2RXQWttbHVxb3J4c2ZsNXZaT3VjVU1pZmppWDVoaHY1TVhnSmdfTUhsZEwtQm96Y3FQUXJvY2xrd1F4c05OZm5IQ0tQbW82NUdGTXV0V2FaWTRHemLSAfYBQVVfeXFMT00wUG01T3loV3lGVktYZkxSdFVTZWc3anlteG16Q2dJUkE1WWhCaWU4RFB5WDhqYlYwRTZLbi1HcXFLRnBvZF96cUR6a3RUNmtBTFY1eTlzXzRDMy14MEllcjktQkx3NWNEcVg5bDdaMm5vd2w3WW9mTFcyRlZnbHlrVWpFeWw0WkxfRFFTOFJGS0d3cXB0c3NTeTM1Rmx6NTVQRUNISEFIUFJLQ1lyRHZDR1N1Q3NJeWc4S3J0RmtWWTNwbl9WQ1ZvYkxncTZoSDVjWm1iZUhGNU9JcWFvM0RlY3BTZGRMdVlrUkN5QU5GUkNZaWF3?oc=5",
+      "source": "Google News TN Festivals",
       "sourceGroup": "google_news",
-      "category": "alerts",
-      "publishedAt": 1795462669000,
-      "eventStartAt": null,
+      "category": "festivals",
+      "publishedAt": 1795507846000,
+      "eventStartAt": 1795478400000,
       "eventEndAt": null,
-      "expiryAt": 1795549069000,
-      "dateConfidence": "unknown",
-      "dateSource": "none",
-      "datePrecision": null,
-      "eventDateKey": null,
-      "acquisitionLocation": "Chennai",
-      "city": "Chennai",
-      "region": "tn",
-      "localityScore": 1.0,
+      "expiryAt": 1795564800000,
+      "dateConfidence": "inferred",
+      "dateSource": "title",
+      "city": null,
+      "region": "india",
+      "localityScore": 0.5,
       "language": "en",
-      "id": "ba0bfa96ffbe9f7c",
+      "id": "3b20e76fc3cea3d1",
       "suppressionReason": null,
-      "actionabilityScore": 0.7,
-      "plannerEligible": true,
-      "observedAt": 1795468890186,
-      "contentClass": "upahead_alert",
+      "actionabilityScore": 0.5,
+      "plannerEligible": false,
+      "observedAt": 1795513959300,
+      "contentClass": "upahead_event",
       "lifecycle": {
-        "contentClass": "upahead_alert",
-        "displayUntil": 1795549069000,
-        "archiveUntil": 1796153869000,
+        "contentClass": "upahead_event",
+        "displayUntil": 1795564800000,
+        "archiveUntil": 1796169600000,
         "retentionReason": "expiryAt",
         "isVisible": true,
         "isActionValid": true,
@@ -44,18 +39,18 @@
       }
     },
     {
-      "title": "Power Shutdown Areas in Chennai - Tuesday (24.11.2026)",
-      "summary": "Power Shutdown Areas in Chennai - Tuesday (24.11.2026)    LiveChennai",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5aLURBc09wVm00RFBndGpOcXBUdU00Z1NZWlB6UFdMSS1KNFlqbGJWcnJMWWZxQjQ3Q0J6ZmxNcE81UWJ2ZVc4OXh4SnZHdVoxajJ6MkRCc09CakpyYzBVNURZc0JNQQ?oc=5",
-      "source": "LiveChennai",
-      "sourceUrl": "https://www.livechennai.com",
+      "title": "Tamil Nadu weather update: Flash flood risk in Chennai? IMD issues heavy rain alert in nine districts",
+      "summary": "Tamil Nadu weather update: Flash flood risk in Chennai? IMD issues heavy rain alert in nine districts    The Week",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOcGR3YWVvNGVrV215eFp2bjRhTHdQRjRkU1BCTkNrN001RlhycmFGdGk1ejBGX1lJeUFKMVZtSGhUQzBOTU85YVQxLXFHYUMtT2NETktnX3F5WXlSQkcyVEVVa2ZUNkhxZFMtNDJyYTRNNGlkZGc3LXVBaHN4RGt0VWRYalNmX3FVWmx4UFFMNlU1azJWUWJSYkZ1QXYzVlJWZXVzUkpWQUhsN1FLOFd4LWtoMHhDSVZHaGVxenlDeGREZU1teGlOaENiUjVtM0thV1ZBSDZOblM3NEpDY1U3MjhKY9IB6AFBVV95cUxObEtjLWlRT3pqYzk4aUloeDI3NTItM3ZmM1FiYXMyYWE1WHZiYno3c05hVm1uY3Yzb0h1NGJfWUk1cDZKMVRJeUFvWkZ6M3dkTjh4bFlBRWUyai1PYTRxalo0Y2xSRDNDU09RUGNaazE4WTA1MHo2QnQxeVpiSThaRHZlaEYxeU43Q3BDWXE4eklGNXU4UEVwMDU1WGlUWENaR0wyUlltbXFLR3dnZGZoSnFSM2kwS2lQMWQwQ0RJWjhkd3lvN3Z5ZDUwUHgtejcyVGdLRzR6Mi1ucVhxQWRDaE1pQTlqbnNE?oc=5",
+      "source": "The Week",
+      "sourceUrl": "https://www.theweek.in",
       "sourceAuthority": "news_report",
       "sourceGroup": "google_news",
-      "category": "civic",
-      "publishedAt": 1795462669000,
+      "category": "weather_alerts",
+      "publishedAt": 1795504740000,
       "eventStartAt": null,
       "eventEndAt": null,
-      "expiryAt": 1795549069000,
+      "expiryAt": 1795591140000,
       "dateConfidence": "unknown",
       "dateSource": "none",
       "datePrecision": null,
@@ -65,22 +60,447 @@
       "region": "tn",
       "localityScore": 1.0,
       "language": "en",
-      "id": "ba0bfa96ffbe9f7c",
+      "id": "ba5ebcb07d556139",
       "suppressionReason": null,
       "actionabilityScore": 0.7,
       "plannerEligible": true,
-      "observedAt": 1795468890186,
+      "observedAt": 1795513959300,
       "contentClass": "upahead_alert",
       "lifecycle": {
         "contentClass": "upahead_alert",
-        "displayUntil": 1795549069000,
-        "archiveUntil": 1796153869000,
+        "displayUntil": 1795591140000,
+        "archiveUntil": 1796195940000,
         "retentionReason": "expiryAt",
         "isVisible": true,
         "isActionValid": true,
         "withinSevenDayHorizon": true,
         "plannerPastGraceHours": 6,
         "plannerEligibleByLifecycle": false
+      }
+    },
+    {
+      "title": "Tamil Nadu-Chennai Weather Update: Heavy Rain In 9 Districts On Karthigai Deepam; Check Full List",
+      "summary": "Tamil Nadu-Chennai Weather Update: Heavy Rain In 9 Districts On Karthigai Deepam; Check Full List    Asianet Newsable",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPWDdGQkU4emVZcnh1bTNOckFjcXR6R3MzWmdkWGs4SW5UMW1zMzBUZjMwOHcwSE1vZjRLeVNsc3BtMGlQTUUwT2NEQVM1NlpsdDItMHZsZHFreHIzd0lMV0J5ZV9KLWRnQ0VGWTVNdl9uWHpKZTRubVprMHA2Z2VXQWNrcmpNc3AtOXRPVWtta2xpVDBaRFZtWEVRRjdZSEsxQVF5X3NfM2NhSkVPRVJZSk1xb2h5Vk1HY1doMmNSZG5fNXhwTDR2bWpZYkRrYXJMSmN4d1hn0gHWAUFVX3lxTE9YN0ZCRTh6ZVlyeHVtM05yQWNxdHpHczNaZ2RYazhJblQxbXMzMFRmMzA4dzBITW9mNEt5U2xzcG0waVBNRTBPY0RBUzU2Wmx0Mi0wdmxkcWt4cjN3SUxXQnllX0otZGdDRUZZNU12X25YekplNG5tWmswcDZnZVdBY2tyak1zcC05dE9Va21rbGlUMFpEVm1YRVFGN1lISzFBUXlfc18zY2FKRU9FUllKTXFvaHlWTUdjV2gyY1Jkbl81eHBMNHZtalliRGthckxKY3h3WGc?oc=5",
+      "source": "Asianet Newsable",
+      "sourceUrl": "https://newsable.asianetnews.com",
+      "sourceAuthority": "news_report",
+      "sourceGroup": "google_news",
+      "category": "weather_alerts",
+      "publishedAt": 1795502980000,
+      "eventStartAt": null,
+      "eventEndAt": null,
+      "expiryAt": 1795589380000,
+      "dateConfidence": "unknown",
+      "dateSource": "none",
+      "datePrecision": null,
+      "eventDateKey": null,
+      "acquisitionLocation": "Chennai",
+      "city": "Chennai",
+      "region": "tn",
+      "localityScore": 1.0,
+      "language": "en",
+      "id": "2cc52511c2c874ab",
+      "suppressionReason": null,
+      "actionabilityScore": 0.7,
+      "plannerEligible": true,
+      "observedAt": 1795513959300,
+      "contentClass": "upahead_alert",
+      "lifecycle": {
+        "contentClass": "upahead_alert",
+        "displayUntil": 1795589380000,
+        "archiveUntil": 1796194180000,
+        "retentionReason": "expiryAt",
+        "isVisible": true,
+        "isActionValid": true,
+        "withinSevenDayHorizon": true,
+        "plannerPastGraceHours": 6,
+        "plannerEligibleByLifecycle": false
+      }
+    },
+    {
+      "title": "New Malayalam, Kannada, Tamil and Telugu OTT Releases This Week (November 24 - 30): 418, Sathyameva And More",
+      "summary": "New Malayalam, Kannada, Tamil and Telugu OTT Releases This Week (November 24 - 30): 418, Sathyameva And More    Times Now",
+      "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxNT2hiNy1qUlZKMEVhTFdfc1dwVUhxcnlvLVBQeVVrN1Q1LTV5a1E1Uk4tbnRkM3ZWdFJLRTNwakMtcTNQVjJkZXprNFM1cmpuZC1ONTRONUFnV3paUkl1aHNBY2k2RElNZXVBRVRXVndJSEFzeVNQOHJRVkNEWkRxdlZ0QkZrTU5VUzRieUZZUll3RXFUcUJDaEdULVpaSk5FVDJ3QlNERGhMeFBra1dtcVJUUG5qa0NQalg3TW1rYWdRWllWOFVtMWRjb21WTGN3UGJmVHBKUEpCTWEzV0tWdHZRODB3alBXVGRtT3dQMEtiQzRxd09EcEJsdmxlQm51VHfSAYcCQVVfeXFMTVZuLTBsQ2t0ckZGREFGLTRYN1gxaU9tQWlCcUo1S0hzVnd0QnNTaTE0ZWhiLVpVeGNwRHNPMGwtaUF5M0VwOFhSTW1nTkVxUzUxMGV4a2dHVDJEZUM1Uk9tLXI4NUJPX3FmTk9Kc2VmNFUtb244b3Vienl5QkREZFJ1LUJhRmlYRy1RZkRVNVA0ZTlzN2IxQVR0TEZzUjRDMlNSM3gyNi1GaS1uVV9pdFBCVVNFY3FEdk1uMmFUSUUxbW9Ba0h0TFpiZEV0dnE3dVNrLWR5b2JwSVFmOHF1QnhQdUoyMThvUnFjSUh6bjBmenkwQWpSWUNUSGE4anIwQWpiNi01V00?oc=5",
+      "source": "Times Now",
+      "sourceUrl": "https://www.timesnownews.com",
+      "sourceAuthority": "retailer_or_news",
+      "sourceGroup": "google_news",
+      "category": "movies",
+      "publishedAt": 1795501930000,
+      "eventStartAt": 1795478400000,
+      "eventEndAt": 1796083200000,
+      "expiryAt": 1796083200000,
+      "dateConfidence": "range",
+      "dateSource": "title_or_summary",
+      "datePrecision": "day",
+      "eventDateKey": "2026-11-24",
+      "acquisitionLocation": "India",
+      "city": null,
+      "region": "india",
+      "localityScore": 0.5,
+      "language": "en",
+      "id": "5901b520322aba85",
+      "suppressionReason": null,
+      "actionabilityScore": 0.5,
+      "plannerEligible": true,
+      "observedAt": 1795513959300,
+      "contentClass": "upahead_event",
+      "lifecycle": {
+        "contentClass": "upahead_event",
+        "displayUntil": 1796083200000,
+        "archiveUntil": 1796688000000,
+        "retentionReason": "expiryAt",
+        "isVisible": true,
+        "isActionValid": true,
+        "withinSevenDayHorizon": true,
+        "plannerPastGraceHours": 6,
+        "plannerEligibleByLifecycle": true
+      }
+    },
+    {
+      "title": "OTT Releases This Week Tamil (இந்த வாரம் தமிழ் OTT வெளியீல்கள்) – 21st Nov to 27th Nov",
+      "summary": "OTT Releases This Week Tamil (இந்த வாரம் தமிழ் OTT வெளியீல்கள்) – 21st Nov to 27th Nov    Vi",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE42ZEFUcnIxZVlZaW9xblltTVU5LXVGZVBVWGtDbHJFZ09LRm1ianBvczlEOHlQdDBVODRtT3BPeUcxVFFidGdpT0xzMVc4cG1UYkgyUzhDTlo1M3NOX3ZkRlhiQQ?oc=5",
+      "source": "Vi",
+      "sourceUrl": "https://www.myvi.in",
+      "sourceAuthority": "retailer_or_news",
+      "sourceGroup": "google_news",
+      "category": "movies",
+      "publishedAt": 1795501108000,
+      "eventStartAt": 1795219200000,
+      "eventEndAt": 1795824000000,
+      "expiryAt": 1795824000000,
+      "dateConfidence": "range",
+      "dateSource": "title_or_summary",
+      "datePrecision": "day",
+      "eventDateKey": "2026-11-21",
+      "acquisitionLocation": "India",
+      "city": null,
+      "region": "india",
+      "localityScore": 0.5,
+      "language": "en",
+      "id": "16b613bb867ee4c7",
+      "suppressionReason": null,
+      "actionabilityScore": 0.5,
+      "plannerEligible": true,
+      "observedAt": 1795513959300,
+      "contentClass": "upahead_event",
+      "lifecycle": {
+        "contentClass": "upahead_event",
+        "displayUntil": 1795824000000,
+        "archiveUntil": 1796428800000,
+        "retentionReason": "expiryAt",
+        "isVisible": true,
+        "isActionValid": true,
+        "withinSevenDayHorizon": true,
+        "plannerPastGraceHours": 6,
+        "plannerEligibleByLifecycle": true
+      }
+    },
+    {
+      "title": "Lamps to be lit on Tamil Nadu hill today: 5,600 police deployed amid tension fears; public entry banned, BJ... - Bhaskar English",
+      "summary": "Lamps to be lit on Tamil Nadu hill today: 5,600 police deployed amid tension fears; public entry banned, BJ...    Bhaskar English",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQLXJTdlRxZUllSzZoRnRuN3ZCMVJhNlJkSkxUYVBRZnVKdWR3UEtPdXdaS0lWSlBjUzRCZGcwQkJ3VUdTWUxEWEpyNWN0ZjZSQ1VJcW1NMlNYWFhVQnI3bEsyVW93a0NtS21Nb2s2OWJXRWtIMV95a2JJV3d2X0ItbGc4UXR2MXV0QVZMT25OZG1tX2NMamtkT3VCTUsyamlNdDlCV0d4amxXU1ZaemNUV0R2RThJbU9HN1hudWNBcEVvSHY2akNseFRHNNIBywFBVV95cUxQLXJTdlRxZUllSzZoRnRuN3ZCMVJhNlJkSkxUYVBRZnVKdWR3UEtPdXdaS0lWSlBjUzRCZGcwQkJ3VUdTWUxEWEpyNWN0ZjZSQ1VJcW1NMlNYWFhVQnI3bEsyVW93a0NtS21Nb2s2OWJXRWtIMV95a2JJV3d2X0ItbGc4UXR2MXV0QVZMT25OZG1tX2NMamtkT3VCTUsyamlNdDlCV0d4amxXU1ZaemNUV0R2RThJbU9HN1hudWNBcEVvSHY2akNseFRHNA?oc=5",
+      "source": "Google News TN Festivals",
+      "sourceGroup": "google_news",
+      "category": "festivals",
+      "publishedAt": 1795499099000,
+      "eventStartAt": 1795478400000,
+      "eventEndAt": null,
+      "expiryAt": 1795564800000,
+      "dateConfidence": "inferred",
+      "dateSource": "title",
+      "city": null,
+      "region": "india",
+      "localityScore": 0.5,
+      "language": "en",
+      "id": "188ae06d96b3849b",
+      "suppressionReason": null,
+      "actionabilityScore": 0.5,
+      "plannerEligible": false,
+      "observedAt": 1795513959300,
+      "contentClass": "upahead_event",
+      "lifecycle": {
+        "contentClass": "upahead_event",
+        "displayUntil": 1795564800000,
+        "archiveUntil": 1796169600000,
+        "retentionReason": "expiryAt",
+        "isVisible": true,
+        "isActionValid": true,
+        "withinSevenDayHorizon": true,
+        "plannerPastGraceHours": 6,
+        "plannerEligibleByLifecycle": false
+      }
+    },
+    {
+      "title": "Heavy rain alert for Chennai today - News Today | First with the news",
+      "summary": "Heavy rain alert for Chennai today - News Today | First with the news    News Today",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFAteG5sRkFzOUV1NlBMLU9QNWMxWDNJMUhvZ012SGdEMGpJcF9Xc3Bqd2k3VkN1aXA3MHZ5NFZ0VXdkRmhOMUdWRmx4ZXIxdlhESC1Kc1MzdjRQMW5tQjVCNXJVaEhPY05tdkNDSVQxZldCZTVhWkZYdkNUdw?oc=5",
+      "source": "News Today",
+      "sourceUrl": "https://newstodaynet.com",
+      "sourceAuthority": "news_report",
+      "sourceGroup": "google_news",
+      "category": "weather_alerts",
+      "publishedAt": 1795495831000,
+      "eventStartAt": 1795478400000,
+      "eventEndAt": null,
+      "expiryAt": 1795545000000,
+      "dateConfidence": "inferred",
+      "dateSource": "title_or_summary",
+      "datePrecision": "day",
+      "eventDateKey": "2026-11-24",
+      "acquisitionLocation": "Chennai",
+      "city": "Chennai",
+      "region": "tn",
+      "localityScore": 1.0,
+      "language": "en",
+      "id": "d535b1cdb25bcca4",
+      "suppressionReason": null,
+      "actionabilityScore": 0.7,
+      "plannerEligible": true,
+      "observedAt": 1795513959300,
+      "contentClass": "upahead_alert",
+      "lifecycle": {
+        "contentClass": "upahead_alert",
+        "displayUntil": 1795545000000,
+        "archiveUntil": 1796149800000,
+        "retentionReason": "expiryAt",
+        "isVisible": true,
+        "isActionValid": true,
+        "withinSevenDayHorizon": true,
+        "plannerPastGraceHours": 6,
+        "plannerEligibleByLifecycle": true
+      }
+    },
+    {
+      "title": "4 new Hindi movies and series releasing from November 23 to 29, 2026",
+      "summary": "4 new Hindi movies and series releasing from November 23 to 29, 2026    Lifestyle Asia Hong Kong",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQZmh1R05IY3FQODg1Mk5kWnN4MjhJNXJvQWEyalphWU93aTNLdmQyaGxQMkZZRnFQUTRnOHZ1RFFFdFRsWjZuVjJibVAyRHlvZlREWG10QmUwWVlnVGxydV9MVkstaVVHUmNkWlZVdWxUZFB0cjVaeDVxTzZyN0dtb3VOdHBCWkVRa0otZEhiZGE4cldOUC0xVXdlN2lTVmxiZ2k4bFFqbTdPUDkxekNLQ1JZbV9FT3NCZEY5VjhlVVF3Ujg0RDdNY2VvSVZ6U242ODFaU3hXWi1Qc0Nl?oc=5",
+      "source": "Lifestyle Asia Hong Kong",
+      "sourceUrl": "https://www.lifestyleasia.com",
+      "sourceAuthority": "retailer_or_news",
+      "sourceGroup": "google_news",
+      "category": "movies",
+      "publishedAt": 1795493387000,
+      "eventStartAt": 1795392000000,
+      "eventEndAt": 1795996800000,
+      "expiryAt": 1795996800000,
+      "dateConfidence": "range",
+      "dateSource": "title_or_summary",
+      "datePrecision": "day",
+      "eventDateKey": "2026-11-23",
+      "acquisitionLocation": "India",
+      "city": null,
+      "region": "india",
+      "localityScore": 0.5,
+      "language": "en",
+      "id": "364cf6bc3d42e63f",
+      "suppressionReason": null,
+      "actionabilityScore": 0.5,
+      "plannerEligible": true,
+      "observedAt": 1795513959300,
+      "contentClass": "upahead_event",
+      "lifecycle": {
+        "contentClass": "upahead_event",
+        "displayUntil": 1795996800000,
+        "archiveUntil": 1796601600000,
+        "retentionReason": "expiryAt",
+        "isVisible": true,
+        "isActionValid": true,
+        "withinSevenDayHorizon": true,
+        "plannerPastGraceHours": 6,
+        "plannerEligibleByLifecycle": true
+      }
+    },
+    {
+      "title": "Heavy Rain Warning for 9 Tamil Nadu Districts Today; Chennai and Several Areas to Receive Moderate Rain",
+      "summary": "Heavy Rain Warning for 9 Tamil Nadu Districts Today; Chennai and Several Areas to Receive Moderate Rain    LiveChennai",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9mRmtKSk1wNnZiQVdoc3pzTnNacERWQVlwYldMVkNFRGtFQXpvRC1MVEJ6bklOWm9DeVFJUlpUYzVCNHZBYVRERlhSb1V0Wk1aN2F4Ri1ZRlVPaUQ5b2gxTkhpQkVBZw?oc=5",
+      "source": "LiveChennai",
+      "sourceUrl": "https://www.livechennai.com",
+      "sourceAuthority": "news_report",
+      "sourceGroup": "google_news",
+      "category": "weather_alerts",
+      "publishedAt": 1795492754000,
+      "eventStartAt": 1795478400000,
+      "eventEndAt": null,
+      "expiryAt": 1795545000000,
+      "dateConfidence": "inferred",
+      "dateSource": "title_or_summary",
+      "datePrecision": "day",
+      "eventDateKey": "2026-11-24",
+      "acquisitionLocation": "Chennai",
+      "city": "Chennai",
+      "region": "tn",
+      "localityScore": 1.0,
+      "language": "en",
+      "id": "34292dd1b3c18127",
+      "suppressionReason": null,
+      "actionabilityScore": 1.0,
+      "plannerEligible": true,
+      "observedAt": 1795513959300,
+      "contentClass": "upahead_alert",
+      "lifecycle": {
+        "contentClass": "upahead_alert",
+        "displayUntil": 1795545000000,
+        "archiveUntil": 1796149800000,
+        "retentionReason": "expiryAt",
+        "isVisible": true,
+        "isActionValid": true,
+        "withinSevenDayHorizon": true,
+        "plannerPastGraceHours": 6,
+        "plannerEligibleByLifecycle": true
+      }
+    },
+    {
+      "title": "Heavy Rain Alert for Several Tamil Nadu Districts Until November 27; Chennai on Alert Today",
+      "summary": "Heavy Rain Alert for Several Tamil Nadu Districts Until November 27; Chennai on Alert Today    LiveChennai",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5uQ0hsajZ3ZjY4WThYczY5d3oxSWctUnhPWU1FWXJMQTA1NjZqZG5nQ1NjRHMzaW5nX2N0eG1GTGpQVE1BM2lsOGp0eU1iQjg3MUYzQnotT1F3bV9Qc0t3U05kVmhqUQ?oc=5",
+      "source": "LiveChennai",
+      "sourceUrl": "https://www.livechennai.com",
+      "sourceAuthority": "news_report",
+      "sourceGroup": "google_news",
+      "category": "weather_alerts",
+      "publishedAt": 1795491902000,
+      "eventStartAt": 1795737600000,
+      "eventEndAt": null,
+      "expiryAt": 1795804200000,
+      "dateConfidence": "inferred",
+      "dateSource": "title_or_summary",
+      "datePrecision": "day",
+      "eventDateKey": "2026-11-27",
+      "acquisitionLocation": "Chennai",
+      "city": "Chennai",
+      "region": "tn",
+      "localityScore": 1.0,
+      "language": "en",
+      "id": "0286277e3f51a269",
+      "suppressionReason": null,
+      "actionabilityScore": 0.7,
+      "plannerEligible": true,
+      "observedAt": 1795513959300,
+      "contentClass": "upahead_alert",
+      "lifecycle": {
+        "contentClass": "upahead_alert",
+        "displayUntil": 1795804200000,
+        "archiveUntil": 1796409000000,
+        "retentionReason": "expiryAt",
+        "isVisible": true,
+        "isActionValid": true,
+        "withinSevenDayHorizon": true,
+        "plannerPastGraceHours": 6,
+        "plannerEligibleByLifecycle": true
+      }
+    },
+    {
+      "title": "Guru Nanak Jayanti Falls on November 24 Across India - cwibc.co.id",
+      "summary": "Guru Nanak Jayanti Falls on November 24 Across India    cwibc.co.id",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBHUW5SN2djVF9fVHVXYWN3VWZDeVhlVkI4RkNHalVwazRIMmkxT3FhYUVINDVFaGkteGtQRmF1UXVVU0ZCa0dZWjltMTl5RTduTmNpdk04VkduS1MzRjFTNEc4QnFxWHNYaXc?oc=5",
+      "source": "Google News India Festivals",
+      "sourceGroup": "google_news",
+      "category": "festivals",
+      "publishedAt": 1795489709000,
+      "eventStartAt": 1795478400000,
+      "eventEndAt": null,
+      "expiryAt": 1795564800000,
+      "dateConfidence": "inferred",
+      "dateSource": "title",
+      "city": null,
+      "region": "india",
+      "localityScore": 0.5,
+      "language": "en",
+      "id": "90c923e6ebc0c85e",
+      "suppressionReason": null,
+      "actionabilityScore": 0.5,
+      "plannerEligible": false,
+      "observedAt": 1795513959300,
+      "contentClass": "upahead_event",
+      "lifecycle": {
+        "contentClass": "upahead_event",
+        "displayUntil": 1795564800000,
+        "archiveUntil": 1796169600000,
+        "retentionReason": "expiryAt",
+        "isVisible": true,
+        "isActionValid": true,
+        "withinSevenDayHorizon": true,
+        "plannerPastGraceHours": 6,
+        "plannerEligibleByLifecycle": false
+      }
+    },
+    {
+      "title": "Guru Nanak Jayanti bank holiday: Are banks open or closed today on November 24, 2026? - The Economic Times",
+      "summary": "Guru Nanak Jayanti bank holiday: Are banks open or closed today on November 24, 2026?    The Economic Times",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNY1d3eHRCSmEzLTI4YU5VSHhMek9yX1h4X0Z4eE50Q085akVkMTl5ZjdCbUdZdDVncWNXcEtyeDBuSzVoUGRkdTExRHZuWVlIVkRuOGY2MjZjUm9fWWtUOXZfTlJjV1Bhb045X0toR0tMTC1pSTJLV1psWnNxaHFZaDJVTTBLZktUY2R6NHRlRDlfQ0J5elFETmhEb09DTU1qYzRTWU0yZktIR3dGNXo3clRRUlFQQnRObm5QeFVZbHF1T05pRlZJVDBfd01HUzNLcmNPb29yNFVNTmVlc0FCekdn0gHnAUFVX3lxTE5yVVFuVFgxalFiRXVPaWNkNlNjN0ZnVV9jOTd2SUtpYUVhRG5xYldfWmhXM25WdGltb2wyeVRDOHM5U053VlgzY005N1pjVTlBVkJBX2tOV1R3NmcxUlBlTE4xbE02bXcwZEwxUmstLVNBUG9aZW1CV2Ntd2VTZEdUYnUtQjFhNnA0dXF5UC1rV2w3c1l4MU1GczI5ZkhlVEcwVXR6RjJubm82SkhSZzZRTFByU05pQWg5Q2xBSW1GazViYVhkSnViYTBnNkxVTWtUaEFoTF9JYlcwamFBWUZjSFVYMmVJMA?oc=5",
+      "source": "Google News India Festivals",
+      "sourceGroup": "google_news",
+      "category": "festivals",
+      "publishedAt": 1795483800000,
+      "eventStartAt": 1795478400000,
+      "eventEndAt": null,
+      "expiryAt": 1795564800000,
+      "dateConfidence": "exact",
+      "dateSource": "title",
+      "city": null,
+      "region": "india",
+      "localityScore": 0.5,
+      "language": "en",
+      "id": "8384feb64ffb6a0e",
+      "suppressionReason": null,
+      "actionabilityScore": 0.5,
+      "plannerEligible": false,
+      "observedAt": 1795513959300,
+      "contentClass": "upahead_event",
+      "lifecycle": {
+        "contentClass": "upahead_event",
+        "displayUntil": 1795564800000,
+        "archiveUntil": 1796169600000,
+        "retentionReason": "expiryAt",
+        "isVisible": true,
+        "isActionValid": true,
+        "withinSevenDayHorizon": true,
+        "plannerPastGraceHours": 6,
+        "plannerEligibleByLifecycle": false
+      }
+    },
+    {
+      "title": "OTT Releases This Week - 21st Nov to 27th Nov",
+      "summary": "OTT Releases This Week - 21st Nov to 27th Nov    Vi",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5ETE5Sd05UQTd0RG41b0I3SGxTcWJvLXk0QlRZWFp0XzJDeHMxZU9UMUtpZ0dhb1JMcFdzcWJXRWRRX1ZYYjd2SUtfTVdKaGM4ZkpzWW14bjNkNFk?oc=5",
+      "source": "Vi",
+      "sourceUrl": "https://www.myvi.in",
+      "sourceAuthority": "retailer_or_news",
+      "sourceGroup": "google_news",
+      "category": "movies",
+      "publishedAt": 1795475805000,
+      "eventStartAt": 1795219200000,
+      "eventEndAt": 1795824000000,
+      "expiryAt": 1795824000000,
+      "dateConfidence": "range",
+      "dateSource": "title_or_summary",
+      "datePrecision": "day",
+      "eventDateKey": "2026-11-21",
+      "acquisitionLocation": "India",
+      "city": null,
+      "region": "india",
+      "localityScore": 0.5,
+      "language": "en",
+      "id": "c94217fd51fc2f7c",
+      "suppressionReason": null,
+      "actionabilityScore": 0.5,
+      "plannerEligible": true,
+      "observedAt": 1795513959300,
+      "contentClass": "upahead_event",
+      "lifecycle": {
+        "contentClass": "upahead_event",
+        "displayUntil": 1795824000000,
+        "archiveUntil": 1796428800000,
+        "retentionReason": "expiryAt",
+        "isVisible": true,
+        "isActionValid": true,
+        "withinSevenDayHorizon": true,
+        "plannerPastGraceHours": 6,
+        "plannerEligibleByLifecycle": true
       }
     },
     {
@@ -109,7 +529,7 @@
       "suppressionReason": null,
       "actionabilityScore": 0.7,
       "plannerEligible": true,
-      "observedAt": 1795468890186,
+      "observedAt": 1795513959300,
       "contentClass": "upahead_alert",
       "lifecycle": {
         "contentClass": "upahead_alert",
@@ -155,82 +575,7 @@
         "isActionValid": true,
         "withinSevenDayHorizon": true,
         "plannerPastGraceHours": 6,
-        "plannerEligibleByLifecycle": true
-      }
-    },
-    {
-      "title": "OTT Releases This Week Tamil (இந்த வாரம் தமிழ் OTT வெளியீல்கள்) – 21st Nov to 27th Nov",
-      "summary": "OTT Releases This Week Tamil (இந்த வாரம் தமிழ் OTT வெளியீல்கள்) – 21st Nov to 27th Nov    Vi",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE42ZEFUcnIxZVlZaW9xblltTVU5LXVGZVBVWGtDbHJFZ09LRm1ianBvczlEOHlQdDBVODRtT3BPeUcxVFFidGdpT0xzMVc4cG1UYkgyUzhDTlo1M3NOX3ZkRlhiQQ?oc=5",
-      "source": "Vi",
-      "sourceUrl": "https://www.myvi.in",
-      "sourceAuthority": "retailer_or_news",
-      "sourceGroup": "google_news",
-      "category": "movies",
-      "publishedAt": 1795458301000,
-      "eventStartAt": 1795219200000,
-      "eventEndAt": 1795824000000,
-      "expiryAt": 1795824000000,
-      "dateConfidence": "range",
-      "dateSource": "title_or_summary",
-      "datePrecision": "day",
-      "eventDateKey": "2026-11-21",
-      "acquisitionLocation": "India",
-      "city": null,
-      "region": "india",
-      "localityScore": 0.5,
-      "language": "en",
-      "id": "16b613bb867ee4c7",
-      "suppressionReason": null,
-      "actionabilityScore": 0.5,
-      "plannerEligible": true,
-      "observedAt": 1795468890186,
-      "contentClass": "upahead_event",
-      "lifecycle": {
-        "contentClass": "upahead_event",
-        "displayUntil": 1795824000000,
-        "archiveUntil": 1796428800000,
-        "retentionReason": "expiryAt",
-        "isVisible": true,
-        "isActionValid": true,
-        "withinSevenDayHorizon": true,
-        "plannerPastGraceHours": 6,
-        "plannerEligibleByLifecycle": true
-      }
-    },
-    {
-      "title": "School Holiday Tomorrow (November 24, 2026): Which States Will Remain Closed for Guru Nanak Jayanti? Check Full List - Jagran Josh",
-      "summary": "School Holiday Tomorrow (November 24, 2026): Which States Will Remain Closed for Guru Nanak Jayanti? Check Full List    Jagran Josh",
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNN1hlWkQ3QzlzUUF5aTZyS05PbkplMW9ZeUFBbFQxZ25TMEJTTkNBZ1RLYzdPZ1EzZkdhRVVmV0NhNGN1ODNOb09yLVpQNkxpZDdjVjVBQUhBc2hVLXRPOVV0dFpWaGhiWGtLbzhOT0Z6UGlwUjAxaW9tVWJyMl82QV9kX3pCTUVERjljQTNveTVwZGxYSFB2M1JCQ0F5MTA5Smk0OWdCRjFsMkpFX2ptSzJwd3Y0SmVxdXlYNFVLcmtjM2NOZW00Sl96eUZ6c1pRX3NiMEFR0gHcAUFVX3lxTE5Sc09HLWVyOFJNaVZqeFkyaEtmWlRWTV9SSVhsMXlZVm40UWJxYnIwWVltZXJNcG1EUENPQnV5QWRZMGVQblB1MjBGalZKMU9kZUFqSnk0MFE0cEs1R09VYmhOcHRpNFhQeUFCRXFMbHZld2ZNaXMzNmp5M1lMX2Fjb2kwSE1qMXhLX2tkMkVXa19OZ1RqZlE2eHByYm5BVE1GdWQwaDRubXR1Znh4VHFMbEd0aXp0dXN1Ri00MjlvUEJQM01VejVQWldxZm9fTk5wSF83d0dvc0dtUGk?oc=5",
-      "source": "Google News TN Festivals",
-      "sourceGroup": "google_news",
-      "category": "festivals",
-      "publishedAt": 1795457688000,
-      "eventStartAt": 1795478400000,
-      "eventEndAt": null,
-      "expiryAt": 1795564800000,
-      "dateConfidence": "exact",
-      "dateSource": "title",
-      "city": null,
-      "region": "india",
-      "localityScore": 0.5,
-      "language": "en",
-      "id": "65ee755a495cfd3a",
-      "suppressionReason": null,
-      "actionabilityScore": 0.5,
-      "plannerEligible": true,
-      "observedAt": 1795468890186,
-      "contentClass": "upahead_event",
-      "lifecycle": {
-        "contentClass": "upahead_event",
-        "displayUntil": 1795564800000,
-        "archiveUntil": 1796169600000,
-        "retentionReason": "expiryAt",
-        "isVisible": true,
-        "isActionValid": true,
-        "withinSevenDayHorizon": true,
-        "plannerPastGraceHours": 6,
-        "plannerEligibleByLifecycle": true
+        "plannerEligibleByLifecycle": false
       }
     },
     {
@@ -299,7 +644,7 @@
       "suppressionReason": null,
       "actionabilityScore": 0.7,
       "plannerEligible": true,
-      "observedAt": 1795468890186,
+      "observedAt": 1795513959300,
       "contentClass": "upahead_alert",
       "lifecycle": {
         "contentClass": "upahead_alert",
@@ -334,7 +679,7 @@
       "suppressionReason": null,
       "actionabilityScore": 0.5,
       "plannerEligible": true,
-      "observedAt": 1795468890186,
+      "observedAt": 1795513959300,
       "contentClass": "upahead_event",
       "lifecycle": {
         "contentClass": "upahead_event",
@@ -349,8 +694,8 @@
       }
     },
     {
-      "title": "School Holiday on November 24: Are schools closed tomorrow for Guru Nanak Jayanti? - The Indian Express",
-      "summary": "School Holiday on November 24: Are schools closed tomorrow for Guru Nanak Jayanti?    The Indian Express",
+      "title": "School Holiday on November 24: Schools across several states closed for Guru Nanak Jayanti - The Indian Express",
+      "summary": "School Holiday on November 24: Schools across several states closed for Guru Nanak Jayanti    The Indian Express",
       "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNbF9PakNDQVZMT2YtMDZ0S0VxeHM0cVFtVkVfQUVwLUpJVGhtMEI2STRPQ2l0YnFIcjBZcy1TT1hqVmhmODNtcXhyN0tZdkZFemdzdG9YNjlLVmE1UmJNbHJ4NEJZak0xZ2tXenM5TjI1UWh3ZURTOUdzdllLRGFRX3RHU09xVVhfNXEwWEhhR3hKX2U0YkRDU1lUaGlmaFphUHUyOFpodWZ6NUVLTTRjOXA2MnhodlBkVEhfcWV2ZzF1NTl2dFREX9IBzwFBVV95cUxQNW9OSFp6aHZmS1o2NFA3WG9GYXA1NlZ1QjJUWkZ2RE9tYzhvd2tuTUlqODN1Zm9Ycjd6MkZxUVpzYU5PRVVZZUlCejJnd2ZtNlgwMHU4Rm95aXNhWEZKV3psOXFTZXJDbU5VcHdGZWFIMmx4TG1ZY2YwTHdEV0RBcVV2QXlfTENMdXd6OVVFMnZ0VnQtRkZqd2tKV0NhNHZBQk9faDd3a25ZTHlJaHQzcTVmMXVFVmxLM3RicVA0ZXNQWlk2SDJmSGR5YmNlNlU?oc=5",
       "source": "Google News India Festivals",
       "sourceGroup": "google_news",
@@ -368,8 +713,8 @@
       "id": "db7903f43f3feb9b",
       "suppressionReason": null,
       "actionabilityScore": 0.5,
-      "plannerEligible": true,
-      "observedAt": 1795468890186,
+      "plannerEligible": false,
+      "observedAt": 1795513959300,
       "contentClass": "upahead_event",
       "lifecycle": {
         "contentClass": "upahead_event",
@@ -380,7 +725,7 @@
         "isActionValid": true,
         "withinSevenDayHorizon": true,
         "plannerPastGraceHours": 6,
-        "plannerEligibleByLifecycle": true
+        "plannerEligibleByLifecycle": false
       }
     },
     {
@@ -403,8 +748,8 @@
       "id": "2998485582fb2938",
       "suppressionReason": null,
       "actionabilityScore": 0.5,
-      "plannerEligible": true,
-      "observedAt": 1795468890186,
+      "plannerEligible": false,
+      "observedAt": 1795513959300,
       "contentClass": "upahead_event",
       "lifecycle": {
         "contentClass": "upahead_event",
@@ -415,7 +760,7 @@
         "isActionValid": true,
         "withinSevenDayHorizon": true,
         "plannerPastGraceHours": 6,
-        "plannerEligibleByLifecycle": true
+        "plannerEligibleByLifecycle": false
       }
     },
     {
@@ -444,7 +789,7 @@
       "suppressionReason": null,
       "actionabilityScore": 0.7,
       "plannerEligible": true,
-      "observedAt": 1795468890186,
+      "observedAt": 1795513959300,
       "contentClass": "upahead_alert",
       "lifecycle": {
         "contentClass": "upahead_alert",
@@ -459,32 +804,32 @@
       }
     },
     {
-      "title": "TN CM Vijay consults legal, police officials after Supreme Court’s Deepam order - Telangana Today",
-      "summary": "TN CM Vijay consults legal, police officials after Supreme Court’s Deepam order    Telangana Today",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQUmhfYmdVNThuUnU3c001TXZVRkJGTWliTmtsaTdpVWJmNUZUTjZpa29OaGN1V1VlVG9ocGUzYXFSQTEtaGtFTl9RXzYxOGxoSUV5TTlaWkEyZVNOQ2hPczdhSWlqMDVlQVFGNnl3QmFKNTNsRHpJLVRsb1c4Smh6UTVaME9JYURnUmlSenlMeUE4ZWlRZVdfLXZBVnBlaTFfVzExVm14Yw?oc=5",
+      "title": "School Holiday Today (November 24, 2026): Which States Will Remain Closed for Guru Nanak Jayanti? Check Full List - Jagran Josh",
+      "summary": "School Holiday Today (November 24, 2026): Which States Will Remain Closed for Guru Nanak Jayanti? Check Full List    Jagran Josh",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNN1hlWkQ3QzlzUUF5aTZyS05PbkplMW9ZeUFBbFQxZ25TMEJTTkNBZ1RLYzdPZ1EzZkdhRVVmV0NhNGN1ODNOb09yLVpQNkxpZDdjVjVBQUhBc2hVLXRPOVV0dFpWaGhiWGtLbzhOT0Z6UGlwUjAxaW9tVWJyMl82QV9kX3pCTUVERjljQTNveTVwZGxYSFB2M1JCQ0F5MTA5Smk0OWdCRjFsMkpFX2ptSzJwd3Y0SmVxdXlYNFVLcmtjM2NOZW00Sl96eUZ6c1pRX3NiMEFR0gHcAUFVX3lxTE5Sc09HLWVyOFJNaVZqeFkyaEtmWlRWTV9SSVhsMXlZVm40UWJxYnIwWVltZXJNcG1EUENPQnV5QWRZMGVQblB1MjBGalZKMU9kZUFqSnk0MFE0cEs1R09VYmhOcHRpNFhQeUFCRXFMbHZld2ZNaXMzNmp5M1lMX2Fjb2kwSE1qMXhLX2tkMkVXa19OZ1RqZlE2eHByYm5BVE1GdWQwaDRubXR1Znh4VHFMbEd0aXp0dXN1Ri00MjlvUEJQM01VejVQWldxZm9fTk5wSF83d0dvc0dtUGk?oc=5",
       "source": "Google News TN Festivals",
       "sourceGroup": "google_news",
       "category": "festivals",
-      "publishedAt": 1795423503000,
-      "eventStartAt": 1795392000000,
+      "publishedAt": 1795428146000,
+      "eventStartAt": 1795478400000,
       "eventEndAt": null,
-      "expiryAt": 1795478400000,
-      "dateConfidence": "inferred",
+      "expiryAt": 1795564800000,
+      "dateConfidence": "exact",
       "dateSource": "title",
       "city": null,
       "region": "india",
       "localityScore": 0.5,
       "language": "en",
-      "id": "a70604f5733be4b0",
+      "id": "65ee755a495cfd3a",
       "suppressionReason": null,
       "actionabilityScore": 0.5,
       "plannerEligible": false,
-      "observedAt": 1795468890186,
+      "observedAt": 1795513959300,
       "contentClass": "upahead_event",
       "lifecycle": {
         "contentClass": "upahead_event",
-        "displayUntil": 1795478400000,
-        "archiveUntil": 1796083200000,
+        "displayUntil": 1795564800000,
+        "archiveUntil": 1796169600000,
         "retentionReason": "expiryAt",
         "isVisible": true,
         "isActionValid": true,
@@ -494,32 +839,32 @@
       }
     },
     {
-      "title": "Kartik Purnima 2026 in USA: November 23 or 24? Check Dev Deepawali Date, Puja Timings and Tithi - IndianEagle",
-      "summary": "Kartik Purnima 2026 in USA: November 23 or 24? Check Dev Deepawali Date, Puja Timings and Tithi    IndianEagle",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOS24tQzF4bDRpbnc4M3FRcllTNmViQUNLeENSR1Zqa2hyX2ttXzhkVDE4SHRvZmVCSDlpOXNBUDM1Um5CSmJLLWxTaE1jZmJpOWJQb3lVZGR4RlBpOHV6bkFfUFNyaXBOaVFZQzN3a0dVd2kxLVJ4THltc2FUSmpiQm1hR1VQQVI3QlE?oc=5",
+      "title": "Kartik Purnima & Guru Nanak Jayanti: November 24 or 25? Know the Correct Date, Shubh Muhurat and Puja Rit - The Times of India",
+      "summary": "Kartik Purnima & Guru Nanak Jayanti: November 24 or 25? Know the Correct Date, Shubh Muhurat and Puja Rit    The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxNZmpWSXNSUV9DSko1cU5QU2l2YlcwbzlXeXlfdm83Mzc2YjV5Y3VVekZxTFZSZ3h5UjA0SnJNdU1SRDhEbS05dXdHMVlZZUZSZ3ZWRW1GaUZpSjZDdThLYzQzd1hQaWp6MzhSQmpxRTUwUGVzU2N4QlBtYXdvX2tOMzVGczlqX0xsYzhsN0EtanZlRzdBdjkwZWJBcmZEUHRSQzFEcGktMXpzQ3BEQTlzVExCMElqcEtxeGRhZXo0S2M3ZVFHS3NyNzVNUWRPaTVYcDhxZnUyd3hHU3diZ2NPNGNKYWNPVVlaZU9KMGtsZEs4VTZnTW1iQ3c1S2pNV2ktX1BtY2xpbG8wT1RRb2R6RGRMa9IBmAJBVV95cUxNbVJqZnBXci1paHliNTlValRDRGp1VDQyWmI0OUhXUUFsMzM5cFExVlFDUnNTZWcybkNUSDdvWUdWWE9oUXN5NVl4bWo5R1B2cm1jMkhLVFc2Z05YSGpQQU5LbDlyUGNERWU0bDJxU1FDOUtDbGFVZWJlSEZGeG5CWmx1NEVYQ2pBZTREcC1aQ013RHVkaUp3VXJ0WW81V2oyTmlYQW43OHJNdy1ISDU1TGxDSjVHU044aTY4UzZKZlVqdS1TeWhpaTRxRzVEeUNtTFBTWV90dTI3VnZxMGJGdFNnakpKUzNiRlVaaG45ZTRHT3h2RVVQakVhb1YyQ2d1cVk5ZXZSYjlRbjByWllYZ3FwRko3a1dE?oc=5",
       "source": "Google News India Festivals",
       "sourceGroup": "google_news",
       "category": "festivals",
-      "publishedAt": 1795421387000,
-      "eventStartAt": 1795392000000,
+      "publishedAt": 1795417200000,
+      "eventStartAt": 1795478400000,
       "eventEndAt": null,
-      "expiryAt": 1795478400000,
+      "expiryAt": 1795564800000,
       "dateConfidence": "inferred",
       "dateSource": "title",
       "city": null,
       "region": "india",
       "localityScore": 0.5,
       "language": "en",
-      "id": "694274b4a828bbf8",
+      "id": "71b7ac75b479923a",
       "suppressionReason": null,
       "actionabilityScore": 0.5,
       "plannerEligible": false,
-      "observedAt": 1795468890186,
+      "observedAt": 1795513959300,
       "contentClass": "upahead_event",
       "lifecycle": {
         "contentClass": "upahead_event",
-        "displayUntil": 1795478400000,
-        "archiveUntil": 1796083200000,
+        "displayUntil": 1795564800000,
+        "archiveUntil": 1796169600000,
         "retentionReason": "expiryAt",
         "isVisible": true,
         "isActionValid": true,
@@ -554,7 +899,7 @@
       "suppressionReason": null,
       "actionabilityScore": 0.5,
       "plannerEligible": true,
-      "observedAt": 1795468890186,
+      "observedAt": 1795513959300,
       "contentClass": "upahead_event",
       "lifecycle": {
         "contentClass": "upahead_event",
@@ -613,76 +958,6 @@
       }
     },
     {
-      "title": "Guru Nanak Jayanti 2026: Is Gurpurab on November 23 or 24? Check Date, Tithi, History and Significance - Jagran Josh",
-      "summary": "Guru Nanak Jayanti 2026: Is Gurpurab on November 23 or 24? Check Date, Tithi, History and Significance    Jagran Josh",
-      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPdTRkZzVhTlNWcmFsb01oTEREMm1DZlNibDlsdVFjY1pyaEVXdGVOVllYQUFXODhnNzRBbTlvTmpJV3lMNlpSZ1g5OWUyTTZ3S0RLd3Vld0FDb1VQYVZnUWozalpQSEpuenRZRGQ2M2VVOEdfYlBOUDR2dHFNeVRKQWtMTm5kV3ltbTM1VDF4Wld0V3B1ekZrWVpiTC02WFVBc1RUTTBpMUdhMzF0T3ZaaVgtVkRZZ1hsSWMwcUxvVHBSbjlhTDRHR2tfUDBrZWVzUlM5d3dEOGR1cjZNeFpLYnNSdXVtazJIUGpTd9IB8wFBVV95cUxPSHU5ZENUWDZ5eEJoODdUZXlZbm1id2IyWm1VVkplcHhJN0FrTmNlOHNLVzc0ak9iWW5QTUhoaTM0NTNobW1aRW1scVVnZlQtU1JDVVRncEl2bVhHdlJBb2VOWDNmdVdnVkdiN0RBaXoxS2tLV2RxSTNIQ3J5SDRyTUFoUXdaLXhvbzNkbGJKclBvZEZCZTlsa0Z2c1lwVlV1MWxsakRXbU94ZW0zblNPWVZpdjNma2VQOVQybTVzeG15NC1UajIweWNhdmxlYUJCOU1mS2xmekNnNUE4NnM5WmxWbG5hM0paTktrUUdJWWFRR1U?oc=5",
-      "source": "Google News India Festivals",
-      "sourceGroup": "google_news",
-      "category": "festivals",
-      "publishedAt": 1795408920000,
-      "eventStartAt": 1795392000000,
-      "eventEndAt": null,
-      "expiryAt": 1795478400000,
-      "dateConfidence": "inferred",
-      "dateSource": "title",
-      "city": null,
-      "region": "india",
-      "localityScore": 0.5,
-      "language": "en",
-      "id": "830e41ca14a288d1",
-      "suppressionReason": null,
-      "actionabilityScore": 0.5,
-      "plannerEligible": false,
-      "observedAt": 1795468890186,
-      "contentClass": "upahead_event",
-      "lifecycle": {
-        "contentClass": "upahead_event",
-        "displayUntil": 1795478400000,
-        "archiveUntil": 1796083200000,
-        "retentionReason": "expiryAt",
-        "isVisible": true,
-        "isActionValid": true,
-        "withinSevenDayHorizon": true,
-        "plannerPastGraceHours": 6,
-        "plannerEligibleByLifecycle": false
-      }
-    },
-    {
-      "title": "Kartik Purnima 2026: Date, 23 November Panchang & Muhurat - Dainik Jagran MP CG",
-      "summary": "Kartik Purnima 2026: Date, 23 November Panchang & Muhurat    Dainik Jagran MP CG",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPeEQtWlRkWnFIX0Y3UUZ5YW1mTF82TkRtekNTTzgwVzZ4d3BjZWRuQ2gwV2tvMzJpdFF1YTBFVGo3Y1lEdGJ3SzVXLU5Fc3dCRi15Rlp1b2hoM0FXS3FPRU5GS2N0U0pMRGo4dXoyd1Rwcmh0RHhzcEdDMG8zYW5SU2ptMzZiclkyZlhrLXA3cFo5NnRxaDY2VmxDd0VnVzFZTlVHZS05anljaWxaZnc?oc=5",
-      "source": "Google News TN Festivals",
-      "sourceGroup": "google_news",
-      "category": "festivals",
-      "publishedAt": 1795407992000,
-      "eventStartAt": 1795392000000,
-      "eventEndAt": null,
-      "expiryAt": 1795478400000,
-      "dateConfidence": "inferred",
-      "dateSource": "title",
-      "city": null,
-      "region": "india",
-      "localityScore": 0.5,
-      "language": "en",
-      "id": "b6c0ac6db22983bf",
-      "suppressionReason": null,
-      "actionabilityScore": 0.5,
-      "plannerEligible": false,
-      "observedAt": 1795468890186,
-      "contentClass": "upahead_event",
-      "lifecycle": {
-        "contentClass": "upahead_event",
-        "displayUntil": 1795478400000,
-        "archiveUntil": 1796083200000,
-        "retentionReason": "expiryAt",
-        "isVisible": true,
-        "isActionValid": true,
-        "withinSevenDayHorizon": true,
-        "plannerPastGraceHours": 6,
-        "plannerEligibleByLifecycle": false
-      }
-    },
-    {
       "title": "New Hindi Movies on OTT This Week (23–29 Nov 2026): Drishyam 3 on Netflix, Hanuman Ansh on SonyLIV",
       "summary": "New Hindi Movies on OTT This Week (23–29 Nov 2026): Drishyam 3 on Netflix, Hanuman Ansh on SonyLIV    BoxOfficeWala",
       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNaVl2TTZ0UGRnQy1jUEpEcDVJaE5xeURRU0NUTDlzTUZla3d5angybjBmOUxiY2thLW9MSnU3ajdROGRhbzRJamVMQkJvMHdaaEk3YVlpV0ltNHI5aWdPOXhaQ0JuQnpJOUNscHhuWnJHdk11WU44Sk9XWmRrelNGQ3lFV01BR216NGNMbFRKVktkRXMxeDJwNXFQeV9GbVBMa2RKaGtpTlBackVxZzFodjB5dXY5VVdDaWljZGJOTWt2ME0?oc=5",
@@ -708,7 +983,7 @@
       "suppressionReason": null,
       "actionabilityScore": 0.5,
       "plannerEligible": true,
-      "observedAt": 1795468890186,
+      "observedAt": 1795513959300,
       "contentClass": "upahead_event",
       "lifecycle": {
         "contentClass": "upahead_event",
@@ -720,46 +995,6 @@
         "withinSevenDayHorizon": true,
         "plannerPastGraceHours": 6,
         "plannerEligibleByLifecycle": true
-      }
-    },
-    {
-      "title": "Chennai Weather LATEST Update: Heavy Rain Alert For 9 Districts, Chennai Among Areas On IMD Watch",
-      "summary": "Chennai Weather LATEST Update: Heavy Rain Alert For 9 Districts, Chennai Among Areas On IMD Watch    Asianet Newsable",
-      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPMkFXeUJza3J5bTJuQUthcEd1VUw2clVtVTBaT2NwRld0YlEwS1BsaENSMG5oZEIyYXBuenAtZjI1d2hlQzUtcmdvVmNmZm9iVnFpZUh4M0RzOGJlMERCcFBwYTRoaVNwVGNRUnEtU1NmQ3VVWE50ekc2QURKOUxOM2dUbnRVZVl2OTg5amZIdElCX3pEUUhEVThmMlh6YjdqX3FhNVBvODNHVDRpWXZGcHdqQUxtczd5NGhGYnVKYkFBOEpJMmQ2czlOVE5TckpSdFMzQnlGX0wydHhaUmlz0gHkAUFVX3lxTE5fM3FSVXR6aGYtVHdfYWVLd1VVVDBHR0lWRkRmenp6UXNNWmFKTDVOOFJxTHVGVnNiY0Q0YUhuUVlYbWZuNWdTQ1lnMWNVNVZFNUZkZVVhY190U1JHZVdjTXlJV3NweU9URHRMdzZuRWFPYlNDa0NqOF8wTGJKeXB4MXdjUkpaZlBaSWhBMnI3UU5qVE56cHN4YW55VFR4bzhvZGlrdDRCNl9aMkxCNFhtNkhyV0V5SU81bG0tNkIxWGJ2UGtPbW5iZzdzdHBudUYteHNlOWc2Z05jLUZjQm1sZlFrZQ?oc=5",
-      "source": "Asianet Newsable",
-      "sourceUrl": "https://newsable.asianetnews.com",
-      "sourceAuthority": "news_report",
-      "sourceGroup": "google_news",
-      "category": "weather_alerts",
-      "publishedAt": 1795406199000,
-      "eventStartAt": null,
-      "eventEndAt": null,
-      "expiryAt": 1795492599000,
-      "dateConfidence": "unknown",
-      "dateSource": "none",
-      "datePrecision": null,
-      "eventDateKey": null,
-      "acquisitionLocation": "Chennai",
-      "city": "Chennai",
-      "region": "tn",
-      "localityScore": 1.0,
-      "language": "en",
-      "id": "a7d6f303f23b7c76",
-      "suppressionReason": null,
-      "actionabilityScore": 0.7,
-      "plannerEligible": true,
-      "observedAt": 1795468890186,
-      "contentClass": "upahead_alert",
-      "lifecycle": {
-        "contentClass": "upahead_alert",
-        "displayUntil": 1795492599000,
-        "archiveUntil": 1796097399000,
-        "retentionReason": "expiryAt",
-        "isVisible": true,
-        "isActionValid": true,
-        "withinSevenDayHorizon": true,
-        "plannerPastGraceHours": 6,
-        "plannerEligibleByLifecycle": false
       }
     },
     {
@@ -788,7 +1023,7 @@
       "suppressionReason": null,
       "actionabilityScore": 0.7,
       "plannerEligible": true,
-      "observedAt": 1795468890186,
+      "observedAt": 1795513959300,
       "contentClass": "upahead_alert",
       "lifecycle": {
         "contentClass": "upahead_alert",
@@ -828,7 +1063,7 @@
       "suppressionReason": null,
       "actionabilityScore": 0.7,
       "plannerEligible": true,
-      "observedAt": 1795468890186,
+      "observedAt": 1795513959300,
       "contentClass": "upahead_alert",
       "lifecycle": {
         "contentClass": "upahead_alert",
@@ -868,7 +1103,7 @@
       "suppressionReason": null,
       "actionabilityScore": 0.7,
       "plannerEligible": true,
-      "observedAt": 1795468890186,
+      "observedAt": 1795513959300,
       "contentClass": "upahead_alert",
       "lifecycle": {
         "contentClass": "upahead_alert",
@@ -920,41 +1155,6 @@
         "withinSevenDayHorizon": true,
         "plannerPastGraceHours": 6,
         "plannerEligibleByLifecycle": true
-      }
-    },
-    {
-      "title": "Lucknow to Host International Tribal Participation Festival from November 23; Artists from 12 States and Three Countries to Participate - www.nationpathindia.com",
-      "summary": "Lucknow to Host International Tribal Participation Festival from November 23; Artists from 12 States and Three Countries to Participate    www.nationpathindia.com",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQS0QtNTBwWWJGSHhLY3RETXY2dWFlWUpHZkxkeFEtdklCX1kzTFJXcS05MDc3TDd6bW5LQ3Q5cHhEbU5udFc5VlVCcjVQWVpiY3lRMjNEbGJxS2VxMlphdEx2VWlaRXdVWHlKOFJIekxubFk1QmFUQ0VzeW1aM3hpUG9IRW9vUGlVTWZIWVpULTVHcV9jTGJ2U0d5M0tFMzR3aGdj?oc=5",
-      "source": "Google News India Festivals",
-      "sourceGroup": "google_news",
-      "category": "festivals",
-      "publishedAt": 1795385977000,
-      "eventStartAt": 1795392000000,
-      "eventEndAt": null,
-      "expiryAt": 1795478400000,
-      "dateConfidence": "inferred",
-      "dateSource": "title",
-      "city": null,
-      "region": "india",
-      "localityScore": 0.5,
-      "language": "en",
-      "id": "0c76063534423490",
-      "suppressionReason": null,
-      "actionabilityScore": 0.5,
-      "plannerEligible": false,
-      "observedAt": 1795419324045,
-      "contentClass": "upahead_event",
-      "lifecycle": {
-        "contentClass": "upahead_event",
-        "displayUntil": 1795478400000,
-        "archiveUntil": 1796083200000,
-        "retentionReason": "expiryAt",
-        "isVisible": true,
-        "isActionValid": true,
-        "withinSevenDayHorizon": true,
-        "plannerPastGraceHours": 6,
-        "plannerEligibleByLifecycle": false
       }
     },
     {
@@ -1035,13 +1235,13 @@
     {
       "title": "4 new Hindi movies and OTT series releasing from November 23 to 29, 2026",
       "summary": "4 new Hindi movies and OTT series releasing from November 23 to 29, 2026    Lifestyle Asia Hong Kong",
-      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPYXVaaDUxVmxxaG1WVE44RnJEdUc3OEp5Tmd0cWVEUFp6U0t1azlkekNTMzJQcjlKclhBUjFaN2FnVDRmcXlGaldWVC03eXBpZl9MajFLS0R1YzUyOS11U1dVaTdGcjZxLVpCZnQ5dVA1QkxfdDJMMDREUDlzWHhrZGxTY2RiRk8xZzlEUmJsNEE0WElUdWl5Y1dvLU5TMVVNeXpfT3lNZHBIcFdWQkVIQ19yeE1tT0FpTWdQblBCUWZSNjNWaWJEX3JzZTJvVmpuOEdndkFENW4zMjd1MWc?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQbzk5N2NabHVCWlUxOEdyVTdkZGhKVWtvenAwU3owbU10bzlXX2NMZWt6RVgyM3FMV3JNS2czV3FjYVIzV25mTThOQ0YtcVlSM1NFRjc3SU82UDJ6eFdwd0tHSGxkYXA1a0RqaENXSTF4MTFZaE8zM21ISnEzVEZtbHRGSlBOVTQ1N0Jwb2RqQS04ZFVNZWl4VjBhLWVxS2pSV3RTWEtWSDloWWNOd09EbHRid2U3VDZLbi1ZOWppU1hlMS0xLVJoRTR3RXBJV1VwN1NrRC1vMXBob201ZHl6VS1UTQ?oc=5",
       "source": "Lifestyle Asia Hong Kong",
       "sourceUrl": "https://www.lifestyleasia.com",
       "sourceAuthority": "retailer_or_news",
       "sourceGroup": "google_news",
       "category": "movies",
-      "publishedAt": 1795278958000,
+      "publishedAt": 1795278980000,
       "eventStartAt": 1795392000000,
       "eventEndAt": 1795996800000,
       "expiryAt": 1795996800000,
@@ -1054,11 +1254,11 @@
       "region": "india",
       "localityScore": 0.5,
       "language": "en",
-      "id": "beadc73121a4ad58",
+      "id": "c64a3ebac5ea3283",
       "suppressionReason": null,
       "actionabilityScore": 0.5,
       "plannerEligible": true,
-      "observedAt": 1795468890186,
+      "observedAt": 1795513959300,
       "contentClass": "upahead_event",
       "lifecycle": {
         "contentClass": "upahead_event",
@@ -1092,8 +1292,8 @@
       "id": "273b194480d835b7",
       "suppressionReason": null,
       "actionabilityScore": 0.5,
-      "plannerEligible": true,
-      "observedAt": 1795367349706,
+      "plannerEligible": false,
+      "observedAt": 1795513959300,
       "contentClass": "upahead_event",
       "lifecycle": {
         "contentClass": "upahead_event",
@@ -1104,7 +1304,7 @@
         "isActionValid": true,
         "withinSevenDayHorizon": true,
         "plannerPastGraceHours": 6,
-        "plannerEligibleByLifecycle": true
+        "plannerEligibleByLifecycle": false
       }
     },
     {
@@ -1133,7 +1333,7 @@
       "suppressionReason": null,
       "actionabilityScore": 0.7,
       "plannerEligible": true,
-      "observedAt": 1795468890186,
+      "observedAt": 1795513959300,
       "contentClass": "upahead_alert",
       "lifecycle": {
         "contentClass": "upahead_alert",
@@ -1167,8 +1367,8 @@
       "id": "b546d67d9aeb9eb1",
       "suppressionReason": null,
       "actionabilityScore": 0.5,
-      "plannerEligible": true,
-      "observedAt": 1795468890186,
+      "plannerEligible": false,
+      "observedAt": 1795513959300,
       "contentClass": "upahead_event",
       "lifecycle": {
         "contentClass": "upahead_event",
@@ -1179,7 +1379,7 @@
         "isActionValid": true,
         "withinSevenDayHorizon": true,
         "plannerPastGraceHours": 6,
-        "plannerEligibleByLifecycle": true
+        "plannerEligibleByLifecycle": false
       }
     },
     {
@@ -1208,7 +1408,7 @@
       "suppressionReason": null,
       "actionabilityScore": 0.7,
       "plannerEligible": true,
-      "observedAt": 1795468890186,
+      "observedAt": 1795513959300,
       "contentClass": "upahead_alert",
       "lifecycle": {
         "contentClass": "upahead_alert",
@@ -1243,7 +1443,7 @@
       "suppressionReason": null,
       "actionabilityScore": 0.5,
       "plannerEligible": true,
-      "observedAt": 1795419324045,
+      "observedAt": 1795513959300,
       "contentClass": "upahead_event",
       "lifecycle": {
         "contentClass": "upahead_event",
@@ -1277,8 +1477,8 @@
       "id": "6a7b8dcd0b24dca5",
       "suppressionReason": null,
       "actionabilityScore": 0.5,
-      "plannerEligible": true,
-      "observedAt": 1795468890186,
+      "plannerEligible": false,
+      "observedAt": 1795513959300,
       "contentClass": "upahead_event",
       "lifecycle": {
         "contentClass": "upahead_event",
@@ -1289,7 +1489,7 @@
         "isActionValid": true,
         "withinSevenDayHorizon": true,
         "plannerPastGraceHours": 6,
-        "plannerEligibleByLifecycle": true
+        "plannerEligibleByLifecycle": false
       }
     },
     {
@@ -1318,7 +1518,7 @@
       "suppressionReason": null,
       "actionabilityScore": 0.6,
       "plannerEligible": true,
-      "observedAt": 1795468890186,
+      "observedAt": 1795513959300,
       "contentClass": "upahead_event",
       "lifecycle": {
         "contentClass": "upahead_event",
@@ -1358,7 +1558,7 @@
       "suppressionReason": null,
       "actionabilityScore": 0.7,
       "plannerEligible": true,
-      "observedAt": 1795468890186,
+      "observedAt": 1795513959300,
       "contentClass": "upahead_alert",
       "lifecycle": {
         "contentClass": "upahead_alert",
@@ -1398,7 +1598,7 @@
       "suppressionReason": null,
       "actionabilityScore": 0.5,
       "plannerEligible": true,
-      "observedAt": 1795329949752,
+      "observedAt": 1795513959300,
       "contentClass": "upahead_event",
       "lifecycle": {
         "contentClass": "upahead_event",
@@ -1410,6 +1610,41 @@
         "withinSevenDayHorizon": true,
         "plannerPastGraceHours": 6,
         "plannerEligibleByLifecycle": true
+      }
+    },
+    {
+      "title": "Thirupparankundram Karthigai Deepam: Supreme Court Allows One-Time Lighting Of Deepathoon On November 24, Restricts Access To Temple Representatives And Officials - TheCommuneMag",
+      "summary": "Thirupparankundram Karthigai Deepam: Supreme Court Allows One-Time Lighting Of Deepathoon On November 24, Restricts Access To Temple Representatives And Officials    TheCommuneMag",
+      "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxPUUl6X1FUU2x1NGVhS3ZjYUJWSmFsWEpPS2RtMzhaVXVyZFNQMTA5TGRUNEVETjYxNHJ3bHdqUTIzRzlZRFYtMzQxWW8xOE5tcEFGQ0syMF9YZi02S0FlMnd5VTRnM0o1cDdsRC1tSDg5dThrLWNIWXdkQlN1Vko2ZWVpYVhLV2xiblYtTWQ1aS1VVU1MdDNSUmx1bG02NWdwS0NvZ0ROM21xYl9xaXV4Y210eXpSTkNJdDl5c1ZKSER5MXRXM3c3VXkzUG1UaUUxREtMajZrU0loeWQ0TFM5a01TNkZsOU5fZFhuNGp5QTdrTFFfcHBtUHBGTFNPdGVSNVpYUjFNTk5iWUJhWFZuRHRvX0lOdw?oc=5",
+      "source": "Google News TN Festivals",
+      "sourceGroup": "google_news",
+      "category": "festivals",
+      "publishedAt": 1795164693000,
+      "eventStartAt": 1795478400000,
+      "eventEndAt": null,
+      "expiryAt": 1795564800000,
+      "dateConfidence": "inferred",
+      "dateSource": "title",
+      "city": null,
+      "region": "india",
+      "localityScore": 0.5,
+      "language": "en",
+      "id": "6e3821e7261d89d2",
+      "suppressionReason": null,
+      "actionabilityScore": 0.5,
+      "plannerEligible": false,
+      "observedAt": 1795513959300,
+      "contentClass": "upahead_event",
+      "lifecycle": {
+        "contentClass": "upahead_event",
+        "displayUntil": 1795564800000,
+        "archiveUntil": 1796169600000,
+        "retentionReason": "expiryAt",
+        "isVisible": true,
+        "isActionValid": true,
+        "withinSevenDayHorizon": true,
+        "plannerPastGraceHours": 6,
+        "plannerEligibleByLifecycle": false
       }
     },
     {
@@ -1484,46 +1719,6 @@
         "contentClass": "upahead_event",
         "displayUntil": 1795890600000,
         "archiveUntil": 1796495400000,
-        "retentionReason": "expiryAt",
-        "isVisible": true,
-        "isActionValid": true,
-        "withinSevenDayHorizon": true,
-        "plannerPastGraceHours": 6,
-        "plannerEligibleByLifecycle": true
-      }
-    },
-    {
-      "title": "New Malayalam, Kannada, Tamil and Telugu OTT Releases This Week (November 17 - 23): Premada Oorali, Anbil Avan",
-      "summary": "New Malayalam, Kannada, Tamil and Telugu OTT Releases This Week (November 17 - 23): Premada Oorali, Anbil Avan    Times Now",
-      "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxNa0RJSkREMU5KV1h5NUxDZS1DVlJhWTZwakYxRnBENVhyd1UzV1lhcnVta3JXY3hRQ1pHalBsTnR4YkpTcEt5eExDUXA0SENUMS1fb296d3lFdVJrZFllMnJvcXRiQldwVjlQbVlOSGREMFhadnBLVU10djVHa0w1VEtJZHRmV1o5b01zWmNyVmlsbTY3T3JGUWlfVzVxcDFlcTFMM05zMUxFYkFBMG5iMlMwVHd4TVFrZWUzNTdzZWJXVFNUaTB4ek13NzhhVVFvLVE1eGxaWkE4V0VTVU1JTElWNGc1V0pkb2I3ajFHNXVyRmNaR25DMzV1S1QzNUZlc2lsT25jSDJqaHdFMmo5S9IBlgJBVV95cUxPUWZ5c3BmNXl5ZUxCWlV1c0NVN0p3M05NeVlUTGhaT1l4d0NvcDNlc1VobkJtbV9ISjNfeDBrNnRYMVB4bzhUVkVFNjJJRmNqbWt3N2w1OFhZeWxwbERqaXV1Q0RvaWJQSC1XbkRMbFF4b3pqLVVjMjRwS18zQ1ZQQVBMWTI2RFlnaTExVGV5dXV6R01MRGNVUXlVY2U2cFpKNFdnVVpDX0NCUVlMaE44cGU5XzBEWmxjM2NKbXRtalNQOC1lNHpMRWpjWldEMmpobEdNSnlKUzJKMW5yTi10QTRJX3hkTU1kNXdBNUk3NlByZzA1WklhRUVfYnczLU55X2FjdTFxZXgyYTE2VzlWVFExQ2dJdw?oc=5",
-      "source": "Times Now",
-      "sourceUrl": "https://www.timesnownews.com",
-      "sourceAuthority": "retailer_or_news",
-      "sourceGroup": "google_news",
-      "category": "movies",
-      "publishedAt": 1794906895000,
-      "eventStartAt": 1794873600000,
-      "eventEndAt": 1795478400000,
-      "expiryAt": 1795478400000,
-      "dateConfidence": "range",
-      "dateSource": "title_or_summary",
-      "datePrecision": "day",
-      "eventDateKey": "2026-11-17",
-      "acquisitionLocation": "India",
-      "city": null,
-      "region": "india",
-      "localityScore": 0.5,
-      "language": "en",
-      "id": "4191ac028197b32b",
-      "suppressionReason": null,
-      "actionabilityScore": 0.5,
-      "plannerEligible": true,
-      "observedAt": 1795468890186,
-      "contentClass": "upahead_event",
-      "lifecycle": {
-        "contentClass": "upahead_event",
-        "displayUntil": 1795478400000,
-        "archiveUntil": 1796083200000,
         "retentionReason": "expiryAt",
         "isVisible": true,
         "isActionValid": true,
@@ -1643,40 +1838,6 @@
       }
     },
     {
-      "title": "110 candidates to contest 61 seats in Oman Chamber elections on Nov. 23 - The Arabian Stories News - Howl.Link",
-      "summary": "110 candidates to contest 61 seats in Oman Chamber elections on Nov. 23 - The Arabian Stories News    Howl.Link",
-      "url": "https://news.google.com/rss/articles/CBMiO0FVX3lxTE5aY1hxUHJZbjRQaHlMQS1sSDh2VjZuTlV4R2R2eks4a01fdHNBcDkxRnh2Q0FJamVOQ0Jn?oc=5",
-      "source": "Google News Oman Festivals",
-      "sourceGroup": "google_news",
-      "category": "festivals",
-      "publishedAt": 1794628122000,
-      "eventStartAt": 1795392000000,
-      "eventEndAt": null,
-      "expiryAt": 1795478399000,
-      "dateConfidence": "inferred",
-      "dateSource": "title",
-      "city": null,
-      "region": "oman",
-      "localityScore": 0.5,
-      "language": "en",
-      "id": "87d2d3fe596d114a",
-      "suppressionReason": null,
-      "actionabilityScore": 0.5,
-      "plannerEligible": true,
-      "contentClass": "upahead_event",
-      "lifecycle": {
-        "contentClass": "upahead_event",
-        "displayUntil": 1795478399000,
-        "archiveUntil": 1796083199000,
-        "retentionReason": "expiryAt",
-        "isVisible": true,
-        "isActionValid": true,
-        "withinSevenDayHorizon": true,
-        "plannerPastGraceHours": 6,
-        "plannerEligibleByLifecycle": false
-      }
-    },
-    {
       "title": "Octopus Trailer Released – Tamil ZEE5 Original Mystery Thriller Streaming From November 27, Stars Ashwin Kumar, Archana",
       "summary": "Octopus Trailer Released – Tamil ZEE5 Original Mystery Thriller Streaming From November 27, Stars Ashwin Kumar, Archana    Kerala TV",
       "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE12aTBxVWVtNldzSVpIMFJVdTkwWDN1TEdRcHF2ZE5tNUxRcXUxWDVrTk9zSXpzVTctM3dYSmVDclZuQkJ2Q3hzTXh0dWk4MjBhMjVqWGctbnREYmE1bjhaamdaUFFWSlZlS2gwN01IVkEwOHlaUk1J0gF8QVVfeXFMTVY1QTFxS2hqTTFBclBBU2JuQ0lqTG9GbHRaSk5ER3FkaHdLSksxVXllRC1pdFFrU2gwTHdmbDExR1RkeEpXVHFVOEhGVkRFRzFoU0ZSbHp4YzdGcE1yMnEyUlExUF9YRXJlMlRiY1BLV0gxZkFla0tyUjd6Yw?oc=5",
@@ -1708,46 +1869,6 @@
         "contentClass": "upahead_event",
         "displayUntil": 1795824000000,
         "archiveUntil": 1796428800000,
-        "retentionReason": "expiryAt",
-        "isVisible": true,
-        "isActionValid": true,
-        "withinSevenDayHorizon": true,
-        "plannerPastGraceHours": 6,
-        "plannerEligibleByLifecycle": true
-      }
-    },
-    {
-      "title": "Notebook 90s – Kadhal Flashback OTT Release Date: Tamil Romantic Web Series Streaming on Sony LIV From November 23, Cast and Story",
-      "summary": "Notebook 90s – Kadhal Flashback OTT Release Date: Tamil Romantic Web Series Streaming on Sony LIV From November 23, Cast and Story    Kerala TV",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1JNWQxTUQ2LW1hQlJvMkpZWHpqMFp0Yk0tSEZ3MGRack1kLWczY3dTWDZGR3h2VWpKZ2tWY0pHU3VIMlJiNXNaMGhSd0lrT1cwSm53TEU2YWZlUzZCSFZFendRWU9KRkZPclFQbUd4V3hMQ2RSSGp3ZnJfONIBgAFBVV95cUxPTlNSc0E2Rkd6V0FQdWpSbkZEU2EyaHkwUkc1aE0yUWdkZ1U3SldEam9vU08tN3htXzE2cEJLVW1vNEFLaXZ6UFlHeHN4alZMTVdzNEhHcHZzRV81NE13ZGtJNmxtM1FJV3hQR1ZrRnRDVzBDR3V4ald3a3dja21VOQ?oc=5",
-      "source": "Kerala TV",
-      "sourceUrl": "https://www.keralatv.in",
-      "sourceAuthority": "retailer_or_news",
-      "sourceGroup": "google_news",
-      "category": "movies",
-      "publishedAt": 1794556800000,
-      "eventStartAt": 1795392000000,
-      "eventEndAt": null,
-      "expiryAt": 1795478400000,
-      "dateConfidence": "inferred",
-      "dateSource": "title_or_summary",
-      "datePrecision": "day",
-      "eventDateKey": "2026-11-23",
-      "acquisitionLocation": "India",
-      "city": "Kerala",
-      "region": "india",
-      "localityScore": 0.5,
-      "language": "en",
-      "id": "e61f607ebae06fc6",
-      "suppressionReason": null,
-      "actionabilityScore": 0.5,
-      "plannerEligible": true,
-      "observedAt": 1795103442046,
-      "contentClass": "upahead_event",
-      "lifecycle": {
-        "contentClass": "upahead_event",
-        "displayUntil": 1795478400000,
-        "archiveUntil": 1796083200000,
         "retentionReason": "expiryAt",
         "isVisible": true,
         "isActionValid": true,
@@ -2270,7 +2391,7 @@
       ],
       "category": "events",
       "publishedAt": null,
-      "observedAt": 1795468890186,
+      "observedAt": 1795513959300,
       "dateSource": "structured_source",
       "dateConfidence": "exact",
       "suppressionReason": null,
@@ -2318,7 +2439,7 @@
       ],
       "category": "events",
       "publishedAt": null,
-      "observedAt": 1795468890186,
+      "observedAt": 1795513959300,
       "dateSource": "structured_source",
       "dateConfidence": "exact",
       "suppressionReason": null,
@@ -2366,7 +2487,7 @@
       ],
       "category": "events",
       "publishedAt": null,
-      "observedAt": 1795468890186,
+      "observedAt": 1795513959300,
       "dateSource": "structured_source",
       "dateConfidence": "exact",
       "suppressionReason": null,
@@ -2414,7 +2535,7 @@
       ],
       "category": "events",
       "publishedAt": null,
-      "observedAt": 1795468890186,
+      "observedAt": 1795513959300,
       "dateSource": "structured_source",
       "dateConfidence": "exact",
       "suppressionReason": null,
@@ -2462,7 +2583,7 @@
       ],
       "category": "events",
       "publishedAt": null,
-      "observedAt": 1795468890186,
+      "observedAt": 1795513959300,
       "dateSource": "structured_source",
       "dateConfidence": "exact",
       "suppressionReason": null,
@@ -2510,7 +2631,7 @@
       ],
       "category": "events",
       "publishedAt": null,
-      "observedAt": 1795468890186,
+      "observedAt": 1795513959300,
       "dateSource": "structured_source",
       "dateConfidence": "exact",
       "suppressionReason": null,
@@ -2558,7 +2679,7 @@
       ],
       "category": "events",
       "publishedAt": null,
-      "observedAt": 1795468890186,
+      "observedAt": 1795513959300,
       "dateSource": "structured_source",
       "dateConfidence": "exact",
       "suppressionReason": null,
@@ -2606,7 +2727,7 @@
       ],
       "category": "events",
       "publishedAt": null,
-      "observedAt": 1795468890186,
+      "observedAt": 1795513959300,
       "dateSource": "structured_source",
       "dateConfidence": "exact",
       "suppressionReason": null,
@@ -2654,7 +2775,7 @@
       ],
       "category": "events",
       "publishedAt": null,
-      "observedAt": 1795468890186,
+      "observedAt": 1795513959300,
       "dateSource": "structured_source",
       "dateConfidence": "exact",
       "suppressionReason": null,
@@ -2702,7 +2823,7 @@
       ],
       "category": "events",
       "publishedAt": null,
-      "observedAt": 1795468890186,
+      "observedAt": 1795513959300,
       "dateSource": "structured_source",
       "dateConfidence": "exact",
       "suppressionReason": null,
@@ -2750,7 +2871,7 @@
       ],
       "category": "events",
       "publishedAt": null,
-      "observedAt": 1795468890186,
+      "observedAt": 1795513959300,
       "dateSource": "structured_source",
       "dateConfidence": "exact",
       "suppressionReason": null,
@@ -2798,7 +2919,7 @@
       ],
       "category": "events",
       "publishedAt": null,
-      "observedAt": 1795468890186,
+      "observedAt": 1795513959300,
       "dateSource": "structured_source",
       "dateConfidence": "exact",
       "suppressionReason": null,
@@ -2846,7 +2967,7 @@
       ],
       "category": "events",
       "publishedAt": null,
-      "observedAt": 1795468890186,
+      "observedAt": 1795513959300,
       "dateSource": "structured_source",
       "dateConfidence": "exact",
       "suppressionReason": null,
@@ -2894,7 +3015,7 @@
       ],
       "category": "events",
       "publishedAt": null,
-      "observedAt": 1795468890186,
+      "observedAt": 1795513959300,
       "dateSource": "structured_source",
       "dateConfidence": "exact",
       "suppressionReason": null,
@@ -2942,7 +3063,7 @@
       ],
       "category": "events",
       "publishedAt": null,
-      "observedAt": 1795468890186,
+      "observedAt": 1795513959300,
       "dateSource": "structured_source",
       "dateConfidence": "exact",
       "suppressionReason": null,
@@ -2990,7 +3111,7 @@
       ],
       "category": "events",
       "publishedAt": null,
-      "observedAt": 1795468890186,
+      "observedAt": 1795513959300,
       "dateSource": "structured_source",
       "dateConfidence": "exact",
       "suppressionReason": null,
@@ -3038,7 +3159,7 @@
       ],
       "category": "events",
       "publishedAt": null,
-      "observedAt": 1795468890186,
+      "observedAt": 1795513959300,
       "dateSource": "structured_source",
       "dateConfidence": "exact",
       "suppressionReason": null,
@@ -3086,7 +3207,7 @@
       ],
       "category": "events",
       "publishedAt": null,
-      "observedAt": 1795468890186,
+      "observedAt": 1795513959300,
       "dateSource": "structured_source",
       "dateConfidence": "exact",
       "suppressionReason": null,
@@ -3134,7 +3255,7 @@
       ],
       "category": "events",
       "publishedAt": null,
-      "observedAt": 1795468890186,
+      "observedAt": 1795513959300,
       "dateSource": "structured_source",
       "dateConfidence": "exact",
       "suppressionReason": null,
@@ -3610,7 +3731,7 @@
       ],
       "category": "events",
       "publishedAt": null,
-      "observedAt": 1795468890186,
+      "observedAt": 1795513959300,
       "dateSource": "structured_source",
       "dateConfidence": "exact",
       "suppressionReason": null,
@@ -3658,7 +3779,7 @@
       ],
       "category": "events",
       "publishedAt": null,
-      "observedAt": 1795468890186,
+      "observedAt": 1795513959300,
       "dateSource": "structured_source",
       "dateConfidence": "exact",
       "suppressionReason": null,
@@ -3706,7 +3827,7 @@
       ],
       "category": "events",
       "publishedAt": null,
-      "observedAt": 1795468890186,
+      "observedAt": 1795513959300,
       "dateSource": "structured_source",
       "dateConfidence": "exact",
       "suppressionReason": null,
@@ -3754,7 +3875,7 @@
       ],
       "category": "events",
       "publishedAt": null,
-      "observedAt": 1795468890186,
+      "observedAt": 1795513959300,
       "dateSource": "structured_source",
       "dateConfidence": "exact",
       "suppressionReason": null,
@@ -3802,7 +3923,7 @@
       ],
       "category": "events",
       "publishedAt": null,
-      "observedAt": 1795468890186,
+      "observedAt": 1795513959300,
       "dateSource": "structured_source",
       "dateConfidence": "exact",
       "suppressionReason": null,
@@ -3850,7 +3971,7 @@
       ],
       "category": "events",
       "publishedAt": null,
-      "observedAt": 1795468890186,
+      "observedAt": 1795513959300,
       "dateSource": "structured_source",
       "dateConfidence": "exact",
       "suppressionReason": null,
@@ -3881,11 +4002,347 @@
         "plannerPastGraceHours": 6,
         "plannerEligibleByLifecycle": true
       }
+    },
+    {
+      "id": "183ea85e48c60e7d1dc5b201",
+      "title": "Aerial Yoga at Aulayaa Studio Valasaravakkam",
+      "url": "https://chennai2go.in/event/aerial-yoga-at-aulayaa-studio-valasaravakkam-20261125-9a313e",
+      "source": "chennai2go",
+      "sourceUrl": "https://chennai2go.in/event/aerial-yoga-at-aulayaa-studio-valasaravakkam-20261125-9a313e",
+      "sourceGroup": "chennai-calendar",
+      "sourceAuthority": "event_listing",
+      "city": "Chennai",
+      "region": "tn",
+      "localityScore": 1,
+      "affectedLocations": [
+        "Chennai"
+      ],
+      "category": "events",
+      "publishedAt": null,
+      "observedAt": 1795513959300,
+      "dateSource": "structured_source",
+      "dateConfidence": "exact",
+      "suppressionReason": null,
+      "displayEligible": true,
+      "actionabilityScore": 0.8,
+      "language": "en",
+      "eventStartAt": 1795566600000,
+      "eventEndAt": 1796841000000,
+      "expiryAt": 1796841000000,
+      "eventDateKey": "2026-11-25",
+      "datePrecision": "time",
+      "eventDateEndKey": "2026-12-09",
+      "eventDateEndExclusiveKey": "2026-12-10",
+      "eventEndPrecision": "day",
+      "expirySource": "event_day_display_boundary",
+      "venue": "Aulayaa Yoga Studio - Valasaravakkam",
+      "summary": "Aulayaa Yoga Studio - Valasaravakkam, Chennai. 6:00 AM. Runs until Wed 9 Dec. Confirm availability with the organiser; end time not provided.",
+      "plannerEligible": true,
+      "contentClass": "upahead_event",
+      "lifecycle": {
+        "contentClass": "upahead_event",
+        "displayUntil": 1796841000000,
+        "archiveUntil": 1797445800000,
+        "retentionReason": "expiryAt",
+        "isVisible": true,
+        "isActionValid": true,
+        "withinSevenDayHorizon": true,
+        "plannerPastGraceHours": 6,
+        "plannerEligibleByLifecycle": true
+      }
+    },
+    {
+      "id": "2eac00c8403efe33bd6f4725",
+      "title": "Bedazzle Your Celebration",
+      "url": "https://chennai2go.in/event/bedazzle-your-celebration-20261126-60644a",
+      "source": "chennai2go",
+      "sourceUrl": "https://chennai2go.in/event/bedazzle-your-celebration-20261126-60644a",
+      "sourceGroup": "chennai-calendar",
+      "sourceAuthority": "event_listing",
+      "city": "Chennai",
+      "region": "tn",
+      "localityScore": 1,
+      "affectedLocations": [
+        "Chennai"
+      ],
+      "category": "events",
+      "publishedAt": null,
+      "observedAt": 1795513959300,
+      "dateSource": "structured_source",
+      "dateConfidence": "exact",
+      "suppressionReason": null,
+      "displayEligible": true,
+      "actionabilityScore": 0.8,
+      "language": "en",
+      "eventStartAt": 1795687200000,
+      "eventEndAt": null,
+      "expiryAt": 1795717800000,
+      "eventDateKey": "2026-11-26",
+      "datePrecision": "time",
+      "eventDateEndKey": null,
+      "eventDateEndExclusiveKey": null,
+      "eventEndPrecision": "day",
+      "expirySource": "event_day_display_boundary",
+      "venue": "Gourmet Pulp",
+      "summary": "Gourmet Pulp, Chennai. 3:30 PM. Confirm availability with the organiser; end time not provided.",
+      "plannerEligible": true,
+      "contentClass": "upahead_event",
+      "lifecycle": {
+        "contentClass": "upahead_event",
+        "displayUntil": 1795717800000,
+        "archiveUntil": 1796322600000,
+        "retentionReason": "expiryAt",
+        "isVisible": true,
+        "isActionValid": true,
+        "withinSevenDayHorizon": true,
+        "plannerPastGraceHours": 6,
+        "plannerEligibleByLifecycle": true
+      }
+    },
+    {
+      "id": "b29fccda58609e74c839ab48",
+      "title": "Bedazzle Your Tumbler",
+      "url": "https://chennai2go.in/event/bedazzle-your-tumbler-20261127-a533e5",
+      "source": "chennai2go",
+      "sourceUrl": "https://chennai2go.in/event/bedazzle-your-tumbler-20261127-a533e5",
+      "sourceGroup": "chennai-calendar",
+      "sourceAuthority": "event_listing",
+      "city": "Chennai",
+      "region": "tn",
+      "localityScore": 1,
+      "affectedLocations": [
+        "Chennai"
+      ],
+      "category": "events",
+      "publishedAt": null,
+      "observedAt": 1795513959300,
+      "dateSource": "structured_source",
+      "dateConfidence": "exact",
+      "suppressionReason": null,
+      "displayEligible": true,
+      "actionabilityScore": 0.8,
+      "language": "en",
+      "eventStartAt": 1795764600000,
+      "eventEndAt": null,
+      "expiryAt": 1795804200000,
+      "eventDateKey": "2026-11-27",
+      "datePrecision": "time",
+      "eventDateEndKey": null,
+      "eventDateEndExclusiveKey": null,
+      "eventEndPrecision": "day",
+      "expirySource": "event_day_display_boundary",
+      "venue": "Gourmet Pulp",
+      "summary": "Gourmet Pulp, Chennai. 1:00 PM. Confirm availability with the organiser; end time not provided.",
+      "plannerEligible": true,
+      "contentClass": "upahead_event",
+      "lifecycle": {
+        "contentClass": "upahead_event",
+        "displayUntil": 1795804200000,
+        "archiveUntil": 1796409000000,
+        "retentionReason": "expiryAt",
+        "isVisible": true,
+        "isActionValid": true,
+        "withinSevenDayHorizon": true,
+        "plannerPastGraceHours": 6,
+        "plannerEligibleByLifecycle": true
+      }
+    },
+    {
+      "id": "193c87fba587a3fda8c9afbd",
+      "title": "Bedazzle Your Phone Case",
+      "url": "https://chennai2go.in/event/bedazzle-your-phone-case-20261127-20a170",
+      "source": "chennai2go",
+      "sourceUrl": "https://chennai2go.in/event/bedazzle-your-phone-case-20261127-20a170",
+      "sourceGroup": "chennai-calendar",
+      "sourceAuthority": "event_listing",
+      "city": "Chennai",
+      "region": "tn",
+      "localityScore": 1,
+      "affectedLocations": [
+        "Chennai"
+      ],
+      "category": "events",
+      "publishedAt": null,
+      "observedAt": 1795513959300,
+      "dateSource": "structured_source",
+      "dateConfidence": "exact",
+      "suppressionReason": null,
+      "displayEligible": true,
+      "actionabilityScore": 0.8,
+      "language": "en",
+      "eventStartAt": 1795771800000,
+      "eventEndAt": null,
+      "expiryAt": 1795804200000,
+      "eventDateKey": "2026-11-27",
+      "datePrecision": "time",
+      "eventDateEndKey": null,
+      "eventDateEndExclusiveKey": null,
+      "eventEndPrecision": "day",
+      "expirySource": "event_day_display_boundary",
+      "venue": "Gourmet Pulp",
+      "summary": "Gourmet Pulp, Chennai. 3:00 PM. Confirm availability with the organiser; end time not provided.",
+      "plannerEligible": true,
+      "contentClass": "upahead_event",
+      "lifecycle": {
+        "contentClass": "upahead_event",
+        "displayUntil": 1795804200000,
+        "archiveUntil": 1796409000000,
+        "retentionReason": "expiryAt",
+        "isVisible": true,
+        "isActionValid": true,
+        "withinSevenDayHorizon": true,
+        "plannerPastGraceHours": 6,
+        "plannerEligibleByLifecycle": true
+      }
+    },
+    {
+      "id": "551928b5c509d0977136b035",
+      "title": "Bedazzle Your Sipper",
+      "url": "https://chennai2go.in/event/bedazzle-your-sipper-20261127-bdb58e",
+      "source": "chennai2go",
+      "sourceUrl": "https://chennai2go.in/event/bedazzle-your-sipper-20261127-bdb58e",
+      "sourceGroup": "chennai-calendar",
+      "sourceAuthority": "event_listing",
+      "city": "Chennai",
+      "region": "tn",
+      "localityScore": 1,
+      "affectedLocations": [
+        "Chennai"
+      ],
+      "category": "events",
+      "publishedAt": null,
+      "observedAt": 1795513959300,
+      "dateSource": "structured_source",
+      "dateConfidence": "exact",
+      "suppressionReason": null,
+      "displayEligible": true,
+      "actionabilityScore": 0.8,
+      "language": "en",
+      "eventStartAt": 1795771800000,
+      "eventEndAt": null,
+      "expiryAt": 1795804200000,
+      "eventDateKey": "2026-11-27",
+      "datePrecision": "time",
+      "eventDateEndKey": null,
+      "eventDateEndExclusiveKey": null,
+      "eventEndPrecision": "day",
+      "expirySource": "event_day_display_boundary",
+      "venue": "Gourmet Pulp",
+      "summary": "Gourmet Pulp, Chennai. 3:00 PM. Confirm availability with the organiser; end time not provided.",
+      "plannerEligible": true,
+      "contentClass": "upahead_event",
+      "lifecycle": {
+        "contentClass": "upahead_event",
+        "displayUntil": 1795804200000,
+        "archiveUntil": 1796409000000,
+        "retentionReason": "expiryAt",
+        "isVisible": true,
+        "isActionValid": true,
+        "withinSevenDayHorizon": true,
+        "plannerPastGraceHours": 6,
+        "plannerEligibleByLifecycle": true
+      }
+    },
+    {
+      "id": "7e5d150a83102486adf8dc41",
+      "title": "Create Your Own Crystal Ocean",
+      "url": "https://chennai2go.in/event/create-your-own-crystal-ocean-20261127-696e89",
+      "source": "chennai2go",
+      "sourceUrl": "https://chennai2go.in/event/create-your-own-crystal-ocean-20261127-696e89",
+      "sourceGroup": "chennai-calendar",
+      "sourceAuthority": "event_listing",
+      "city": "Chennai",
+      "region": "tn",
+      "localityScore": 1,
+      "affectedLocations": [
+        "Chennai"
+      ],
+      "category": "events",
+      "publishedAt": null,
+      "observedAt": 1795513959300,
+      "dateSource": "structured_source",
+      "dateConfidence": "exact",
+      "suppressionReason": null,
+      "displayEligible": true,
+      "actionabilityScore": 0.8,
+      "language": "en",
+      "eventStartAt": 1795771800000,
+      "eventEndAt": null,
+      "expiryAt": 1795804200000,
+      "eventDateKey": "2026-11-27",
+      "datePrecision": "time",
+      "eventDateEndKey": null,
+      "eventDateEndExclusiveKey": null,
+      "eventEndPrecision": "day",
+      "expirySource": "event_day_display_boundary",
+      "venue": "Gourmet Pulp",
+      "summary": "Gourmet Pulp, Chennai. 3:00 PM. Confirm availability with the organiser; end time not provided.",
+      "plannerEligible": true,
+      "contentClass": "upahead_event",
+      "lifecycle": {
+        "contentClass": "upahead_event",
+        "displayUntil": 1795804200000,
+        "archiveUntil": 1796409000000,
+        "retentionReason": "expiryAt",
+        "isVisible": true,
+        "isActionValid": true,
+        "withinSevenDayHorizon": true,
+        "plannerPastGraceHours": 6,
+        "plannerEligibleByLifecycle": true
+      }
+    },
+    {
+      "id": "14a5b27776fc9cac1269df27",
+      "title": "Quiz Time at VGP Waghoba",
+      "url": "https://chennai2go.in/event/quiz-time-at-vgp-waghoba-20261127-c4c9cf",
+      "source": "chennai2go",
+      "sourceUrl": "https://chennai2go.in/event/quiz-time-at-vgp-waghoba-20261127-c4c9cf",
+      "sourceGroup": "chennai-calendar",
+      "sourceAuthority": "event_listing",
+      "city": "Chennai",
+      "region": "tn",
+      "localityScore": 1,
+      "affectedLocations": [
+        "Chennai"
+      ],
+      "category": "events",
+      "publishedAt": null,
+      "observedAt": 1795513959300,
+      "dateSource": "structured_source",
+      "dateConfidence": "exact",
+      "suppressionReason": null,
+      "displayEligible": true,
+      "actionabilityScore": 0.8,
+      "language": "en",
+      "eventStartAt": 1795786200000,
+      "eventEndAt": null,
+      "expiryAt": 1795804200000,
+      "eventDateKey": "2026-11-27",
+      "datePrecision": "time",
+      "eventDateEndKey": null,
+      "eventDateEndExclusiveKey": null,
+      "eventEndPrecision": "day",
+      "expirySource": "event_day_display_boundary",
+      "venue": "VGP Waghoba",
+      "summary": "VGP Waghoba, Chennai. 7:00 PM. Confirm availability with the organiser; end time not provided.",
+      "plannerEligible": true,
+      "contentClass": "upahead_event",
+      "lifecycle": {
+        "contentClass": "upahead_event",
+        "displayUntil": 1795804200000,
+        "archiveUntil": 1796409000000,
+        "retentionReason": "expiryAt",
+        "isVisible": true,
+        "isActionValid": true,
+        "withinSevenDayHorizon": true,
+        "plannerPastGraceHours": 6,
+        "plannerEligibleByLifecycle": true
+      }
     }
   ],
   "quarantinedItems": [],
   "contractVersion": "upahead-lifecycle-v1",
-  "generatedAt": 1795468890186,
+  "generatedAt": 1795513959300,
   "horizon": {
     "lookaheadDays": 7,
     "eventPastGraceHours": 24,
@@ -3920,7 +4377,7 @@
       "suppressionReason": null,
       "actionabilityScore": 0.5,
       "plannerEligible": false,
-      "observedAt": 1795468890186,
+      "observedAt": 1795513959300,
       "contentClass": "upahead_event",
       "lifecycle": {
         "contentClass": "upahead_event",
@@ -3960,7 +4417,7 @@
       "suppressionReason": null,
       "actionabilityScore": 0.5,
       "plannerEligible": false,
-      "observedAt": 1795468890186,
+      "observedAt": 1795513959300,
       "contentClass": "upahead_event",
       "lifecycle": {
         "contentClass": "upahead_event",
@@ -4080,7 +4537,7 @@
       "suppressionReason": null,
       "actionabilityScore": 0.5,
       "plannerEligible": false,
-      "observedAt": 1795468890186,
+      "observedAt": 1795513959300,
       "contentClass": "upahead_event",
       "lifecycle": {
         "contentClass": "upahead_event",
@@ -4305,7 +4762,7 @@
       "suppressionReason": null,
       "actionabilityScore": 0.9,
       "plannerEligible": false,
-      "observedAt": 1795468890186,
+      "observedAt": 1795513959300,
       "contentClass": "upahead_event",
       "lifecycle": {
         "contentClass": "upahead_event",
@@ -4345,7 +4802,7 @@
       "suppressionReason": null,
       "actionabilityScore": 0.9,
       "plannerEligible": false,
-      "observedAt": 1795468890186,
+      "observedAt": 1795513959300,
       "contentClass": "upahead_event",
       "lifecycle": {
         "contentClass": "upahead_event",
@@ -4455,7 +4912,7 @@
       "suppressionReason": null,
       "actionabilityScore": 0.5,
       "plannerEligible": false,
-      "observedAt": 1795468890186,
+      "observedAt": 1795513959300,
       "contentClass": "upahead_event",
       "lifecycle": {
         "contentClass": "upahead_event",
@@ -4481,55 +4938,1431 @@
     "historyDays": 7
   },
   "lifecycleSummary": {
-    "itemCount": 91,
-    "visibleItemCount": 91,
-    "plannerEligibleByLifecycleCount": 79,
+    "itemCount": 101,
+    "visibleItemCount": 101,
+    "plannerEligibleByLifecycleCount": 83,
     "categoryCounts": {
-      "alerts": 4,
-      "civic": 3,
-      "events": 45,
+      "alerts": 3,
+      "civic": 2,
+      "events": 52,
       "festivals": 19,
-      "movies": 11,
+      "movies": 12,
       "sports": 1,
-      "weather_alerts": 8
+      "weather_alerts": 12
     },
     "contentClassCounts": {
-      "upahead_alert": 15,
-      "upahead_event": 76
+      "upahead_alert": 17,
+      "upahead_event": 84
     },
     "horizonViolationCount": 0,
     "horizonViolationSample": []
   },
-  "lifecyclePrunedCount": 134,
+  "lifecyclePrunedCount": 175,
   "retiredRevisions": [
     {
       "identity": [
         "weather_alerts",
         "44629ea7bc39ac15"
       ],
-      "revisionAt": 1795468890186,
-      "retiredAt": 1795468890186
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
     },
     {
       "identity": [
         "weather_alerts",
         "c9c57567f070f60c"
       ],
-      "revisionAt": 1795468890186,
-      "retiredAt": 1795468890186
-    },
-    {
-      "identity": [
-        "movies",
-        "0ba29c1ea7277a1d"
-      ],
-      "revisionAt": 1795468890186,
-      "retiredAt": 1795468890186
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
     },
     {
       "identity": [
         "movies",
         "658e56282e48be95"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "movies",
+        "2754dddf5b0717c0"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "movies",
+        "3e941f5e7d72cbec"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "movies",
+        "5a955c37f943a8ed"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "movies",
+        "60b6b84759b975a3"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "events",
+        "b1576c0347c5b942"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "events",
+        "bea3d67921066f11"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "weather_alerts",
+        "c24b3158d97c081f"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "weather_alerts",
+        "295be47aa684867a"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "weather_alerts",
+        "44446db6c224e893"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "weather_alerts",
+        "f71351ea7f806177"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "civic",
+        "eafbd216bec4b248"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "alerts",
+        "72baf283f6edcc91"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "civic",
+        "b8e4bc6ad449848d"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "events",
+        "75efdc4d3cf340b5"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "weather_alerts",
+        "a474398909febcd7"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "shopping",
+        "13173cce5011f15e"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "airlines",
+        "1cf55a9b47eac568"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "movies",
+        "290ad797365ad19a"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "movies",
+        "a0d58911ea2b88eb"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "events",
+        "349f125ded14ff87"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "alerts",
+        "a9f4ac175142815d"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "civic",
+        "a9f4ac175142815d"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "movies",
+        "41e9c86b0a3df3d8"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "movies",
+        "c671e4b7cd6ede3a"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "movies",
+        "f6ec92c2f2abfc25"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "sports",
+        "340cdc7a2b9c96c7"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "movies",
+        "02c7dac24f0cebf0"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "movies",
+        "e5dddd64b8c32a76"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "movies",
+        "7db9e1772e0e7bba"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "festivals",
+        "0dfad588734b46c9"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "movies",
+        "1e486938beb3de2c"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "movies",
+        "0272fa0eacd3d668"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "movies",
+        "140dbd9dc9006ede"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "sports",
+        "558fcf9729f1f038"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "events",
+        "eb6b8579c857a873"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "movies",
+        "f2ff1267998a37d1"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "movies",
+        "88a849c4b9fbf3d2"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "movies",
+        "bb9e7c7ee325b3ce"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "alerts",
+        "73c7c67c0ef79021"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "civic",
+        "73c7c67c0ef79021"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "events",
+        "520bdf313334dd41"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "events",
+        "f004c706efcb0546"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "alerts",
+        "74c17975bdd61159"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "civic",
+        "74c17975bdd61159"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "movies",
+        "d41ca754c81f9083"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "events",
+        "f40bfbe5be9c3001"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "events",
+        "a078af266f2713e9"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "movies",
+        "3a2bdf469ead89b6"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "weather_alerts",
+        "0d5116678b956741"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "sports",
+        "3d51dd768ab4ef79"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "events",
+        "9b007f18ed6c0d49"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "movies",
+        "da4097443f4113d1"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "movies",
+        "19d2e4035df4037a"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "movies",
+        "625f020a759dedaa"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "movies",
+        "7cad98286e23fb25"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "movies",
+        "edb5c5758a32ccc8"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "movies",
+        "20128b296de704e8"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "movies",
+        "58060f98069020f3"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "movies",
+        "8e5878d2105c2c91"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "events",
+        "6260ee0516d0e3e7"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "weather_alerts",
+        "d1acb74cef084da2"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "sports",
+        "64d2c46b38ba3c47"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "sports",
+        "4af8682dfe50c065"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "movies",
+        "72a68fddd096b2df"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "movies",
+        "245a15bc67cc7fc0"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "weather_alerts",
+        "689146c2cf525ef7"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "civic",
+        "b26dd6a83e19b40a"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "movies",
+        "fc1eafbab6b44a13"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "weather_alerts",
+        "f8b9b2a46478bf45"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "movies",
+        "12846746f6d27a7b"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "movies",
+        "91e05cc7c747ad75"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "movies",
+        "ac21ef5aa17ef416"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "movies",
+        "aa00a5d0a04ecb83"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "movies",
+        "828c35f72ee2f5b6"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "movies",
+        "8b39c9eb60d43706"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "movies",
+        "c4c3ab48b6493257"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "alerts",
+        "7f8a06bca72ef8af"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "civic",
+        "d223681256fc5171"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "movies",
+        "5de9af1f8d0826d6"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "events",
+        "dc615fa480c90a05"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "sports",
+        "c9d4ee8298c0661d"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "events",
+        "5882e2cfbbe96d4b"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "events",
+        "bbe5c2e9ae3699d7"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "events",
+        "0e0107a5dfa0d9f9"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "alerts",
+        "578da12b5bc5b8ce"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "alerts",
+        "2e6073b4e9e2c880"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "weather_alerts",
+        "aebcc4fafa5d8d80"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "alerts",
+        "9c9abbe426bacd23"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "civic",
+        "9c9abbe426bacd23"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "alerts",
+        "711b9ab37515c8af"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "civic",
+        "711b9ab37515c8af"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "weather_alerts",
+        "fc63d8be4eea224d"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "movies",
+        "2b5ec78ee3847d2c"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "movies",
+        "ea84fe2b81f40fa9"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "movies",
+        "e52ae498daabd2c1"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "movies",
+        "ce184b972ce05729"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "movies",
+        "35c1fdc47ba336dd"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "events",
+        "1e5fec9900929824"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "events",
+        "2668447fdd95867c"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "sports",
+        "88d999989cde541a"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "movies",
+        "ffcaa75b558973a5"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "alerts",
+        "19f431c89097cb2b"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "movies",
+        "4b69198114d87894"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "events",
+        "ded6f87a40a4e7b2"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "movies",
+        "7b73d32cf2fc1228"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "civic",
+        "068721ea7a624c51"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "movies",
+        "dd0cab0deb5d20db"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "movies",
+        "2a8e5f7b346d45b4"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "movies",
+        "1f7d49aa01f03999"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "movies",
+        "5e69306f42c9da6d"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "shopping",
+        "efcf272a1588924c"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "movies",
+        "ed104aec6ea4b1e9"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "movies",
+        "2f24823d2e9edec7"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "festivals",
+        "dcbeb243d2d62630"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "movies",
+        "4a2ed3b6429911e3"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "movies",
+        "d1eb82c24b52bea9"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "festivals",
+        "4c663a53a93df8e0"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "movies",
+        "9e108acdf90be554"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "movies",
+        "06815f6f2f3d3706"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "movies",
+        "c76c2c80f38ea691"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "movies",
+        "0f0790643b27d48c"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "movies",
+        "11827b3853925ee5"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "festivals",
+        "8db9d90f11578c2b"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "movies",
+        "b3c17060c4542bbf"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "movies",
+        "6d5e1df78247eb14"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "movies",
+        "5f6853f130454fea"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "movies",
+        "4b6123ea4ba3e578"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "movies",
+        "9682223cd46917d7"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "weather_alerts",
+        "191e57ff3cb029d9"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "events",
+        "443224420325b778"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "sports",
+        "e1ba58117a92406d"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "civic",
+        "97f991956df2fb86"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "alerts",
+        "ba0bfa96ffbe9f7c"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "civic",
+        "ba0bfa96ffbe9f7c"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "festivals",
+        "a70604f5733be4b0"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "festivals",
+        "694274b4a828bbf8"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "festivals",
+        "830e41ca14a288d1"
+      ],
+      "revisionAt": 1795468890186,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "festivals",
+        "b6c0ac6db22983bf"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "weather_alerts",
+        "a7d6f303f23b7c76"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "festivals",
+        "0c76063534423490"
+      ],
+      "revisionAt": 1795419324045,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "movies",
+        "4191ac028197b32b"
+      ],
+      "revisionAt": 1795468890186,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "festivals",
+        "87d2d3fe596d114a"
+      ],
+      "revisionAt": 1794628122000,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "movies",
+        "e61f607ebae06fc6"
+      ],
+      "revisionAt": 1795103442046,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "movies",
+        "e37499ab0f37da02"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "movies",
+        "37677e1e422c2a5f"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "movies",
+        "73d17ef0eef6dfbf"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "movies",
+        "02e02875f15043c1"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "movies",
+        "c463694baa7ec6a8"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "movies",
+        "1cb2bcfa999a7547"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "movies",
+        "2293e95f221688ec"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "movies",
+        "08a54a5a62701496"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "events",
+        "c8fde17bb9d264f8"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "events",
+        "7ac973869bda58fb"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "events",
+        "d07b272c21407f71"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "alerts",
+        "56290527a2739586"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "weather_alerts",
+        "c12f8bc02f398911"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "weather_alerts",
+        "acd551bba4539d23"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "weather_alerts",
+        "a44930788852b387"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "weather_alerts",
+        "339cbacbd959c977"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "weather_alerts",
+        "4818ad7731c9e92a"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "weather_alerts",
+        "aaa9581437ef395f"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "weather_alerts",
+        "a8dc0bd145c7b083"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "weather_alerts",
+        "c2e6708ea374bb7d"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "sports",
+        "e4b04ca234cc1690"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "sports",
+        "c58e6efad7f4f7e6"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "sports",
+        "c1466f2dfcd015b3"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "sports",
+        "8edec1d049ebf5e5"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "civic",
+        "62eefd9dba0c2ae2"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "civic",
+        "57bc22db34d26b3c"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "civic",
+        "14f691fc437579b9"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "festivals",
+        "10a7ae54584b0601"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "festivals",
+        "97ff6a0611be22b6"
+      ],
+      "revisionAt": 1795513959300,
+      "retiredAt": 1795513959300
+    },
+    {
+      "identity": [
+        "movies",
+        "0ba29c1ea7277a1d"
       ],
       "revisionAt": 1795468890186,
       "retiredAt": 1795468890186
@@ -4545,55 +6378,7 @@
     {
       "identity": [
         "movies",
-        "2754dddf5b0717c0"
-      ],
-      "revisionAt": 1795468890186,
-      "retiredAt": 1795468890186
-    },
-    {
-      "identity": [
-        "movies",
-        "3e941f5e7d72cbec"
-      ],
-      "revisionAt": 1795468890186,
-      "retiredAt": 1795468890186
-    },
-    {
-      "identity": [
-        "movies",
         "f973077730aa1351"
-      ],
-      "revisionAt": 1795468890186,
-      "retiredAt": 1795468890186
-    },
-    {
-      "identity": [
-        "movies",
-        "5a955c37f943a8ed"
-      ],
-      "revisionAt": 1795468890186,
-      "retiredAt": 1795468890186
-    },
-    {
-      "identity": [
-        "movies",
-        "60b6b84759b975a3"
-      ],
-      "revisionAt": 1795468890186,
-      "retiredAt": 1795468890186
-    },
-    {
-      "identity": [
-        "events",
-        "b1576c0347c5b942"
-      ],
-      "revisionAt": 1795468890186,
-      "retiredAt": 1795468890186
-    },
-    {
-      "identity": [
-        "events",
-        "bea3d67921066f11"
       ],
       "revisionAt": 1795468890186,
       "retiredAt": 1795468890186
@@ -4617,22 +6402,6 @@
     {
       "identity": [
         "weather_alerts",
-        "c24b3158d97c081f"
-      ],
-      "revisionAt": 1795468890186,
-      "retiredAt": 1795468890186
-    },
-    {
-      "identity": [
-        "weather_alerts",
-        "295be47aa684867a"
-      ],
-      "revisionAt": 1795468890186,
-      "retiredAt": 1795468890186
-    },
-    {
-      "identity": [
-        "weather_alerts",
         "fcd3d289904334c2"
       ],
       "revisionAt": 1795468890186,
@@ -4648,14 +6417,6 @@
     },
     {
       "identity": [
-        "weather_alerts",
-        "44446db6c224e893"
-      ],
-      "revisionAt": 1795468890186,
-      "retiredAt": 1795468890186
-    },
-    {
-      "identity": [
         "civic",
         "7b1bd5da5ba4ecd4"
       ],
@@ -4664,96 +6425,8 @@
     },
     {
       "identity": [
-        "weather_alerts",
-        "f71351ea7f806177"
-      ],
-      "revisionAt": 1795468890186,
-      "retiredAt": 1795468890186
-    },
-    {
-      "identity": [
         "alerts",
         "eafbd216bec4b248"
-      ],
-      "revisionAt": 1795468890186,
-      "retiredAt": 1795468890186
-    },
-    {
-      "identity": [
-        "civic",
-        "eafbd216bec4b248"
-      ],
-      "revisionAt": 1795468890186,
-      "retiredAt": 1795468890186
-    },
-    {
-      "identity": [
-        "alerts",
-        "72baf283f6edcc91"
-      ],
-      "revisionAt": 1795468890186,
-      "retiredAt": 1795468890186
-    },
-    {
-      "identity": [
-        "civic",
-        "b8e4bc6ad449848d"
-      ],
-      "revisionAt": 1795468890186,
-      "retiredAt": 1795468890186
-    },
-    {
-      "identity": [
-        "events",
-        "75efdc4d3cf340b5"
-      ],
-      "revisionAt": 1795468890186,
-      "retiredAt": 1795468890186
-    },
-    {
-      "identity": [
-        "weather_alerts",
-        "a474398909febcd7"
-      ],
-      "revisionAt": 1795468890186,
-      "retiredAt": 1795468890186
-    },
-    {
-      "identity": [
-        "shopping",
-        "13173cce5011f15e"
-      ],
-      "revisionAt": 1795468890186,
-      "retiredAt": 1795468890186
-    },
-    {
-      "identity": [
-        "airlines",
-        "1cf55a9b47eac568"
-      ],
-      "revisionAt": 1795468890186,
-      "retiredAt": 1795468890186
-    },
-    {
-      "identity": [
-        "movies",
-        "290ad797365ad19a"
-      ],
-      "revisionAt": 1795468890186,
-      "retiredAt": 1795468890186
-    },
-    {
-      "identity": [
-        "movies",
-        "a0d58911ea2b88eb"
-      ],
-      "revisionAt": 1795468890186,
-      "retiredAt": 1795468890186
-    },
-    {
-      "identity": [
-        "events",
-        "349f125ded14ff87"
       ],
       "revisionAt": 1795468890186,
       "retiredAt": 1795468890186
@@ -4768,22 +6441,6 @@
     },
     {
       "identity": [
-        "alerts",
-        "a9f4ac175142815d"
-      ],
-      "revisionAt": 1795468890186,
-      "retiredAt": 1795468890186
-    },
-    {
-      "identity": [
-        "civic",
-        "a9f4ac175142815d"
-      ],
-      "revisionAt": 1795468890186,
-      "retiredAt": 1795468890186
-    },
-    {
-      "identity": [
         "civic",
         "02977b52c55da974"
       ],
@@ -4792,376 +6449,8 @@
     },
     {
       "identity": [
-        "movies",
-        "41e9c86b0a3df3d8"
-      ],
-      "revisionAt": 1795468890186,
-      "retiredAt": 1795468890186
-    },
-    {
-      "identity": [
-        "movies",
-        "c671e4b7cd6ede3a"
-      ],
-      "revisionAt": 1795468890186,
-      "retiredAt": 1795468890186
-    },
-    {
-      "identity": [
-        "movies",
-        "f6ec92c2f2abfc25"
-      ],
-      "revisionAt": 1795468890186,
-      "retiredAt": 1795468890186
-    },
-    {
-      "identity": [
-        "sports",
-        "340cdc7a2b9c96c7"
-      ],
-      "revisionAt": 1795468890186,
-      "retiredAt": 1795468890186
-    },
-    {
-      "identity": [
-        "movies",
-        "02c7dac24f0cebf0"
-      ],
-      "revisionAt": 1795468890186,
-      "retiredAt": 1795468890186
-    },
-    {
-      "identity": [
-        "movies",
-        "e5dddd64b8c32a76"
-      ],
-      "revisionAt": 1795468890186,
-      "retiredAt": 1795468890186
-    },
-    {
-      "identity": [
-        "movies",
-        "7db9e1772e0e7bba"
-      ],
-      "revisionAt": 1795468890186,
-      "retiredAt": 1795468890186
-    },
-    {
-      "identity": [
-        "festivals",
-        "0dfad588734b46c9"
-      ],
-      "revisionAt": 1795468890186,
-      "retiredAt": 1795468890186
-    },
-    {
-      "identity": [
-        "movies",
-        "1e486938beb3de2c"
-      ],
-      "revisionAt": 1795468890186,
-      "retiredAt": 1795468890186
-    },
-    {
-      "identity": [
-        "movies",
-        "0272fa0eacd3d668"
-      ],
-      "revisionAt": 1795468890186,
-      "retiredAt": 1795468890186
-    },
-    {
-      "identity": [
-        "movies",
-        "140dbd9dc9006ede"
-      ],
-      "revisionAt": 1795468890186,
-      "retiredAt": 1795468890186
-    },
-    {
-      "identity": [
-        "sports",
-        "558fcf9729f1f038"
-      ],
-      "revisionAt": 1795468890186,
-      "retiredAt": 1795468890186
-    },
-    {
-      "identity": [
-        "events",
-        "eb6b8579c857a873"
-      ],
-      "revisionAt": 1795468890186,
-      "retiredAt": 1795468890186
-    },
-    {
-      "identity": [
-        "movies",
-        "f2ff1267998a37d1"
-      ],
-      "revisionAt": 1795468890186,
-      "retiredAt": 1795468890186
-    },
-    {
-      "identity": [
-        "movies",
-        "88a849c4b9fbf3d2"
-      ],
-      "revisionAt": 1795468890186,
-      "retiredAt": 1795468890186
-    },
-    {
-      "identity": [
-        "movies",
-        "bb9e7c7ee325b3ce"
-      ],
-      "revisionAt": 1795468890186,
-      "retiredAt": 1795468890186
-    },
-    {
-      "identity": [
-        "alerts",
-        "73c7c67c0ef79021"
-      ],
-      "revisionAt": 1795468890186,
-      "retiredAt": 1795468890186
-    },
-    {
-      "identity": [
-        "civic",
-        "73c7c67c0ef79021"
-      ],
-      "revisionAt": 1795468890186,
-      "retiredAt": 1795468890186
-    },
-    {
-      "identity": [
-        "events",
-        "520bdf313334dd41"
-      ],
-      "revisionAt": 1795468890186,
-      "retiredAt": 1795468890186
-    },
-    {
-      "identity": [
-        "events",
-        "f004c706efcb0546"
-      ],
-      "revisionAt": 1795468890186,
-      "retiredAt": 1795468890186
-    },
-    {
-      "identity": [
-        "alerts",
-        "74c17975bdd61159"
-      ],
-      "revisionAt": 1795468890186,
-      "retiredAt": 1795468890186
-    },
-    {
-      "identity": [
-        "civic",
-        "74c17975bdd61159"
-      ],
-      "revisionAt": 1795468890186,
-      "retiredAt": 1795468890186
-    },
-    {
-      "identity": [
-        "movies",
-        "d41ca754c81f9083"
-      ],
-      "revisionAt": 1795468890186,
-      "retiredAt": 1795468890186
-    },
-    {
-      "identity": [
-        "events",
-        "f40bfbe5be9c3001"
-      ],
-      "revisionAt": 1795468890186,
-      "retiredAt": 1795468890186
-    },
-    {
-      "identity": [
-        "events",
-        "a078af266f2713e9"
-      ],
-      "revisionAt": 1795468890186,
-      "retiredAt": 1795468890186
-    },
-    {
-      "identity": [
-        "movies",
-        "3a2bdf469ead89b6"
-      ],
-      "revisionAt": 1795468890186,
-      "retiredAt": 1795468890186
-    },
-    {
-      "identity": [
-        "weather_alerts",
-        "0d5116678b956741"
-      ],
-      "revisionAt": 1795468890186,
-      "retiredAt": 1795468890186
-    },
-    {
-      "identity": [
-        "sports",
-        "3d51dd768ab4ef79"
-      ],
-      "revisionAt": 1795468890186,
-      "retiredAt": 1795468890186
-    },
-    {
-      "identity": [
-        "events",
-        "9b007f18ed6c0d49"
-      ],
-      "revisionAt": 1795468890186,
-      "retiredAt": 1795468890186
-    },
-    {
-      "identity": [
-        "movies",
-        "da4097443f4113d1"
-      ],
-      "revisionAt": 1795468890186,
-      "retiredAt": 1795468890186
-    },
-    {
-      "identity": [
-        "movies",
-        "19d2e4035df4037a"
-      ],
-      "revisionAt": 1795468890186,
-      "retiredAt": 1795468890186
-    },
-    {
-      "identity": [
-        "movies",
-        "625f020a759dedaa"
-      ],
-      "revisionAt": 1795468890186,
-      "retiredAt": 1795468890186
-    },
-    {
-      "identity": [
-        "movies",
-        "7cad98286e23fb25"
-      ],
-      "revisionAt": 1795468890186,
-      "retiredAt": 1795468890186
-    },
-    {
-      "identity": [
-        "movies",
-        "edb5c5758a32ccc8"
-      ],
-      "revisionAt": 1795468890186,
-      "retiredAt": 1795468890186
-    },
-    {
-      "identity": [
-        "movies",
-        "20128b296de704e8"
-      ],
-      "revisionAt": 1795468890186,
-      "retiredAt": 1795468890186
-    },
-    {
-      "identity": [
-        "movies",
-        "58060f98069020f3"
-      ],
-      "revisionAt": 1795468890186,
-      "retiredAt": 1795468890186
-    },
-    {
-      "identity": [
-        "movies",
-        "8e5878d2105c2c91"
-      ],
-      "revisionAt": 1795468890186,
-      "retiredAt": 1795468890186
-    },
-    {
-      "identity": [
-        "events",
-        "6260ee0516d0e3e7"
-      ],
-      "revisionAt": 1795468890186,
-      "retiredAt": 1795468890186
-    },
-    {
-      "identity": [
-        "weather_alerts",
-        "d1acb74cef084da2"
-      ],
-      "revisionAt": 1795468890186,
-      "retiredAt": 1795468890186
-    },
-    {
-      "identity": [
-        "sports",
-        "64d2c46b38ba3c47"
-      ],
-      "revisionAt": 1795468890186,
-      "retiredAt": 1795468890186
-    },
-    {
-      "identity": [
-        "sports",
-        "4af8682dfe50c065"
-      ],
-      "revisionAt": 1795468890186,
-      "retiredAt": 1795468890186
-    },
-    {
-      "identity": [
         "weather_alerts",
         "f70aa060e60fd798"
-      ],
-      "revisionAt": 1795468890186,
-      "retiredAt": 1795468890186
-    },
-    {
-      "identity": [
-        "movies",
-        "72a68fddd096b2df"
-      ],
-      "revisionAt": 1795468890186,
-      "retiredAt": 1795468890186
-    },
-    {
-      "identity": [
-        "movies",
-        "245a15bc67cc7fc0"
-      ],
-      "revisionAt": 1795468890186,
-      "retiredAt": 1795468890186
-    },
-    {
-      "identity": [
-        "weather_alerts",
-        "689146c2cf525ef7"
-      ],
-      "revisionAt": 1795468890186,
-      "retiredAt": 1795468890186
-    },
-    {
-      "identity": [
-        "civic",
-        "b26dd6a83e19b40a"
-      ],
-      "revisionAt": 1795468890186,
-      "retiredAt": 1795468890186
-    },
-    {
-      "identity": [
-        "movies",
-        "fc1eafbab6b44a13"
       ],
       "revisionAt": 1795468890186,
       "retiredAt": 1795468890186
@@ -5192,88 +6481,8 @@
     },
     {
       "identity": [
-        "weather_alerts",
-        "f8b9b2a46478bf45"
-      ],
-      "revisionAt": 1795468890186,
-      "retiredAt": 1795468890186
-    },
-    {
-      "identity": [
-        "movies",
-        "12846746f6d27a7b"
-      ],
-      "revisionAt": 1795468890186,
-      "retiredAt": 1795468890186
-    },
-    {
-      "identity": [
-        "movies",
-        "91e05cc7c747ad75"
-      ],
-      "revisionAt": 1795468890186,
-      "retiredAt": 1795468890186
-    },
-    {
-      "identity": [
-        "movies",
-        "ac21ef5aa17ef416"
-      ],
-      "revisionAt": 1795468890186,
-      "retiredAt": 1795468890186
-    },
-    {
-      "identity": [
-        "movies",
-        "aa00a5d0a04ecb83"
-      ],
-      "revisionAt": 1795468890186,
-      "retiredAt": 1795468890186
-    },
-    {
-      "identity": [
-        "movies",
-        "828c35f72ee2f5b6"
-      ],
-      "revisionAt": 1795468890186,
-      "retiredAt": 1795468890186
-    },
-    {
-      "identity": [
-        "movies",
-        "8b39c9eb60d43706"
-      ],
-      "revisionAt": 1795468890186,
-      "retiredAt": 1795468890186
-    },
-    {
-      "identity": [
-        "movies",
-        "c4c3ab48b6493257"
-      ],
-      "revisionAt": 1795468890186,
-      "retiredAt": 1795468890186
-    },
-    {
-      "identity": [
-        "alerts",
-        "7f8a06bca72ef8af"
-      ],
-      "revisionAt": 1795468890186,
-      "retiredAt": 1795468890186
-    },
-    {
-      "identity": [
         "movies",
         "8bed67c496977d6a"
-      ],
-      "revisionAt": 1795468890186,
-      "retiredAt": 1795468890186
-    },
-    {
-      "identity": [
-        "civic",
-        "d223681256fc5171"
       ],
       "revisionAt": 1795468890186,
       "retiredAt": 1795468890186
@@ -5296,32 +6505,8 @@
     },
     {
       "identity": [
-        "movies",
-        "5de9af1f8d0826d6"
-      ],
-      "revisionAt": 1795468890186,
-      "retiredAt": 1795468890186
-    },
-    {
-      "identity": [
-        "events",
-        "dc615fa480c90a05"
-      ],
-      "revisionAt": 1795468890186,
-      "retiredAt": 1795468890186
-    },
-    {
-      "identity": [
         "alerts",
         "b8e4bc6ad449848d"
-      ],
-      "revisionAt": 1795468890186,
-      "retiredAt": 1795468890186
-    },
-    {
-      "identity": [
-        "sports",
-        "c9d4ee8298c0661d"
       ],
       "revisionAt": 1795468890186,
       "retiredAt": 1795468890186
@@ -5336,98 +6521,10 @@
     },
     {
       "identity": [
-        "events",
-        "5882e2cfbbe96d4b"
-      ],
-      "revisionAt": 1795468890186,
-      "retiredAt": 1795468890186
-    },
-    {
-      "identity": [
-        "events",
-        "bbe5c2e9ae3699d7"
-      ],
-      "revisionAt": 1795468890186,
-      "retiredAt": 1795468890186
-    },
-    {
-      "identity": [
-        "events",
-        "0e0107a5dfa0d9f9"
-      ],
-      "revisionAt": 1795468890186,
-      "retiredAt": 1795468890186
-    },
-    {
-      "identity": [
-        "alerts",
-        "578da12b5bc5b8ce"
-      ],
-      "revisionAt": 1795468890186,
-      "retiredAt": 1795468890186
-    },
-    {
-      "identity": [
-        "alerts",
-        "2e6073b4e9e2c880"
-      ],
-      "revisionAt": 1795468890186,
-      "retiredAt": 1795468890186
-    },
-    {
-      "identity": [
-        "weather_alerts",
-        "aebcc4fafa5d8d80"
-      ],
-      "revisionAt": 1795468890186,
-      "retiredAt": 1795468890186
-    },
-    {
-      "identity": [
-        "alerts",
-        "9c9abbe426bacd23"
-      ],
-      "revisionAt": 1795468890186,
-      "retiredAt": 1795468890186
-    },
-    {
-      "identity": [
-        "civic",
-        "9c9abbe426bacd23"
-      ],
-      "revisionAt": 1795468890186,
-      "retiredAt": 1795468890186
-    },
-    {
-      "identity": [
-        "alerts",
-        "711b9ab37515c8af"
-      ],
-      "revisionAt": 1795468890186,
-      "retiredAt": 1795468890186
-    },
-    {
-      "identity": [
-        "civic",
-        "711b9ab37515c8af"
-      ],
-      "revisionAt": 1795468890186,
-      "retiredAt": 1795468890186
-    },
-    {
-      "identity": [
         "alerts",
         "9899ec3b086a651d"
       ],
       "revisionAt": 1795390590021,
-      "retiredAt": 1795468890186
-    },
-    {
-      "identity": [
-        "weather_alerts",
-        "fc63d8be4eea224d"
-      ],
-      "revisionAt": 1795468890186,
       "retiredAt": 1795468890186
     },
     {
@@ -5472,46 +6569,6 @@
     },
     {
       "identity": [
-        "movies",
-        "2b5ec78ee3847d2c"
-      ],
-      "revisionAt": 1795468890186,
-      "retiredAt": 1795468890186
-    },
-    {
-      "identity": [
-        "movies",
-        "ea84fe2b81f40fa9"
-      ],
-      "revisionAt": 1795468890186,
-      "retiredAt": 1795468890186
-    },
-    {
-      "identity": [
-        "movies",
-        "e52ae498daabd2c1"
-      ],
-      "revisionAt": 1795468890186,
-      "retiredAt": 1795468890186
-    },
-    {
-      "identity": [
-        "movies",
-        "ce184b972ce05729"
-      ],
-      "revisionAt": 1795468890186,
-      "retiredAt": 1795468890186
-    },
-    {
-      "identity": [
-        "movies",
-        "35c1fdc47ba336dd"
-      ],
-      "revisionAt": 1795468890186,
-      "retiredAt": 1795468890186
-    },
-    {
-      "identity": [
         "events",
         "74f8d27d0dd7831d"
       ],
@@ -5536,32 +6593,8 @@
     },
     {
       "identity": [
-        "events",
-        "1e5fec9900929824"
-      ],
-      "revisionAt": 1795468890186,
-      "retiredAt": 1795468890186
-    },
-    {
-      "identity": [
-        "events",
-        "2668447fdd95867c"
-      ],
-      "revisionAt": 1795468890186,
-      "retiredAt": 1795468890186
-    },
-    {
-      "identity": [
         "alerts",
         "cc336048af34f24d"
-      ],
-      "revisionAt": 1795468890186,
-      "retiredAt": 1795468890186
-    },
-    {
-      "identity": [
-        "sports",
-        "88d999989cde541a"
       ],
       "revisionAt": 1795468890186,
       "retiredAt": 1795468890186
@@ -5688,14 +6721,6 @@
     },
     {
       "identity": [
-        "movies",
-        "ffcaa75b558973a5"
-      ],
-      "revisionAt": 1795419324045,
-      "retiredAt": 1795419324045
-    },
-    {
-      "identity": [
         "weather_alerts",
         "7ebb298f9d8a9a0a"
       ],
@@ -5706,14 +6731,6 @@
       "identity": [
         "festivals",
         "045e0f0e14d96076"
-      ],
-      "revisionAt": 1795419324045,
-      "retiredAt": 1795419324045
-    },
-    {
-      "identity": [
-        "alerts",
-        "19f431c89097cb2b"
       ],
       "revisionAt": 1795419324045,
       "retiredAt": 1795419324045
@@ -5738,22 +6755,6 @@
       "identity": [
         "movies",
         "52b65cc28dac1a54"
-      ],
-      "revisionAt": 1795419324045,
-      "retiredAt": 1795419324045
-    },
-    {
-      "identity": [
-        "movies",
-        "4b69198114d87894"
-      ],
-      "revisionAt": 1795419324045,
-      "retiredAt": 1795419324045
-    },
-    {
-      "identity": [
-        "events",
-        "ded6f87a40a4e7b2"
       ],
       "revisionAt": 1795419324045,
       "retiredAt": 1795419324045
@@ -5978,54 +6979,6 @@
       "identity": [
         "festivals",
         "ac8d94bed592e757"
-      ],
-      "revisionAt": 1795390590021,
-      "retiredAt": 1795390590021
-    },
-    {
-      "identity": [
-        "movies",
-        "7b73d32cf2fc1228"
-      ],
-      "revisionAt": 1795390590021,
-      "retiredAt": 1795390590021
-    },
-    {
-      "identity": [
-        "civic",
-        "068721ea7a624c51"
-      ],
-      "revisionAt": 1795390590021,
-      "retiredAt": 1795390590021
-    },
-    {
-      "identity": [
-        "movies",
-        "dd0cab0deb5d20db"
-      ],
-      "revisionAt": 1795390590021,
-      "retiredAt": 1795390590021
-    },
-    {
-      "identity": [
-        "movies",
-        "2a8e5f7b346d45b4"
-      ],
-      "revisionAt": 1795390590021,
-      "retiredAt": 1795390590021
-    },
-    {
-      "identity": [
-        "movies",
-        "1f7d49aa01f03999"
-      ],
-      "revisionAt": 1795390590021,
-      "retiredAt": 1795390590021
-    },
-    {
-      "identity": [
-        "movies",
-        "5e69306f42c9da6d"
       ],
       "revisionAt": 1795390590021,
       "retiredAt": 1795390590021
@@ -6568,14 +7521,6 @@
     },
     {
       "identity": [
-        "shopping",
-        "efcf272a1588924c"
-      ],
-      "revisionAt": 1795367349706,
-      "retiredAt": 1795367349706
-    },
-    {
-      "identity": [
         "movies",
         "1f64cd6803527330"
       ],
@@ -6665,23 +7610,7 @@
     {
       "identity": [
         "movies",
-        "ed104aec6ea4b1e9"
-      ],
-      "revisionAt": 1795329949752,
-      "retiredAt": 1795329949752
-    },
-    {
-      "identity": [
-        "movies",
         "f0b25b1728655f43"
-      ],
-      "revisionAt": 1795329949752,
-      "retiredAt": 1795329949752
-    },
-    {
-      "identity": [
-        "movies",
-        "2f24823d2e9edec7"
       ],
       "revisionAt": 1795329949752,
       "retiredAt": 1795329949752
@@ -6696,24 +7625,8 @@
     },
     {
       "identity": [
-        "festivals",
-        "dcbeb243d2d62630"
-      ],
-      "revisionAt": 1795329949752,
-      "retiredAt": 1795329949752
-    },
-    {
-      "identity": [
         "movies",
         "11074134f84c820c"
-      ],
-      "revisionAt": 1795329949752,
-      "retiredAt": 1795329949752
-    },
-    {
-      "identity": [
-        "movies",
-        "4a2ed3b6429911e3"
       ],
       "revisionAt": 1795329949752,
       "retiredAt": 1795329949752
@@ -6752,14 +7665,6 @@
     },
     {
       "identity": [
-        "movies",
-        "d1eb82c24b52bea9"
-      ],
-      "revisionAt": 1795329949752,
-      "retiredAt": 1795329949752
-    },
-    {
-      "identity": [
         "events",
         "6fabbdbbdf8cb68e"
       ],
@@ -6784,80 +7689,8 @@
     },
     {
       "identity": [
-        "festivals",
-        "4c663a53a93df8e0"
-      ],
-      "revisionAt": 1795329949752,
-      "retiredAt": 1795329949752
-    },
-    {
-      "identity": [
         "events",
         "1ab3c7509ec92d27"
-      ],
-      "revisionAt": 1795329949752,
-      "retiredAt": 1795329949752
-    },
-    {
-      "identity": [
-        "movies",
-        "9e108acdf90be554"
-      ],
-      "revisionAt": 1795329949752,
-      "retiredAt": 1795329949752
-    },
-    {
-      "identity": [
-        "movies",
-        "06815f6f2f3d3706"
-      ],
-      "revisionAt": 1795329949752,
-      "retiredAt": 1795329949752
-    },
-    {
-      "identity": [
-        "movies",
-        "c76c2c80f38ea691"
-      ],
-      "revisionAt": 1795329949752,
-      "retiredAt": 1795329949752
-    },
-    {
-      "identity": [
-        "movies",
-        "0f0790643b27d48c"
-      ],
-      "revisionAt": 1795329949752,
-      "retiredAt": 1795329949752
-    },
-    {
-      "identity": [
-        "movies",
-        "11827b3853925ee5"
-      ],
-      "revisionAt": 1795329949752,
-      "retiredAt": 1795329949752
-    },
-    {
-      "identity": [
-        "festivals",
-        "8db9d90f11578c2b"
-      ],
-      "revisionAt": 1795329949752,
-      "retiredAt": 1795329949752
-    },
-    {
-      "identity": [
-        "movies",
-        "b3c17060c4542bbf"
-      ],
-      "revisionAt": 1795329949752,
-      "retiredAt": 1795329949752
-    },
-    {
-      "identity": [
-        "movies",
-        "6d5e1df78247eb14"
       ],
       "revisionAt": 1795329949752,
       "retiredAt": 1795329949752
@@ -6873,31 +7706,7 @@
     {
       "identity": [
         "movies",
-        "5f6853f130454fea"
-      ],
-      "revisionAt": 1795329949752,
-      "retiredAt": 1795329949752
-    },
-    {
-      "identity": [
-        "movies",
         "0dd37cc6033058c5"
-      ],
-      "revisionAt": 1795329949752,
-      "retiredAt": 1795329949752
-    },
-    {
-      "identity": [
-        "movies",
-        "4b6123ea4ba3e578"
-      ],
-      "revisionAt": 1795329949752,
-      "retiredAt": 1795329949752
-    },
-    {
-      "identity": [
-        "movies",
-        "9682223cd46917d7"
       ],
       "revisionAt": 1795329949752,
       "retiredAt": 1795329949752
@@ -6945,14 +7754,6 @@
     {
       "identity": [
         "weather_alerts",
-        "191e57ff3cb029d9"
-      ],
-      "revisionAt": 1795302868519,
-      "retiredAt": 1795302868519
-    },
-    {
-      "identity": [
-        "weather_alerts",
         "4e53ae8903c84fb3"
       ],
       "revisionAt": 1795302868519,
@@ -6984,14 +7785,6 @@
     },
     {
       "identity": [
-        "events",
-        "443224420325b778"
-      ],
-      "revisionAt": 1795302868519,
-      "retiredAt": 1795302868519
-    },
-    {
-      "identity": [
         "festivals",
         "a2d2133ba6c6c37f"
       ],
@@ -7002,14 +7795,6 @@
       "identity": [
         "festivals",
         "633d5400461383a4"
-      ],
-      "revisionAt": 1795302868519,
-      "retiredAt": 1795302868519
-    },
-    {
-      "identity": [
-        "sports",
-        "e1ba58117a92406d"
       ],
       "revisionAt": 1795302868519,
       "retiredAt": 1795302868519
@@ -7402,14 +8187,6 @@
       "identity": [
         "civic",
         "f1d54fe52d590a19"
-      ],
-      "revisionAt": 1795244668256,
-      "retiredAt": 1795244668256
-    },
-    {
-      "identity": [
-        "civic",
-        "97f991956df2fb86"
       ],
       "revisionAt": 1795244668256,
       "retiredAt": 1795244668256
@@ -8193,154 +8970,154 @@
   ],
   "acquisitionSummary": {
     "attemptedSources": 38,
-    "successfulSources": 35,
-    "failedSources": 3,
-    "returnedItems": 215,
+    "successfulSources": 34,
+    "failedSources": 4,
+    "returnedItems": 262,
     "byCategory": {
       "movies": {
         "attemptedSources": 4,
         "successfulSources": 4,
         "failedSources": 0,
-        "returnedItems": 72,
-        "checkedAt": 1795468890186,
+        "returnedItems": 99,
+        "checkedAt": 1795513959300,
         "byLocation": {
           "India": {
             "attemptedSources": 4,
             "successfulSources": 4,
             "failedSources": 0,
-            "returnedItems": 72,
-            "checkedAt": 1795468890186
+            "returnedItems": 99,
+            "checkedAt": 1795513959300
           }
         },
-        "activeItems": 11
+        "activeItems": 12
       },
       "events": {
         "attemptedSources": 5,
-        "successfulSources": 5,
-        "failedSources": 0,
-        "returnedItems": 61,
-        "checkedAt": 1795468890186,
+        "successfulSources": 4,
+        "failedSources": 1,
+        "returnedItems": 59,
+        "checkedAt": 1795513959300,
         "byLocation": {
           "Chennai": {
             "attemptedSources": 2,
             "successfulSources": 2,
             "failedSources": 0,
-            "returnedItems": 50,
-            "checkedAt": 1795468890186
+            "returnedItems": 52,
+            "checkedAt": 1795513959300
           },
           "Muscat": {
             "attemptedSources": 2,
-            "successfulSources": 2,
-            "failedSources": 0,
-            "returnedItems": 10,
-            "checkedAt": 1795468890186
+            "successfulSources": 1,
+            "failedSources": 1,
+            "returnedItems": 6,
+            "checkedAt": 1795513959300
           },
           "Trichy": {
             "attemptedSources": 1,
             "successfulSources": 1,
             "failedSources": 0,
             "returnedItems": 1,
-            "checkedAt": 1795468890186
+            "checkedAt": 1795513959300
           }
         },
-        "activeItems": 45
+        "activeItems": 52
       },
       "alerts": {
         "attemptedSources": 5,
         "successfulSources": 5,
         "failedSources": 0,
-        "returnedItems": 17,
-        "checkedAt": 1795468890186,
+        "returnedItems": 15,
+        "checkedAt": 1795513959300,
         "byLocation": {
           "Chennai": {
             "attemptedSources": 2,
             "successfulSources": 2,
             "failedSources": 0,
-            "returnedItems": 17,
-            "checkedAt": 1795468890186
+            "returnedItems": 14,
+            "checkedAt": 1795513959300
           },
           "Muscat": {
             "attemptedSources": 2,
             "successfulSources": 2,
             "failedSources": 0,
-            "returnedItems": 0,
-            "checkedAt": 1795468890186
+            "returnedItems": 1,
+            "checkedAt": 1795513959300
           },
           "Trichy": {
             "attemptedSources": 1,
             "successfulSources": 1,
             "failedSources": 0,
             "returnedItems": 0,
-            "checkedAt": 1795468890186
+            "checkedAt": 1795513959300
           }
         },
-        "activeItems": 4
+        "activeItems": 3
       },
       "weather_alerts": {
         "attemptedSources": 7,
         "successfulSources": 5,
         "failedSources": 2,
-        "returnedItems": 25,
-        "checkedAt": 1795468890186,
+        "returnedItems": 33,
+        "checkedAt": 1795513959300,
         "byLocation": {
           "Chennai": {
             "attemptedSources": 3,
             "successfulSources": 2,
             "failedSources": 1,
-            "returnedItems": 25,
-            "checkedAt": 1795468890186
+            "returnedItems": 33,
+            "checkedAt": 1795513959300
           },
           "Muscat": {
             "attemptedSources": 3,
             "successfulSources": 2,
             "failedSources": 1,
             "returnedItems": 0,
-            "checkedAt": 1795468890186
+            "checkedAt": 1795513959300
           },
           "Trichy": {
             "attemptedSources": 1,
             "successfulSources": 1,
             "failedSources": 0,
             "returnedItems": 0,
-            "checkedAt": 1795468890186
+            "checkedAt": 1795513959300
           }
         },
-        "activeItems": 8
+        "activeItems": 12
       },
       "shopping": {
         "attemptedSources": 4,
         "successfulSources": 4,
         "failedSources": 0,
-        "returnedItems": 1,
-        "checkedAt": 1795468890186,
+        "returnedItems": 2,
+        "checkedAt": 1795513959300,
         "byLocation": {
           "online-india": {
             "attemptedSources": 1,
             "successfulSources": 1,
             "failedSources": 0,
-            "returnedItems": 1,
-            "checkedAt": 1795468890186
+            "returnedItems": 2,
+            "checkedAt": 1795513959300
           },
           "online-oman": {
             "attemptedSources": 1,
             "successfulSources": 1,
             "failedSources": 0,
             "returnedItems": 0,
-            "checkedAt": 1795468890186
+            "checkedAt": 1795513959300
           },
           "Chennai": {
             "attemptedSources": 1,
             "successfulSources": 1,
             "failedSources": 0,
             "returnedItems": 0,
-            "checkedAt": 1795468890186
+            "checkedAt": 1795513959300
           },
           "Muscat": {
             "attemptedSources": 1,
             "successfulSources": 1,
             "failedSources": 0,
             "returnedItems": 0,
-            "checkedAt": 1795468890186
+            "checkedAt": 1795513959300
           }
         },
         "activeItems": 0
@@ -8350,14 +9127,14 @@
         "successfulSources": 1,
         "failedSources": 0,
         "returnedItems": 1,
-        "checkedAt": 1795468890186,
+        "checkedAt": 1795513959300,
         "byLocation": {
           "global": {
             "attemptedSources": 1,
             "successfulSources": 1,
             "failedSources": 0,
             "returnedItems": 1,
-            "checkedAt": 1795468890186
+            "checkedAt": 1795513959300
           }
         },
         "activeItems": 0
@@ -8366,22 +9143,22 @@
         "attemptedSources": 2,
         "successfulSources": 2,
         "failedSources": 0,
-        "returnedItems": 9,
-        "checkedAt": 1795468890186,
+        "returnedItems": 12,
+        "checkedAt": 1795513959300,
         "byLocation": {
           "Chennai": {
             "attemptedSources": 1,
             "successfulSources": 1,
             "failedSources": 0,
-            "returnedItems": 7,
-            "checkedAt": 1795468890186
+            "returnedItems": 9,
+            "checkedAt": 1795513959300
           },
           "Muscat": {
             "attemptedSources": 1,
             "successfulSources": 1,
             "failedSources": 0,
-            "returnedItems": 2,
-            "checkedAt": 1795468890186
+            "returnedItems": 3,
+            "checkedAt": 1795513959300
           }
         },
         "activeItems": 1
@@ -8390,43 +9167,43 @@
         "attemptedSources": 7,
         "successfulSources": 6,
         "failedSources": 1,
-        "returnedItems": 15,
-        "checkedAt": 1795468890186,
+        "returnedItems": 16,
+        "checkedAt": 1795513959300,
         "byLocation": {
           "Chennai": {
             "attemptedSources": 3,
             "successfulSources": 2,
             "failedSources": 1,
-            "returnedItems": 14,
-            "checkedAt": 1795468890186
+            "returnedItems": 16,
+            "checkedAt": 1795513959300
           },
           "Muscat": {
             "attemptedSources": 3,
             "successfulSources": 3,
             "failedSources": 0,
-            "returnedItems": 1,
-            "checkedAt": 1795468890186
+            "returnedItems": 0,
+            "checkedAt": 1795513959300
           },
           "Trichy": {
             "attemptedSources": 1,
             "successfulSources": 1,
             "failedSources": 0,
             "returnedItems": 0,
-            "checkedAt": 1795468890186
+            "checkedAt": 1795513959300
           }
         },
-        "activeItems": 3
+        "activeItems": 2
       },
       "festivals": {
         "attemptedSources": 3,
         "successfulSources": 3,
         "failedSources": 0,
-        "returnedItems": 14,
-        "checkedAt": 1795468890186,
+        "returnedItems": 25,
+        "checkedAt": 1795513959300,
         "activeItems": 19
       }
     },
-    "checkedAt": 1795468890186,
+    "checkedAt": 1795513959300,
     "status": "partial"
   },
   "sourceStatuses": {
@@ -8435,11 +9212,11 @@
       "city": "Chennai",
       "source": "chennai2go",
       "url": "https://chennai2go.in/this-week",
-      "checkedAt": 1795468890186,
+      "checkedAt": 1795513959300,
       "ok": true,
       "items": 32,
-      "bodySha256": "64058e536dc4ec205a42055cd21968a99cf8c6197570bb59f2aa2da9dfdbe5cb",
-      "lastSuccess": 1795468890186,
+      "bodySha256": "9de05440dd7788f569031c30e12921667921410ce8e6eea9388a49fbfb0ba76c",
+      "lastSuccess": 1795513959300,
       "status": "active",
       "message": "32 current dated event listing(s)."
     },
@@ -8447,24 +9224,23 @@
       "category": "events",
       "city": "Muscat",
       "source": "Experience Oman",
-      "url": "https://experienceoman.om/events?governorate=1519&startDate=2026-11-24&endDate=2026-12-01",
-      "checkedAt": 1795468890186,
-      "ok": true,
-      "items": 4,
-      "bodySha256": "1b6caca5166640cf14c97415ca7db4fc61d6ddc9b4025b276670c58b364f1176",
-      "lastSuccess": 1795468890186,
-      "status": "active",
-      "message": "4 current dated event listing(s)."
+      "url": "https://experienceoman.om/events",
+      "checkedAt": 1795513959300,
+      "ok": false,
+      "items": 0,
+      "status": "unavailable",
+      "error": "The read operation timed out",
+      "message": "Source could not be verified at this check."
     },
     "imd-nowcast": {
       "category": "weather_alerts",
       "city": "Chennai",
       "source": "IMD Chennai",
       "url": "https://mausam.imd.gov.in/chennai/mcdata/nowcast.pdf",
-      "checkedAt": 1795468890186,
+      "checkedAt": 1795513959300,
       "ok": false,
       "items": 0,
-      "bodySha256": "36c6744498909cd5b24fcfde75cf2d4afe7ef3af6fd2e12f9cf843c78cd7771c",
+      "bodySha256": "88673b503b6fe7979c3c71615c0b4d38b2fbc8d5f3dfb7282f7ea5ddf0774fe2",
       "status": "unavailable",
       "error": "IMD dated Chennai bulletin unavailable",
       "message": "Source could not be verified at this check."
@@ -8474,7 +9250,7 @@
       "city": "Chennai",
       "source": "TNEB",
       "url": "https://tneb.tnebnet.org/cpro/today.html",
-      "checkedAt": 1795468890186,
+      "checkedAt": 1795513959300,
       "ok": false,
       "items": 0,
       "status": "unavailable",
@@ -8486,7 +9262,7 @@
       "city": "Muscat",
       "source": "Oman CAA Meteorology",
       "url": "https://met.caa.gov.om/en/home/",
-      "checkedAt": 1795468890186,
+      "checkedAt": 1795513959300,
       "ok": false,
       "items": 0,
       "status": "unavailable",
