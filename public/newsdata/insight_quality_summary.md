@@ -3,12 +3,12 @@
 - Status: **WARN**
 - Schema: `3`
 - Collector: `insight-collector-json-v5`
-- Content hash: `32838a0b634ebcec`
-- Stories: `905`
-- Usable 36h stories: `905`
+- Content hash: `584d13841f6fdfd3`
+- Stories: `904`
+- Usable 36h stories: `904`
 - Source groups: `15`
 - Angle hint coverage: `100%`
-- Non-base angle stories: `612`
+- Non-base angle stories: `635`
 - Event sketches: `12`
 - Multi-source sketches: `11`
 
@@ -16,26 +16,26 @@
 
 | Slot | Story IDs | Linked | Sources | Thin |
 |---|---:|---:|---:|---|
-| now | 154 | 154 | 5 | False |
-| minus4h | 117 | 117 | 4 | False |
-| minus12h | 182 | 182 | 7 | False |
-| minus24h | 104 | 104 | 3 | False |
+| now | 158 | 158 | 5 | False |
+| minus4h | 120 | 120 | 4 | False |
+| minus12h | 176 | 176 | 7 | False |
+| minus24h | 101 | 101 | 3 | False |
 
 ## Warnings
 
-- feed 'economic_times' has returned zero items for 13 consecutive runs (last zero at 1795559979035)
-- feed 'dw' has returned zero items for 14 consecutive runs (last zero at 1795559979035)
+- feed 'economic_times' has returned zero items for 14 consecutive runs (last zero at 1795596997819)
+- feed 'dw' has returned zero items for 15 consecutive runs (last zero at 1795596997819)
 
 ## Top angles
 
-- base_report: 293
-- official_response: 211
-- fact_update: 135
-- regional_followup: 96
-- market_reaction: 65
-- investigative_detail: 55
+- base_report: 269
+- official_response: 203
+- fact_update: 145
+- regional_followup: 94
+- market_reaction: 82
+- investigative_detail: 53
+- reaction_public: 27
 - expert_analysis: 21
-- reaction_public: 19
-- background_context: 5
-- correction: 3
+- correction: 4
+- background_context: 4
 - opinion_editorial: 2
