@@ -3,22 +3,23 @@
     "airlines": 1,
     "alerts": 3,
     "civic": 3,
-    "events": 52,
-    "festivals": 20,
-    "movies": 15,
+    "events": 59,
+    "festivals": 7,
+    "movies": 17,
+    "shopping": 1,
     "sports": 1,
-    "weather_alerts": 5
+    "weather_alerts": 3
   },
   "contentClassCounts": {
-    "upahead_alert": 11,
-    "upahead_event": 88,
-    "upahead_offer": 1
+    "upahead_alert": 9,
+    "upahead_event": 84,
+    "upahead_offer": 2
   },
-  "contentHash": "d5da75d80e17",
+  "contentHash": "7a20c909bb79",
   "contractVersion": "upahead-lifecycle-v1",
   "errors": [],
-  "fetchedAt": 1795559143832,
-  "generatedAt": 1795559155457,
+  "fetchedAt": 1795595476414,
+  "generatedAt": 1795595489595,
   "horizon": {
     "alertFallbackHours": 24,
     "eventPastGraceHours": 24,
@@ -26,31 +27,32 @@
     "offerFallbackHours": 48,
     "plannerPastGraceHours": 6
   },
-  "itemCount": 100,
+  "itemCount": 95,
   "lifecycleSummary": {
     "categoryCounts": {
       "airlines": 1,
       "alerts": 3,
       "civic": 3,
-      "events": 52,
-      "festivals": 20,
-      "movies": 15,
+      "events": 59,
+      "festivals": 7,
+      "movies": 17,
+      "shopping": 1,
       "sports": 1,
-      "weather_alerts": 5
+      "weather_alerts": 3
     },
     "contentClassCounts": {
-      "upahead_alert": 11,
-      "upahead_event": 88,
-      "upahead_offer": 1
+      "upahead_alert": 9,
+      "upahead_event": 84,
+      "upahead_offer": 2
     },
     "horizonViolationCount": 0,
     "horizonViolationSample": [],
-    "itemCount": 100,
-    "plannerEligibleByLifecycleCount": 84,
-    "visibleItemCount": 100
+    "itemCount": 95,
+    "plannerEligibleByLifecycleCount": 92,
+    "visibleItemCount": 95
   },
   "pendingItemCount": 16,
-  "plannerEligibleByLifecycleCount": 84,
+  "plannerEligibleByLifecycleCount": 92,
   "schemaVersion": 1,
   "status": "WARN",
   "thresholds": {
@@ -60,9 +62,8 @@
     "minVisibleItems": 3,
     "plannerPastGraceHours": 6
   },
-  "visibleItemCount": 100,
+  "visibleItemCount": 95,
   "warnings": [
-    "1 acquisition sources failed; coverage is partial",
-    "shopping: no currently active items"
+    "2 acquisition sources failed; coverage is partial"
   ]
 }
