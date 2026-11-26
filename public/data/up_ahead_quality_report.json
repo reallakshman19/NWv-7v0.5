@@ -1,25 +1,22 @@
 {
   "categoryCounts": {
-    "airlines": 1,
-    "alerts": 2,
-    "civic": 1,
-    "events": 51,
-    "festivals": 6,
-    "movies": 23,
-    "shopping": 3,
+    "events": 59,
+    "festivals": 10,
+    "movies": 29,
+    "shopping": 5,
     "sports": 2,
-    "weather_alerts": 6
+    "weather_alerts": 3
   },
   "contentClassCounts": {
-    "upahead_alert": 9,
-    "upahead_event": 82,
-    "upahead_offer": 4
+    "upahead_alert": 3,
+    "upahead_event": 100,
+    "upahead_offer": 5
   },
-  "contentHash": "77796f8dc415",
+  "contentHash": "47a4e899655c",
   "contractVersion": "upahead-lifecycle-v1",
   "errors": [],
-  "fetchedAt": 1795664006255,
-  "generatedAt": 1795664016103,
+  "fetchedAt": 1795711938482,
+  "generatedAt": 1795711959980,
   "horizon": {
     "alertFallbackHours": 24,
     "eventPastGraceHours": 24,
@@ -27,32 +24,29 @@
     "offerFallbackHours": 48,
     "plannerPastGraceHours": 6
   },
-  "itemCount": 95,
+  "itemCount": 108,
   "lifecycleSummary": {
     "categoryCounts": {
-      "airlines": 1,
-      "alerts": 2,
-      "civic": 1,
-      "events": 51,
-      "festivals": 6,
-      "movies": 23,
-      "shopping": 3,
+      "events": 59,
+      "festivals": 10,
+      "movies": 29,
+      "shopping": 5,
       "sports": 2,
-      "weather_alerts": 6
+      "weather_alerts": 3
     },
     "contentClassCounts": {
-      "upahead_alert": 9,
-      "upahead_event": 82,
-      "upahead_offer": 4
+      "upahead_alert": 3,
+      "upahead_event": 100,
+      "upahead_offer": 5
     },
     "horizonViolationCount": 0,
     "horizonViolationSample": [],
-    "itemCount": 95,
-    "plannerEligibleByLifecycleCount": 84,
-    "visibleItemCount": 95
+    "itemCount": 108,
+    "plannerEligibleByLifecycleCount": 94,
+    "visibleItemCount": 108
   },
-  "pendingItemCount": 16,
-  "plannerEligibleByLifecycleCount": 84,
+  "pendingItemCount": 18,
+  "plannerEligibleByLifecycleCount": 94,
   "schemaVersion": 1,
   "status": "WARN",
   "thresholds": {
@@ -62,8 +56,11 @@
     "minVisibleItems": 3,
     "plannerPastGraceHours": 6
   },
-  "visibleItemCount": 95,
+  "visibleItemCount": 108,
   "warnings": [
-    "1 acquisition sources failed; coverage is partial"
+    "1 acquisition sources failed; coverage is partial",
+    "alerts: no currently active items",
+    "airlines: no currently active items",
+    "civic: no currently active items"
   ]
 }
