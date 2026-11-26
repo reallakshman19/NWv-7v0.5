@@ -2,9 +2,9 @@
 
 - Status: **WARN**
 - Contract: `upahead-lifecycle-v1`
-- Items: `92`
-- Visible items: `92`
-- Planner lifecycle eligible: `78`
+- Items: `95`
+- Visible items: `95`
+- Planner lifecycle eligible: `84`
 - Lookahead days: `7`
 - Planner past grace hours: `6`
 
@@ -13,12 +13,12 @@
 - airlines: 1
 - alerts: 2
 - civic: 1
-- events: 47
-- festivals: 11
-- movies: 21
+- events: 51
+- festivals: 6
+- movies: 23
 - shopping: 3
 - sports: 2
-- weather_alerts: 4
+- weather_alerts: 6
 
 ## Warnings
 

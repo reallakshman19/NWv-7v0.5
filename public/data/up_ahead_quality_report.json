@@ -3,23 +3,23 @@
     "airlines": 1,
     "alerts": 2,
     "civic": 1,
-    "events": 47,
-    "festivals": 11,
-    "movies": 21,
+    "events": 51,
+    "festivals": 6,
+    "movies": 23,
     "shopping": 3,
     "sports": 2,
-    "weather_alerts": 4
+    "weather_alerts": 6
   },
   "contentClassCounts": {
-    "upahead_alert": 7,
-    "upahead_event": 81,
+    "upahead_alert": 9,
+    "upahead_event": 82,
     "upahead_offer": 4
   },
-  "contentHash": "77f3346d3eba",
+  "contentHash": "77796f8dc415",
   "contractVersion": "upahead-lifecycle-v1",
   "errors": [],
-  "fetchedAt": 1795634108475,
-  "generatedAt": 1795634118703,
+  "fetchedAt": 1795664006255,
+  "generatedAt": 1795664016103,
   "horizon": {
     "alertFallbackHours": 24,
     "eventPastGraceHours": 24,
@@ -27,32 +27,32 @@
     "offerFallbackHours": 48,
     "plannerPastGraceHours": 6
   },
-  "itemCount": 92,
+  "itemCount": 95,
   "lifecycleSummary": {
     "categoryCounts": {
       "airlines": 1,
       "alerts": 2,
       "civic": 1,
-      "events": 47,
-      "festivals": 11,
-      "movies": 21,
+      "events": 51,
+      "festivals": 6,
+      "movies": 23,
       "shopping": 3,
       "sports": 2,
-      "weather_alerts": 4
+      "weather_alerts": 6
     },
     "contentClassCounts": {
-      "upahead_alert": 7,
-      "upahead_event": 81,
+      "upahead_alert": 9,
+      "upahead_event": 82,
       "upahead_offer": 4
     },
     "horizonViolationCount": 0,
     "horizonViolationSample": [],
-    "itemCount": 92,
-    "plannerEligibleByLifecycleCount": 78,
-    "visibleItemCount": 92
+    "itemCount": 95,
+    "plannerEligibleByLifecycleCount": 84,
+    "visibleItemCount": 95
   },
-  "pendingItemCount": 17,
-  "plannerEligibleByLifecycleCount": 78,
+  "pendingItemCount": 16,
+  "plannerEligibleByLifecycleCount": 84,
   "schemaVersion": 1,
   "status": "WARN",
   "thresholds": {
@@ -62,7 +62,7 @@
     "minVisibleItems": 3,
     "plannerPastGraceHours": 6
   },
-  "visibleItemCount": 92,
+  "visibleItemCount": 95,
   "warnings": [
     "1 acquisition sources failed; coverage is partial"
   ]
