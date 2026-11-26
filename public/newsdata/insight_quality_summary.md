@@ -3,40 +3,40 @@
 - Status: **WARN**
 - Schema: `3`
 - Collector: `insight-collector-json-v5`
-- Content hash: `110671e8b1e5cba2`
-- Stories: `939`
-- Usable 36h stories: `939`
+- Content hash: `f3e5aa4c008d8452`
+- Stories: `1000`
+- Usable 36h stories: `1000`
 - Source groups: `14`
 - Angle hint coverage: `100%`
-- Non-base angle stories: `664`
+- Non-base angle stories: `703`
 - Event sketches: `12`
-- Multi-source sketches: `11`
+- Multi-source sketches: `10`
 
 ## Slot health
 
 | Slot | Story IDs | Linked | Sources | Thin |
 |---|---:|---:|---:|---|
-| now | 155 | 155 | 5 | False |
+| now | 157 | 157 | 5 | False |
 | minus4h | 120 | 120 | 4 | False |
-| minus12h | 191 | 191 | 7 | False |
-| minus24h | 99 | 99 | 3 | False |
+| minus12h | 203 | 203 | 7 | False |
+| minus24h | 111 | 111 | 3 | False |
 
 ## Warnings
 
-- feed 'economic_times' has returned zero items for 16 consecutive runs (last zero at 1795664479520)
-- feed 'indian_express' has returned zero items for 4 consecutive runs
-- feed 'dw' has returned zero items for 17 consecutive runs (last zero at 1795664479520)
+- feed 'economic_times' has returned zero items for 17 consecutive runs (last zero at 1795713042127)
+- feed 'indian_express' has returned zero items for 5 consecutive runs
+- feed 'dw' has returned zero items for 18 consecutive runs (last zero at 1795713042127)
 
 ## Top angles
 
-- base_report: 275
-- official_response: 205
-- fact_update: 142
-- market_reaction: 109
-- regional_followup: 78
-- investigative_detail: 60
-- reaction_public: 32
-- expert_analysis: 24
-- background_context: 7
-- correction: 6
-- opinion_editorial: 1
+- base_report: 297
+- official_response: 196
+- fact_update: 159
+- market_reaction: 111
+- regional_followup: 100
+- investigative_detail: 54
+- reaction_public: 44
+- expert_analysis: 21
+- correction: 8
+- background_context: 8
+- opinion_editorial: 2
