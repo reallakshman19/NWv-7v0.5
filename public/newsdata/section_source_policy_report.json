@@ -1,5 +1,5 @@
 {
-  "generatedAt": 1795712347296,
+  "generatedAt": 1795743986171,
   "policyVersion": "section-source-policy-v4-direct-publishers",
   "reportVersion": "section-source-policy-report-v1",
   "schemaVersion": 1,
@@ -16,19 +16,19 @@
       ],
       "topSources": [
         {
-          "count": 15,
-          "sourceGroup": "business_line"
-        },
-        {
-          "count": 6,
+          "count": 13,
           "sourceGroup": "mint"
         },
         {
-          "count": 5,
+          "count": 8,
+          "sourceGroup": "business_line"
+        },
+        {
+          "count": 7,
           "sourceGroup": "bbc"
         },
         {
-          "count": 4,
+          "count": 2,
           "sourceGroup": "economic_times"
         }
       ]
@@ -51,7 +51,7 @@
       ]
     },
     "india": {
-      "sourceGroupCount": 3,
+      "sourceGroupCount": 2,
       "storyCount": 30,
       "thin": false,
       "topCategories": [
@@ -66,12 +66,8 @@
           "sourceGroup": "the_hindu"
         },
         {
-          "count": 10,
+          "count": 11,
           "sourceGroup": "ndtv"
-        },
-        {
-          "count": 1,
-          "sourceGroup": "times_of_india"
         }
       ]
     },
@@ -112,16 +108,16 @@
       ],
       "topSources": [
         {
-          "count": 11,
-          "sourceGroup": "the_hindu"
-        },
-        {
-          "count": 10,
+          "count": 18,
           "sourceGroup": "ndtv"
         },
         {
-          "count": 9,
+          "count": 7,
           "sourceGroup": "bbc"
+        },
+        {
+          "count": 5,
+          "sourceGroup": "the_hindu"
         }
       ]
     },
@@ -141,38 +137,34 @@
           "sourceGroup": "gadgets360"
         },
         {
-          "count": 8,
+          "count": 7,
           "sourceGroup": "the_hindu"
         },
         {
-          "count": 2,
+          "count": 3,
           "sourceGroup": "ars_technica"
         }
       ]
     },
     "tn": {
-      "sourceGroupCount": 2,
-      "storyCount": 30,
-      "thin": false,
+      "sourceGroupCount": 1,
+      "storyCount": 21,
+      "thin": true,
       "topCategories": [
         {
           "category": "tn",
-          "count": 30
+          "count": 21
         }
       ],
       "topSources": [
         {
-          "count": 18,
-          "sourceGroup": "dtnext"
-        },
-        {
-          "count": 12,
+          "count": 21,
           "sourceGroup": "the_hindu"
         }
       ]
     },
     "topStories": {
-      "sourceGroupCount": 3,
+      "sourceGroupCount": 2,
       "storyCount": 30,
       "thin": false,
       "topCategories": [
@@ -184,14 +176,10 @@
       "topSources": [
         {
           "count": 20,
-          "sourceGroup": "the_hindu"
-        },
-        {
-          "count": 9,
           "sourceGroup": "ndtv"
         },
         {
-          "count": 1,
+          "count": 10,
           "sourceGroup": "economic_times"
         }
       ]
@@ -208,16 +196,16 @@
       ],
       "topSources": [
         {
-          "count": 18,
-          "sourceGroup": "dtnext"
-        },
-        {
-          "count": 8,
+          "count": 20,
           "sourceGroup": "the_hindu"
         },
         {
-          "count": 4,
+          "count": 8,
           "sourceGroup": "times_of_india"
+        },
+        {
+          "count": 2,
+          "sourceGroup": "dtnext"
         }
       ]
     },
@@ -233,7 +221,7 @@
       ],
       "topSources": [
         {
-          "count": 11,
+          "count": 15,
           "sourceGroup": "bbc"
         },
         {
@@ -241,11 +229,11 @@
           "sourceGroup": "al_jazeera"
         },
         {
-          "count": 6,
+          "count": 5,
           "sourceGroup": "the_hindu"
         },
         {
-          "count": 4,
+          "count": 1,
           "sourceGroup": "dw"
         }
       ]
@@ -625,7 +613,7 @@
       "configuredFeeds": 2,
       "health": {
         "feedUrl": "https://www.dtnext.in/feed",
-        "items": 19,
+        "items": 2,
         "ok": true,
         "section": "trichy"
       },
