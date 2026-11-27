@@ -1,22 +1,23 @@
 {
   "categoryCounts": {
-    "events": 59,
-    "festivals": 10,
-    "movies": 29,
+    "alerts": 1,
+    "events": 56,
+    "festivals": 6,
+    "movies": 33,
     "shopping": 5,
     "sports": 2,
-    "weather_alerts": 3
+    "weather_alerts": 4
   },
   "contentClassCounts": {
-    "upahead_alert": 3,
-    "upahead_event": 100,
+    "upahead_alert": 5,
+    "upahead_event": 97,
     "upahead_offer": 5
   },
-  "contentHash": "47a4e899655c",
+  "contentHash": "6ae029d5a4fc",
   "contractVersion": "upahead-lifecycle-v1",
   "errors": [],
-  "fetchedAt": 1795711938482,
-  "generatedAt": 1795711959980,
+  "fetchedAt": 1795743856610,
+  "generatedAt": 1795743884618,
   "horizon": {
     "alertFallbackHours": 24,
     "eventPastGraceHours": 24,
@@ -24,29 +25,30 @@
     "offerFallbackHours": 48,
     "plannerPastGraceHours": 6
   },
-  "itemCount": 108,
+  "itemCount": 107,
   "lifecycleSummary": {
     "categoryCounts": {
-      "events": 59,
-      "festivals": 10,
-      "movies": 29,
+      "alerts": 1,
+      "events": 56,
+      "festivals": 6,
+      "movies": 33,
       "shopping": 5,
       "sports": 2,
-      "weather_alerts": 3
+      "weather_alerts": 4
     },
     "contentClassCounts": {
-      "upahead_alert": 3,
-      "upahead_event": 100,
+      "upahead_alert": 5,
+      "upahead_event": 97,
       "upahead_offer": 5
     },
     "horizonViolationCount": 0,
     "horizonViolationSample": [],
-    "itemCount": 108,
-    "plannerEligibleByLifecycleCount": 94,
-    "visibleItemCount": 108
+    "itemCount": 107,
+    "plannerEligibleByLifecycleCount": 99,
+    "visibleItemCount": 107
   },
-  "pendingItemCount": 18,
-  "plannerEligibleByLifecycleCount": 94,
+  "pendingItemCount": 16,
+  "plannerEligibleByLifecycleCount": 99,
   "schemaVersion": 1,
   "status": "WARN",
   "thresholds": {
@@ -56,10 +58,9 @@
     "minVisibleItems": 3,
     "plannerPastGraceHours": 6
   },
-  "visibleItemCount": 108,
+  "visibleItemCount": 107,
   "warnings": [
-    "1 acquisition sources failed; coverage is partial",
-    "alerts: no currently active items",
+    "4 acquisition sources failed; coverage is partial",
     "airlines: no currently active items",
     "civic: no currently active items"
   ]
