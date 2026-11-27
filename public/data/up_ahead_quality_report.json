@@ -2,23 +2,23 @@
   "categoryCounts": {
     "alerts": 3,
     "civic": 3,
-    "events": 60,
-    "festivals": 6,
-    "movies": 36,
+    "events": 53,
+    "festivals": 7,
+    "movies": 39,
     "shopping": 5,
-    "sports": 3,
-    "weather_alerts": 6
+    "sports": 2,
+    "weather_alerts": 2
   },
   "contentClassCounts": {
-    "upahead_alert": 12,
-    "upahead_event": 105,
+    "upahead_alert": 8,
+    "upahead_event": 101,
     "upahead_offer": 5
   },
-  "contentHash": "e7f936168c5a",
+  "contentHash": "4f9c40bada72",
   "contractVersion": "upahead-lifecycle-v1",
   "errors": [],
-  "fetchedAt": 1795781718794,
-  "generatedAt": 1795781727637,
+  "fetchedAt": 1795814723551,
+  "generatedAt": 1795814732697,
   "horizon": {
     "alertFallbackHours": 24,
     "eventPastGraceHours": 24,
@@ -26,31 +26,31 @@
     "offerFallbackHours": 48,
     "plannerPastGraceHours": 6
   },
-  "itemCount": 122,
+  "itemCount": 114,
   "lifecycleSummary": {
     "categoryCounts": {
       "alerts": 3,
       "civic": 3,
-      "events": 60,
-      "festivals": 6,
-      "movies": 36,
+      "events": 53,
+      "festivals": 7,
+      "movies": 39,
       "shopping": 5,
-      "sports": 3,
-      "weather_alerts": 6
+      "sports": 2,
+      "weather_alerts": 2
     },
     "contentClassCounts": {
-      "upahead_alert": 12,
-      "upahead_event": 105,
+      "upahead_alert": 8,
+      "upahead_event": 101,
       "upahead_offer": 5
     },
     "horizonViolationCount": 0,
     "horizonViolationSample": [],
-    "itemCount": 122,
-    "plannerEligibleByLifecycleCount": 109,
-    "visibleItemCount": 122
+    "itemCount": 114,
+    "plannerEligibleByLifecycleCount": 103,
+    "visibleItemCount": 114
   },
   "pendingItemCount": 18,
-  "plannerEligibleByLifecycleCount": 109,
+  "plannerEligibleByLifecycleCount": 103,
   "schemaVersion": 1,
   "status": "WARN",
   "thresholds": {
@@ -60,9 +60,9 @@
     "minVisibleItems": 3,
     "plannerPastGraceHours": 6
   },
-  "visibleItemCount": 122,
+  "visibleItemCount": 114,
   "warnings": [
-    "2 acquisition sources failed; coverage is partial",
+    "1 acquisition sources failed; coverage is partial",
     "airlines: no currently active items"
   ]
 }
